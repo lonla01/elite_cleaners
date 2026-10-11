@@ -5,6 +5,9 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const isDev = process.env.NODE_ENV !== "production";
 
+// Search engines are kept out unless ALLOW_INDEXING=true (set only on production at launch).
+const allowIndexing = process.env.ALLOW_INDEXING === "true";
+
 // Plausible is the only third-party origin, and it is loaded only after consent.
 const plausibleOrigin = (() => {
   try {
@@ -63,7 +66,14 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },
-      { source: "/admin/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] },
+      ...(allowIndexing
+        ? [
+            {
+              source: "/admin/:path*",
+              headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+            },
+          ]
+        : [{ source: "/:path*", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] }]),
     ];
   },
 };

@@ -9,6 +9,7 @@ const schema = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
   APP_ENV: z.enum(["development", "staging", "production"]).default("development"),
   NEXT_PUBLIC_SITE_URL: z.url().default("http://localhost:3000"),
+  ALLOW_INDEXING: z.stringbool().default(false),
 
   DATABASE_URL: z.string().optional(),
 
@@ -39,6 +40,7 @@ export const env = schema.parse({
   NODE_ENV: process.env.NODE_ENV,
   APP_ENV: process.env.APP_ENV,
   NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
+  ALLOW_INDEXING: process.env.ALLOW_INDEXING,
   DATABASE_URL: process.env.DATABASE_URL,
   AUTH_SECRET: process.env.AUTH_SECRET,
   OWNER_EMAIL: process.env.OWNER_EMAIL,
