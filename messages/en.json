@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "titleTemplate": "%s · {company}",
+    "defaultTitle": "{company} · Premium cleaning in Luxembourg",
+    "defaultDescription": "Discreet, consistent premium cleaning for residences, offices and financial institutions across the Grand Duchy of Luxembourg."
+  },
+  "Common": {
+    "skipToContent": "Skip to main content",
+    "requestQuote": "Request a quote",
+    "callUs": "Call us",
+    "whatsapp": "Message us on WhatsApp",
+    "learnMore": "Learn more"
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for has moved or no longer exists.",
+    "backHome": "Return to the home page"
+  },
+  "Placeholder": {
+    "title": "Site under construction",
+    "body": "The public pages arrive in milestone 2."
+  },
+  "Styleguide": {
+    "title": "Design system",
+    "eyebrow": "Internal",
+    "lead": "Tokens, typography and core components. This page is not indexed and is disabled in production.",
+    "colours": "Colours",
+    "typography": "Typography",
+    "buttons": "Buttons",
+    "sampleHeading": "Consistency, discretion and care in every detail",
+    "sampleBody": "Body text uses a clean sans-serif at a comfortable reading size. Headings use an elegant serif. Layouts tolerate text 30–40% longer than English.",
+    "darkSurface": "On a navy surface"
+  },
+  "Admin": {
+    "placeholderTitle": "Back office",
+    "placeholderBody": "Authentication and the back office arrive in milestone 6."
+  }
+}
