@@ -1,0 +1,5 @@
+pnpm-lock.yaml
+.next
+src/server/db/migrations
+playwright-report
+test-results
