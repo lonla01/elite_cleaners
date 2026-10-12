@@ -5,7 +5,12 @@ import { getPathname } from "./navigation";
 import { routing } from "./routing";
 import type { AppPathname } from "./pathnames";
 
-type Href = Parameters<typeof getPathname>[0]["href"];
+export type Href = Parameters<typeof getPathname>[0]["href"];
+
+/** Absolute, localised URL for a route (canonical URLs, structured data, emails). */
+export function absoluteUrl(locale: Locale, href: Href | AppPathname) {
+  return new URL(getPathname({ locale, href: href as Href }), siteConfig.url).toString();
+}
 
 /**
  * Page metadata with canonical URL and hreflang alternates for every enabled locale
@@ -22,8 +27,7 @@ export function buildMetadata({
   title: string;
   description: string;
 }): Metadata {
-  const url = (l: Locale) =>
-    new URL(getPathname({ locale: l, href: href as Href }), siteConfig.url).toString();
+  const url = (l: Locale) => absoluteUrl(l, href);
   const languages: Record<string, string> = Object.fromEntries(
     routing.locales.map((l) => [localeDefinitions[l].hreflang, url(l)]),
   );

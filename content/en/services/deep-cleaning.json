@@ -4,5 +4,106 @@
   "category": "residential",
   "order": 20,
   "title": "Deep cleaning",
-  "summary": "A thorough top-to-bottom clean for a seasonal reset, before an event or ahead of a regular schedule."
+  "summary": "A thorough top-to-bottom clean for a seasonal reset, before an event or ahead of a regular schedule.",
+  "meta": {
+    "title": "Deep cleaning in Luxembourg",
+    "description": "Thorough, top-to-bottom deep cleaning for homes in Luxembourg: inside cupboards, appliances, limescale and the details a regular clean does not reach."
+  },
+  "hero": {
+    "intro": "A meticulous, room-by-room reset for the corners, fittings and surfaces that everyday cleaning leaves alone. Ideal each season, before an event or as the starting point for a regular routine.",
+    "image": {
+      "key": "service-deep-cleaning",
+      "alt": "A gleaming kitchen with spotless worktops and polished stainless steel"
+    }
+  },
+  "included": {
+    "intro": "Everything in a regular visit, plus the details below. We confirm the exact scope in writing before the day.",
+    "groups": [
+      {
+        "title": "Kitchen in depth",
+        "items": [
+          "Inside the oven, microwave and fridge, with shelves removed and washed",
+          "Inside cupboards and drawers, emptied and wiped",
+          "Extractor hood and filters degreased",
+          "Tiles and grout scrubbed"
+        ]
+      },
+      {
+        "title": "Bathrooms in depth",
+        "items": [
+          "Heavy limescale treated on glass, taps and shower heads",
+          "Grout and silicone joints cleaned",
+          "Behind and around toilets, pipes and fittings",
+          "Ventilation grilles dusted and wiped"
+        ]
+      },
+      {
+        "title": "Throughout the home",
+        "items": [
+          "Doors, frames, switches and handles washed",
+          "Radiators, skirting boards and window sills cleaned",
+          "High surfaces, light fittings and tops of wardrobes dusted",
+          "Interior window glass and frames",
+          "Under and behind movable furniture"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "One-off",
+        "body": "A single visit, sized to your home, with a team where that is quicker."
+      },
+      {
+        "title": "Seasonal",
+        "body": "Two to four times a year, for example in spring and before the holidays."
+      },
+      {
+        "title": "Before a regular service",
+        "body": "A first deep clean that sets the standard your regular cleaner then maintains."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "sparkles",
+      "title": "A seasonal reset",
+      "body": "A fresh start in spring or before the winter months indoors."
+    },
+    {
+      "icon": "users",
+      "title": "Before or after guests",
+      "body": "Your home at its best for family visits, celebrations or a long stay."
+    },
+    {
+      "icon": "home",
+      "title": "New regular clients",
+      "body": "Everything brought to standard before weekly care begins."
+    },
+    {
+      "icon": "key",
+      "title": "Property sales",
+      "body": "Presentation that photographs well and welcomes viewers."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long does a deep clean take?",
+      "answer": "It depends on the size and condition of the home. A two-bedroom apartment usually takes a team most of a day. We give you a time estimate with the quote."
+    },
+    {
+      "question": "Do I need to empty cupboards beforehand?",
+      "answer": "It helps if valuables and fragile items are put away. We can empty and refill kitchen cupboards ourselves, carefully and in the same order."
+    },
+    {
+      "question": "Is oven and fridge cleaning included?",
+      "answer": "Yes, the inside of the oven, microwave and fridge is part of a deep clean. Let us know about any appliance with special care instructions."
+    },
+    {
+      "question": "Can you clean carpets and windows at the same time?",
+      "answer": "Yes. Exterior windows and carpet or upholstery care can be added to the same visit and appear as separate lines on your quote."
+    }
+  ],
+  "related": ["regular-home-cleaning", "carpet-upholstery-care", "window-cleaning"]
 }

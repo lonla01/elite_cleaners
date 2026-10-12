@@ -8,6 +8,7 @@ import {
   howItWorksPageSchema,
   serviceCategorySchema,
   serviceSchema,
+  servicesPageSchema,
   testimonialSchema,
   type ServiceCategoryId,
 } from "./schemas";
@@ -45,6 +46,16 @@ export async function listServices(locale: Locale, category?: ServiceCategoryId)
 
 export async function getServiceBySlug(slug: string, locale: Locale) {
   return (await listServices(locale)).find((s) => s.slug === slug);
+}
+
+/** Services by id, in the order given. Unknown ids are skipped. */
+export async function getServicesByIds(ids: string[], locale: Locale) {
+  const services = await listServices(locale);
+  return ids.flatMap((id) => services.find((s) => s.id === id) ?? []);
+}
+
+export function getServicesPage(locale: Locale) {
+  return readContent("pages/services", locale, servicesPageSchema);
 }
 
 export function listTestimonials(locale: Locale) {

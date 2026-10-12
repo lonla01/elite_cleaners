@@ -4,5 +4,94 @@
   "category": "corporate",
   "order": 60,
   "title": "Commercial post-construction cleaning",
-  "summary": "Builders' cleans for offices and commercial spaces, timed for handover and opening dates."
+  "summary": "Builders' cleans for offices and commercial spaces, timed for handover and opening dates.",
+  "meta": {
+    "title": "Commercial post-construction cleaning in Luxembourg",
+    "description": "Builders' cleaning for offices, shops and commercial buildings in Luxembourg, scheduled for handover, fit-out and opening dates."
+  },
+  "hero": {
+    "intro": "From the first rough clean to the final sparkle before handover, we work to your construction schedule so the space is ready on the day it opens.",
+    "image": {
+      "key": "service-commercial-post-construction",
+      "alt": "A newly fitted office floor with clean, empty desks ready for handover"
+    }
+  },
+  "included": {
+    "intro": "Each phase is planned with the site manager and fits around the remaining trades.",
+    "groups": [
+      {
+        "title": "Rough clean",
+        "items": [
+          "Debris, packaging and dust removed after the main works",
+          "Floors swept and vacuumed",
+          "Surfaces prepared for finishing trades"
+        ]
+      },
+      {
+        "title": "Final clean",
+        "items": [
+          "Fine dust removed from every surface, high and low",
+          "Paint, plaster and adhesive residue removed",
+          "Protective films taken off",
+          "Glazing, frames and partitions cleaned inside and out where accessible",
+          "Kitchens and washrooms cleaned and disinfected"
+        ]
+      },
+      {
+        "title": "Pre-opening touch-up",
+        "items": [
+          "A last pass after furniture and equipment are installed",
+          "Handover checklist completed with the site manager"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Single phase",
+        "body": "A final clean before handover."
+      },
+      {
+        "title": "Multi-phase",
+        "body": "Rough, final and pre-opening cleans, scheduled with the works."
+      },
+      {
+        "title": "Framework agreement",
+        "body": "For contractors and developers with recurring projects."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "hammer",
+      "title": "General contractors",
+      "body": "A reliable final step that respects your handover deadlines."
+    },
+    {
+      "icon": "building",
+      "title": "Developers and property managers",
+      "body": "New and refurbished buildings ready for tenants."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Companies fitting out offices",
+      "body": "Your new premises ready for the first working day."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you follow site safety rules?",
+      "answer": "Yes. Our teams wear the required protective equipment, attend site inductions and follow the safety plan of the site."
+    },
+    {
+      "question": "Can you work on a large building?",
+      "answer": "Yes. We size the team to the surface area and deadline, and plan the work floor by floor with the site manager."
+    },
+    {
+      "question": "Do you also clean homes after renovation?",
+      "answer": "Yes. For private homes, see our post-renovation cleaning service."
+    }
+  ],
+  "related": ["office-cleaning", "post-renovation-cleaning", "window-cleaning"]
 }

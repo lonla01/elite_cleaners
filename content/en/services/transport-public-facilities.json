@@ -4,5 +4,93 @@
   "category": "corporate",
   "order": 30,
   "title": "Transport & public facilities",
-  "summary": "Stations, depots and waiting areas kept clean and welcoming for passengers and staff."
+  "summary": "Stations, depots and waiting areas kept clean and welcoming for passengers and staff.",
+  "meta": {
+    "title": "Cleaning for transport and public facilities in Luxembourg",
+    "description": "Cleaning of stations, depots, waiting areas and public facilities in Luxembourg: high-traffic areas kept clean, safe and welcoming."
+  },
+  "hero": {
+    "intro": "Stations, depots and public buildings see thousands of people a day. We keep them clean, safe and welcoming, with schedules built around operating hours and peak times.",
+    "image": {
+      "key": "service-transport-public-facilities",
+      "alt": "A bright, clean waiting area in a public transport station"
+    }
+  },
+  "included": {
+    "groups": [
+      {
+        "title": "Passenger and public areas",
+        "items": [
+          "Concourses, waiting rooms, platforms and entrances",
+          "Seating, glass shelters and information points",
+          "Litter picking and bin emptying",
+          "Graffiti and sticker removal on request"
+        ]
+      },
+      {
+        "title": "Staff and technical areas",
+        "items": [
+          "Depots, workshops and break rooms",
+          "Driver and staff facilities",
+          "Offices and control rooms"
+        ]
+      },
+      {
+        "title": "Washrooms",
+        "items": [
+          "Frequent cleaning rounds, logged on site",
+          "Disinfection of high-contact points",
+          "Consumables restocked throughout the day"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Continuous",
+        "body": "Teams on site across operating hours, with logged rounds."
+      },
+      {
+        "title": "Night shift",
+        "body": "Intensive cleaning when facilities are closed or quiet."
+      },
+      {
+        "title": "Periodic",
+        "body": "Machine scrubbing, high-level dusting and glass on a planned schedule."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "train",
+      "title": "Transport operators",
+      "body": "Stations, stops, depots and staff facilities."
+    },
+    {
+      "icon": "building",
+      "title": "Municipalities and public bodies",
+      "body": "Public buildings, sports halls and community spaces."
+    },
+    {
+      "icon": "users",
+      "title": "Venues with high footfall",
+      "body": "Spaces that must stay presentable throughout the day."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you respond to public tenders?",
+      "answer": "Yes. We can prepare a response to public procurement procedures and provide the required certificates and references."
+    },
+    {
+      "question": "Do you work at night and on weekends?",
+      "answer": "Yes. Schedules are built around your operating hours, including nights, weekends and public holidays."
+    },
+    {
+      "question": "How do you report on the work done?",
+      "answer": "Rounds are logged on site, and we provide regular reports with inspections, incidents and any issues to be addressed."
+    }
+  ],
+  "related": ["office-cleaning", "disinfection-sanitisation", "commercial-post-construction"]
 }

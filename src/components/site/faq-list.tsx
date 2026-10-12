@@ -4,7 +4,7 @@ type Item = { question: string; answer: string };
 
 /**
  * Accessible FAQ using native disclosure widgets (keyboard and screen-reader friendly, no JS).
- * FAQPage structured data is added with the service template in milestone 3.
+ * Pages that show an FAQ add FAQPage structured data (see `faqPage()` in src/server/structured-data.ts).
  */
 export function FaqList({ items }: { items: Item[] }) {
   return (

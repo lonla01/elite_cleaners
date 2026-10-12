@@ -4,5 +4,99 @@
   "category": "residential",
   "order": 40,
   "title": "Post-renovation cleaning",
-  "summary": "Fine dust, residue and protective films removed with care, so you can move back in straight away."
+  "summary": "Fine dust, residue and protective films removed with care, so you can move back in straight away.",
+  "meta": {
+    "title": "Post-renovation cleaning in Luxembourg",
+    "description": "Careful cleaning after renovation or building works in Luxembourg homes: fine dust, paint and plaster residue, protective films and new surfaces."
+  },
+  "hero": {
+    "intro": "After the builders leave, fine dust settles everywhere. We remove it methodically, treat new materials with the care they need and leave your home ready to live in.",
+    "image": {
+      "key": "service-post-renovation-cleaning",
+      "alt": "A newly renovated kitchen with protective film being removed from a cabinet"
+    }
+  },
+  "included": {
+    "intro": "We start with an assessment of the materials and finishes, so that every surface gets the right method and product.",
+    "groups": [
+      {
+        "title": "Dust removal",
+        "items": [
+          "Industrial vacuuming with fine-dust filters",
+          "Walls, ceilings, ledges and light fittings dusted",
+          "Inside cupboards, drawers and built-in units",
+          "Ventilation grilles and radiators cleared"
+        ]
+      },
+      {
+        "title": "Residue and finishes",
+        "items": [
+          "Paint, plaster and adhesive spots removed from glass and frames",
+          "Protective films and stickers taken off",
+          "New sanitary ware and tiles cleaned of grout haze",
+          "Floors cleaned with methods suited to wood, stone or tile"
+        ]
+      },
+      {
+        "title": "Ready to live in",
+        "items": [
+          "Kitchen and bathrooms cleaned and disinfected",
+          "Windows cleaned inside and out where accessible",
+          "A final walkthrough with you, if you wish"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Final clean",
+        "body": "One thorough visit once the works are complete."
+      },
+      {
+        "title": "Two-stage clean",
+        "body": "A rough clean after the works, then a finishing clean after final touches or furniture delivery."
+      },
+      {
+        "title": "During long works",
+        "body": "Periodic cleans of the rooms you are still living in."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "home",
+      "title": "Homeowners",
+      "body": "Move back in without living with weeks of settling dust."
+    },
+    {
+      "icon": "building",
+      "title": "Architects and contractors",
+      "body": "A finished project handed over in the condition it deserves."
+    },
+    {
+      "icon": "key",
+      "title": "Property investors",
+      "body": "Renovated units ready for photographs, viewings and tenants."
+    }
+  ],
+  "faq": [
+    {
+      "question": "When should the clean take place?",
+      "answer": "Once all trades have finished in the rooms concerned. If decorators or fitters are still due, a two-stage clean avoids paying twice for the same rooms."
+    },
+    {
+      "question": "Do you remove building waste?",
+      "answer": "We remove packaging and light debris from the clean. Bulky waste and rubble are the contractor's responsibility, or we can recommend a licensed partner."
+    },
+    {
+      "question": "Can you clean delicate new materials?",
+      "answer": "Yes. Tell us about natural stone, oiled wood, lacquer or specialist coatings and we will follow the manufacturer's care guidance."
+    },
+    {
+      "question": "Is this for homes only?",
+      "answer": "This page covers private homes. For offices, shops and commercial premises, see our commercial post-construction service."
+    }
+  ],
+  "related": ["deep-cleaning", "window-cleaning", "commercial-post-construction"]
 }

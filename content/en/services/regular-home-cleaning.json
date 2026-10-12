@@ -4,5 +4,114 @@
   "category": "residential",
   "order": 10,
   "title": "Regular home cleaning",
-  "summary": "Weekly or fortnightly care for houses and apartments by the same vetted cleaner, on the same day and at the same time."
+  "summary": "Weekly or fortnightly care for houses and apartments by the same vetted cleaner, on the same day and at the same time.",
+  "meta": {
+    "title": "Regular home cleaning in Luxembourg",
+    "description": "Weekly or fortnightly home cleaning in Luxembourg by the same vetted, insured cleaner, on a fixed day and time. Request a tailored quote."
+  },
+  "hero": {
+    "intro": "One trusted cleaner, one fixed slot, and a home that is looked after the same way every visit. We agree the details once, write them down and keep to them.",
+    "image": {
+      "key": "service-regular-home-cleaning",
+      "alt": "A calm, freshly cleaned living room with plumped cushions and clear surfaces"
+    }
+  },
+  "included": {
+    "intro": "Your checklist is agreed during the first visit and can change at any time. This is a typical starting point.",
+    "groups": [
+      {
+        "title": "Living areas and bedrooms",
+        "items": [
+          "Dusting of furniture, shelves, frames and skirting boards",
+          "Vacuuming and mopping of all floors, including under light furniture",
+          "Beds made, with linen changed on request",
+          "Mirrors, glass tables and interior glazing spot-cleaned",
+          "Light tidying and cushions arranged"
+        ]
+      },
+      {
+        "title": "Kitchen",
+        "items": [
+          "Worktops, splashbacks and cupboard fronts wiped and degreased",
+          "Hob, extractor front and appliance exteriors cleaned",
+          "Sink and taps descaled and polished",
+          "Bins emptied, with sorting for Luxembourg's recycling collections"
+        ]
+      },
+      {
+        "title": "Bathrooms",
+        "items": [
+          "Showers, baths, basins and toilets cleaned and disinfected",
+          "Limescale removed from glass, tiles and fittings",
+          "Towels refreshed and consumables checked"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "intro": "Recurring visits are always with the same cleaner, on the same day and at the same time.",
+    "options": [
+      {
+        "title": "Weekly",
+        "body": "The most popular choice for family homes and busy households."
+      },
+      {
+        "title": "Fortnightly",
+        "body": "Suited to smaller apartments or homes that are already well kept."
+      },
+      {
+        "title": "Several times a week",
+        "body": "For larger residences or households with young children or pets."
+      },
+      {
+        "title": "Tailored",
+        "body": "A rhythm built around travel, seasons or your own calendar."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "home",
+      "title": "Busy professionals",
+      "body": "Come home to order without giving up your evenings or weekends."
+    },
+    {
+      "icon": "users",
+      "title": "Families",
+      "body": "A consistent routine that keeps pace with children, guests and school weeks."
+    },
+    {
+      "icon": "key",
+      "title": "Frequent travellers",
+      "body": "Your home cared for while you are away, with keys held under a written protocol."
+    },
+    {
+      "icon": "heart-handshake",
+      "title": "Older residents",
+      "body": "A familiar, patient face and a service you can adjust as needs change."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will I always have the same cleaner?",
+      "answer": "Yes. Recurring visits are assigned to one cleaner. If they are on holiday or unwell, we tell you in advance and send a briefed replacement who follows your written checklist."
+    },
+    {
+      "question": "Do I need to be at home?",
+      "answer": "No. Many clients give us a key or an access code. Keys are labelled with a code, never with your address, and stored securely. You can also be present if you prefer."
+    },
+    {
+      "question": "Do you bring cleaning products and equipment?",
+      "answer": "We bring professional equipment and eco-responsible products suited to each surface. If you prefer particular products, we are happy to use yours."
+    },
+    {
+      "question": "Can I pay with service vouchers or claim tax relief?",
+      "answer": "Please ask us during your consultation. We will explain which payment options apply to your situation and provide clear invoices for your records."
+    },
+    {
+      "question": "How much does it cost?",
+      "answer": "Every home is different, so we quote after a short visit or a detailed call. The quote is fixed for the agreed scope and shows amounts excluding and including VAT."
+    }
+  ],
+  "related": ["deep-cleaning", "private-housekeeping", "window-cleaning"]
 }

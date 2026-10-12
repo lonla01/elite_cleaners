@@ -4,5 +4,92 @@
   "category": "residential",
   "order": 60,
   "title": "Carpet & upholstery care",
-  "summary": "Gentle, fibre-appropriate cleaning for rugs, carpets, sofas and fine fabrics."
+  "summary": "Gentle, fibre-appropriate cleaning for rugs, carpets, sofas and fine fabrics.",
+  "meta": {
+    "title": "Carpet and upholstery cleaning in Luxembourg",
+    "description": "Gentle, fibre-appropriate cleaning of carpets, rugs, sofas, armchairs and mattresses in Luxembourg homes and offices."
+  },
+  "hero": {
+    "intro": "Fibres are identified first, then cleaned with the gentlest method that works. Carpets, rugs, sofas and mattresses refreshed without risk to colour or texture.",
+    "image": {
+      "key": "service-carpet-upholstery-care",
+      "alt": "Close-up of a soft wool rug being cleaned with care"
+    }
+  },
+  "included": {
+    "groups": [
+      {
+        "title": "Assessment",
+        "items": [
+          "Fibre and colour-fastness test on a hidden area",
+          "Stains identified and pre-treated",
+          "Method chosen: low-moisture, hot-water extraction or dry cleaning"
+        ]
+      },
+      {
+        "title": "Carpets and rugs",
+        "items": [
+          "Deep vacuuming to lift dry soil",
+          "Cleaning with the agreed method",
+          "Pile groomed and left to dry"
+        ]
+      },
+      {
+        "title": "Upholstery and mattresses",
+        "items": [
+          "Sofas, armchairs, dining chairs and headboards",
+          "Removable covers handled according to their labels",
+          "Mattresses cleaned and sanitised on both sides"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "One-off",
+        "body": "For a stain, a move or a seasonal refresh."
+      },
+      {
+        "title": "Once or twice a year",
+        "body": "Recommended for high-traffic rooms and households with pets."
+      },
+      {
+        "title": "Combined",
+        "body": "Added to a deep clean or an end-of-tenancy clean."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "home",
+      "title": "Homes with fine textiles",
+      "body": "Wool, silk blends and natural fibres handled with appropriate care."
+    },
+    {
+      "icon": "heart-handshake",
+      "title": "Families with pets or children",
+      "body": "Odours, spills and allergens dealt with thoroughly and safely."
+    },
+    {
+      "icon": "building",
+      "title": "Offices and lounges",
+      "body": "Carpet tiles and reception seating kept presentable."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long does drying take?",
+      "answer": "Usually a few hours with low-moisture methods and up to a day with extraction, depending on ventilation. We advise you on the day."
+    },
+    {
+      "question": "Can every stain be removed?",
+      "answer": "Most can be greatly improved. Some old or set-in stains, or dyes that have bled, cannot be fully removed. We tell you honestly before we start."
+    },
+    {
+      "question": "Do you clean antique or hand-knotted rugs?",
+      "answer": "We assess each one. Some valuable or fragile rugs are better entrusted to a specialist workshop, and we will recommend one if so."
+    }
+  ],
+  "related": ["deep-cleaning", "end-of-tenancy-cleaning", "regular-home-cleaning"]
 }

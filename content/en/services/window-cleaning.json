@@ -4,5 +4,86 @@
   "category": "residential",
   "order": 50,
   "title": "Window & glass cleaning",
-  "summary": "Streak-free windows, frames, verandas and glass partitions, inside and out."
+  "summary": "Streak-free windows, frames, verandas and glass partitions, inside and out.",
+  "meta": {
+    "title": "Window and glass cleaning in Luxembourg",
+    "description": "Streak-free window and glass cleaning in Luxembourg: windows, frames, shutters, verandas, conservatories and glass partitions, inside and out."
+  },
+  "hero": {
+    "intro": "Clear, streak-free glass inside and out, with frames, sills and shutters cleaned as part of the job. For homes, verandas and glazed interiors.",
+    "image": {
+      "key": "service-window-cleaning",
+      "alt": "Sunlight through spotless floor-to-ceiling windows"
+    }
+  },
+  "included": {
+    "groups": [
+      {
+        "title": "Glass",
+        "items": [
+          "Interior and exterior faces of accessible windows",
+          "Patio doors, verandas and conservatory panels",
+          "Glass balustrades, partitions and shower screens on request",
+          "Skylights reachable safely from inside"
+        ]
+      },
+      {
+        "title": "Frames and fittings",
+        "items": [
+          "Frames, seals and sills wiped",
+          "Roller shutters and blinds dusted or washed on request",
+          "Insect screens removed, rinsed and refitted where possible"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "intro": "Glass stays clear longer with a regular rhythm, especially in pollen season.",
+    "options": [
+      {
+        "title": "One-off",
+        "body": "Before an event, after the winter or after building works."
+      },
+      {
+        "title": "Quarterly",
+        "body": "Four visits a year keep most homes looking their best."
+      },
+      {
+        "title": "Monthly",
+        "body": "For large glazed areas, verandas or homes near busy roads."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "home",
+      "title": "Homes with large glazing",
+      "body": "Picture windows, verandas and conservatories that deserve to shine."
+    },
+    {
+      "icon": "building",
+      "title": "Apartment owners",
+      "body": "Windows and balcony glass that are hard to reach safely yourself."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Regular clients",
+      "body": "A simple add-on to your home cleaning schedule."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you clean windows at height?",
+      "answer": "We clean what can be reached safely from the ground, from inside or with appropriate ladders and extension poles. For higher facades we arrange specialised access equipment and tell you in the quote."
+    },
+    {
+      "question": "What happens if it rains?",
+      "answer": "Light rain does not affect the result. In heavy rain or frost, we reschedule exterior work at no cost to you."
+    },
+    {
+      "question": "Do you clean the frames as well?",
+      "answer": "Yes. Frames and sills are always included. Shutters, blinds and insect screens can be added."
+    }
+  ],
+  "related": ["regular-home-cleaning", "deep-cleaning", "post-renovation-cleaning"]
 }

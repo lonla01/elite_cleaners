@@ -4,5 +4,94 @@
   "category": "corporate",
   "order": 40,
   "title": "Medical & dental practices",
-  "summary": "Hygiene-focused cleaning of practices and clinics, following documented protocols."
+  "summary": "Hygiene-focused cleaning of practices and clinics, following documented protocols.",
+  "meta": {
+    "title": "Cleaning for medical and dental practices in Luxembourg",
+    "description": "Hygiene-focused cleaning of medical, dental and paramedical practices in Luxembourg, following documented protocols and colour-coded methods."
+  },
+  "hero": {
+    "intro": "Patients judge a practice by its cleanliness. We follow documented hygiene protocols, colour-coded equipment and the instructions of your practice, every visit.",
+    "image": {
+      "key": "service-medical-practices",
+      "alt": "A spotless dental treatment room with clean, clear surfaces"
+    }
+  },
+  "included": {
+    "intro": "Our scope covers environmental cleaning. Sterilisation of instruments and medical devices remains the responsibility of your clinical staff.",
+    "groups": [
+      {
+        "title": "Patient areas",
+        "items": [
+          "Waiting rooms, reception desks and seating",
+          "Door handles, switches, card terminals and other contact points disinfected",
+          "Patient washrooms cleaned and disinfected",
+          "Floors cleaned with methods suited to clinical areas"
+        ]
+      },
+      {
+        "title": "Treatment rooms",
+        "items": [
+          "Surfaces, sinks and fittings cleaned and disinfected, as instructed by the practice",
+          "Colour-coded cloths and mops to prevent cross-contamination",
+          "Non-clinical waste removed; clinical waste left for your licensed collector"
+        ]
+      },
+      {
+        "title": "Documentation",
+        "items": [
+          "Written cleaning protocol agreed with the practice",
+          "Cleaning logs kept for each visit",
+          "Safety data sheets for every product used"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Daily, after consultations",
+        "body": "The standard for active practices."
+      },
+      {
+        "title": "Several times a week",
+        "body": "For smaller practices or part-time surgeries."
+      },
+      {
+        "title": "Periodic deep clean",
+        "body": "During closures, holidays or after works."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "stethoscope",
+      "title": "Medical practices",
+      "body": "General practitioners, specialists and group practices."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Dental practices",
+      "body": "Treatment rooms, waiting areas and laboratories."
+    },
+    {
+      "icon": "heart-handshake",
+      "title": "Paramedical practices",
+      "body": "Physiotherapy, osteopathy, psychology and wellbeing centres."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are your staff trained for medical environments?",
+      "answer": "Staff assigned to practices are trained in hygiene protocols, colour coding and the safe handling of products, and follow your specific instructions."
+    },
+    {
+      "question": "Do you handle clinical waste?",
+      "answer": "No. Clinical and infectious waste must go through a licensed collector. We remove ordinary waste and leave clinical waste containers untouched."
+    },
+    {
+      "question": "Which products do you use?",
+      "answer": "Professional detergents and disinfectants suited to medical environments. We provide safety data sheets and can use the products your practice specifies."
+    }
+  ],
+  "related": ["disinfection-sanitisation", "office-cleaning", "deep-cleaning"]
 }

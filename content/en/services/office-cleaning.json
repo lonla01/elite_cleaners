@@ -4,5 +4,104 @@
   "category": "corporate",
   "order": 10,
   "title": "Office cleaning",
-  "summary": "Daily or weekly cleaning of offices and meeting spaces, scheduled around your working hours."
+  "summary": "Daily or weekly cleaning of offices and meeting spaces, scheduled around your working hours.",
+  "meta": {
+    "title": "Office cleaning in Luxembourg",
+    "description": "Office cleaning in Luxembourg, scheduled before or after working hours: workstations, meeting rooms, kitchens and washrooms to a documented standard."
+  },
+  "hero": {
+    "intro": "A clean, healthy workplace that your teams and visitors notice, delivered quietly around your working hours by a stable team with a named supervisor.",
+    "image": {
+      "key": "service-office-cleaning",
+      "alt": "A modern open-plan office, clean and orderly in the early morning"
+    }
+  },
+  "included": {
+    "intro": "We draw up a zone-by-zone specification with you, then audit against it.",
+    "groups": [
+      {
+        "title": "Workspaces",
+        "items": [
+          "Desks and work surfaces wiped, following your clear-desk policy",
+          "Bins emptied and waste sorted by stream",
+          "Floors vacuumed and mopped",
+          "Phones, keyboards and high-contact points disinfected on request"
+        ]
+      },
+      {
+        "title": "Meeting and reception areas",
+        "items": [
+          "Meeting rooms reset and tables cleaned",
+          "Reception desks, glass doors and partitions polished",
+          "Lobby and entrance kept presentable for visitors"
+        ]
+      },
+      {
+        "title": "Kitchens and washrooms",
+        "items": [
+          "Kitchens, coffee points and appliances cleaned",
+          "Dishwashers loaded and unloaded",
+          "Washrooms cleaned, disinfected and restocked",
+          "Consumables monitored and reordered on request"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "intro": "Visits are scheduled outside your core hours, or discreetly during the day.",
+    "options": [
+      {
+        "title": "Daily",
+        "body": "For busy offices and premises with frequent visitors."
+      },
+      {
+        "title": "Two or three times a week",
+        "body": "For smaller teams and hybrid offices."
+      },
+      {
+        "title": "Weekly",
+        "body": "For small offices, studios and practices."
+      },
+      {
+        "title": "Day porter",
+        "body": "A team member on site during business hours."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "building",
+      "title": "Corporate offices",
+      "body": "Head offices and regional branches across Luxembourg."
+    },
+    {
+      "icon": "users",
+      "title": "Coworking and shared spaces",
+      "body": "High-traffic areas reset between members and events."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Professional firms",
+      "body": "Law, audit and consulting offices that receive clients daily."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you clean outside working hours?",
+      "answer": "Yes. Most of our office cleaning takes place early in the morning or in the evening. Keys, badges and alarm codes are handled under a written protocol."
+    },
+    {
+      "question": "Do we keep the same team?",
+      "answer": "Yes. Your site has a regular team and a named supervisor who carries out quality inspections and is your single point of contact."
+    },
+    {
+      "question": "Can you supply consumables?",
+      "answer": "We can supply and restock paper products, soap and bin liners, invoiced monthly at the agreed rates, or use the supplies you purchase."
+    },
+    {
+      "question": "What notice do you need to start?",
+      "answer": "After the site visit and quote, we can usually start within two weeks. Urgent starts can be discussed."
+    }
+  ],
+  "related": ["financial-institutions", "disinfection-sanitisation", "commercial-post-construction"]
 }

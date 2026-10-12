@@ -8,8 +8,12 @@ import { buttonVariants } from "./button";
 type Href = ComponentProps<typeof Link>["href"];
 
 /** Converts a content link (route key + params) into a typed, localised href. */
-export function toHref(link: Pick<ContentLinkData, "href" | "params">): Href {
-  return (link.params ? { pathname: link.href, params: link.params } : link.href) as Href;
+export function toHref(link: Pick<ContentLinkData, "href" | "params" | "query">): Href {
+  return (
+    link.params || link.query
+      ? { pathname: link.href, params: link.params, query: link.query }
+      : link.href
+  ) as Href;
 }
 
 type Props = Omit<ComponentProps<typeof Link>, "href" | "children"> & { link: ContentLinkData };

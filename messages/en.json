@@ -75,5 +75,20 @@
   },
   "Home": {
     "processStep": "Step {number}"
+  },
+  "ServicePage": {
+    "quoteFor": "Request a quote",
+    "includedEyebrow": "The detail",
+    "includedTitle": "What's included",
+    "frequencyEyebrow": "Frequency",
+    "frequencyTitle": "How often",
+    "quoteOnly": "Every service is quoted individually after a short consultation, with amounts shown excluding and including VAT.",
+    "audienceEyebrow": "Who it's for",
+    "audienceTitle": "Designed for",
+    "faqEyebrow": "Questions",
+    "faqTitle": "Frequently asked questions",
+    "relatedTitle": "Related services",
+    "ctaTitle": "Ready to discuss your requirements?",
+    "ctaBody": "Tell us about your home or premises. We reply within one working day with next steps."
   }
 }

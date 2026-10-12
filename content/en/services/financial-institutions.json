@@ -4,5 +4,96 @@
   "category": "corporate",
   "order": 20,
   "title": "Financial institutions & secure premises",
-  "summary": "Vetted staff, confidentiality agreements, after-hours service and strict key and badge protocols."
+  "summary": "Vetted staff, confidentiality agreements, after-hours service and strict key and badge protocols.",
+  "meta": {
+    "title": "Cleaning for financial institutions and secure premises in Luxembourg",
+    "description": "Cleaning for banks, fund administrators and secure premises in Luxembourg: vetted staff, confidentiality agreements, after-hours service and strict access protocols."
+  },
+  "hero": {
+    "intro": "Cleaning designed around security and confidentiality: vetted staff, written access protocols and a stable team that knows your premises and your rules.",
+    "image": {
+      "key": "service-financial-institutions",
+      "alt": "A quiet, polished bank reception area after closing"
+    }
+  },
+  "included": {
+    "intro": "Scope and security procedures are agreed with your facilities and security teams before the first visit.",
+    "groups": [
+      {
+        "title": "Security and confidentiality",
+        "items": [
+          "Staff vetted before assignment, with criminal record extracts checked",
+          "Individual confidentiality agreements",
+          "Badge, key and alarm procedures documented and followed",
+          "Restricted zones cleaned only under your supervision rules",
+          "Confidential waste handled according to your policy"
+        ]
+      },
+      {
+        "title": "Premises",
+        "items": [
+          "Offices, trading floors and meeting rooms",
+          "Executive floors and client reception areas",
+          "Kitchens, washrooms and staff areas",
+          "Glass partitions, entrances and lifts"
+        ]
+      },
+      {
+        "title": "Governance",
+        "items": [
+          "A named account manager and site supervisor",
+          "Regular quality audits with written reports",
+          "Documentation available for your supplier and outsourcing reviews"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Daily, after hours",
+        "body": "The standard model, outside trading and office hours."
+      },
+      {
+        "title": "Daytime presence",
+        "body": "A day porter for reception areas, meeting rooms and incidents."
+      },
+      {
+        "title": "Weekend and periodic work",
+        "body": "Deep cleans, carpets and glass scheduled when floors are empty."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "lock",
+      "title": "Banks and private banks",
+      "body": "Branches, headquarters and client lounges."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Fund administrators and insurers",
+      "body": "Offices handling sensitive client information."
+    },
+    {
+      "icon": "shield",
+      "title": "Secure and regulated sites",
+      "body": "Premises with controlled access and strict visitor rules."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do you vet your staff?",
+      "answer": "Before assignment, we check identity, right to work and references, and request a recent criminal record extract. Your own additional checks can be accommodated."
+    },
+    {
+      "question": "Can you comply with our security and outsourcing policies?",
+      "answer": "Yes. We review your policies during onboarding and adapt our procedures. We provide the documentation your risk, compliance or procurement teams need."
+    },
+    {
+      "question": "What happens if a key or badge is lost?",
+      "answer": "We notify you immediately, following the incident procedure agreed during onboarding. Keys are coded and never labelled with your address."
+    }
+  ],
+  "related": ["office-cleaning", "disinfection-sanitisation", "luxury-retail-hospitality"]
 }

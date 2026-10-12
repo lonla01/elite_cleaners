@@ -4,5 +4,101 @@
   "category": "residential",
   "order": 30,
   "title": "End-of-tenancy cleaning",
-  "summary": "Move-in and move-out cleaning that leaves the property ready for the état des lieux."
+  "summary": "Move-in and move-out cleaning that leaves the property ready for the état des lieux.",
+  "meta": {
+    "title": "End-of-tenancy cleaning in Luxembourg",
+    "description": "Move-out and move-in cleaning in Luxembourg, scheduled before the état des lieux. A thorough checklist for tenants, landlords and agencies."
+  },
+  "hero": {
+    "intro": "A detailed clean timed for the handover, so the property is ready for the état des lieux and the next occupant. For tenants, landlords and estate agencies.",
+    "image": {
+      "key": "service-end-of-tenancy-cleaning",
+      "alt": "An empty, bright apartment with clean floors ready for handover"
+    }
+  },
+  "included": {
+    "intro": "We work through an empty property room by room, following a checklist built around what is usually inspected at handover.",
+    "groups": [
+      {
+        "title": "Kitchen",
+        "items": [
+          "Oven, hob, extractor and filters degreased",
+          "Fridge and freezer cleaned inside, once defrosted",
+          "Every cupboard and drawer inside and out",
+          "Sink, taps and tiles descaled"
+        ]
+      },
+      {
+        "title": "Bathrooms",
+        "items": [
+          "Sanitary ware cleaned, disinfected and descaled",
+          "Shower screens, mirrors and tiles polished",
+          "Drains and overflows cleared of residue",
+          "Ventilation and extractor grilles cleaned"
+        ]
+      },
+      {
+        "title": "All rooms",
+        "items": [
+          "Interior windows, frames, sills and roller shutters",
+          "Doors, frames, handles, switches and sockets",
+          "Radiators, skirting boards and built-in wardrobes",
+          "Floors vacuumed and washed, including corners and edges",
+          "Balcony or terrace swept and wiped down"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Move-out",
+        "body": "Scheduled in the days before your handover appointment."
+      },
+      {
+        "title": "Move-in",
+        "body": "A clean slate before your furniture arrives."
+      },
+      {
+        "title": "Between tenants",
+        "body": "For landlords and agencies, coordinated with your inspection dates."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "key",
+      "title": "Tenants",
+      "body": "Hand back the keys with confidence, without spending your last days scrubbing."
+    },
+    {
+      "icon": "building",
+      "title": "Landlords",
+      "body": "A property ready to show and let without delay."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Estate and rental agencies",
+      "body": "A dependable partner for recurring handovers across the country."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you guarantee that I get my deposit back?",
+      "answer": "No cleaning company can guarantee the outcome of an inspection, which also covers wear and damage. If the inspector points out anything about the cleaning we did, tell us within 48 hours and we will come back to put it right."
+    },
+    {
+      "question": "Should the property be empty?",
+      "answer": "Yes, ideally. An empty property lets us clean inside every cupboard and under every surface. If some furniture stays, tell us when you book."
+    },
+    {
+      "question": "Can you work with my agency's checklist?",
+      "answer": "Yes. Send it to us before the visit and we will follow it alongside our own."
+    },
+    {
+      "question": "How far ahead should I book?",
+      "answer": "One to two weeks before your handover is ideal, especially at the end of the month when demand is highest."
+    }
+  ],
+  "related": ["deep-cleaning", "carpet-upholstery-care", "window-cleaning"]
 }

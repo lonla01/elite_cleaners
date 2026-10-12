@@ -4,5 +4,95 @@
   "category": "housekeeping",
   "order": 20,
   "title": "Serviced apartment & short-let turnover",
-  "summary": "Reliable turnovers between guests: cleaning, linen and presentation checks to a consistent hotel standard."
+  "summary": "Reliable turnovers between guests: cleaning, linen and presentation checks to a consistent hotel standard.",
+  "meta": {
+    "title": "Serviced apartment and short-let turnover cleaning in Luxembourg",
+    "description": "Turnover cleaning for serviced apartments and short-term rentals in Luxembourg: cleaning, linen, restocking and presentation checks between guests."
+  },
+  "hero": {
+    "intro": "Every guest should find the apartment exactly as the first one did. We clean, change linen, restock and check presentation between stays, on short notice when needed.",
+    "image": {
+      "key": "service-serviced-apartment-turnover",
+      "alt": "A serviced apartment bedroom with crisp white linen and folded towels"
+    }
+  },
+  "included": {
+    "intro": "Each turnover follows your property's own checklist and photo standards.",
+    "groups": [
+      {
+        "title": "Cleaning",
+        "items": [
+          "Full clean of kitchen, bathrooms and living areas",
+          "Dishes washed and put away, appliances checked",
+          "Bins emptied and recycling sorted",
+          "Floors vacuumed and washed"
+        ]
+      },
+      {
+        "title": "Linen and presentation",
+        "items": [
+          "Bed linen and towels changed to hotel standard",
+          "Linen collected and delivered through our laundry partner, or yours",
+          "Amenities and consumables restocked",
+          "Final staging against your reference photos"
+        ]
+      },
+      {
+        "title": "Reporting",
+        "items": [
+          "Damage, missing items or maintenance issues reported with photos",
+          "Lost property logged and stored",
+          "Confirmation sent when the apartment is ready"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Per turnover",
+        "body": "Triggered by your booking calendar or channel manager."
+      },
+      {
+        "title": "Mid-stay service",
+        "body": "Fresh linen and a light clean during longer stays."
+      },
+      {
+        "title": "Periodic deep clean",
+        "body": "A scheduled deep clean between guests, monthly or quarterly."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "building",
+      "title": "Serviced apartment operators",
+      "body": "A dependable team that scales with your portfolio."
+    },
+    {
+      "icon": "key",
+      "title": "Short-let hosts",
+      "body": "Consistent five-star presentation without managing cleaners yourself."
+    },
+    {
+      "icon": "users",
+      "title": "Corporate housing providers",
+      "body": "Apartments ready for incoming staff and long-stay guests."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you handle same-day turnovers?",
+      "answer": "Yes, when checkout and check-in times allow. Same-day turnovers are planned with you in advance so a team is available."
+    },
+    {
+      "question": "Do you supply linen?",
+      "answer": "We can arrange linen hire and laundering through a partner, or work with your own linen stock. Both options appear clearly on the quote."
+    },
+    {
+      "question": "How do you get access to the apartments?",
+      "answer": "Through key safes, smart locks or keys held under our protocol. Access codes are never shared beyond the assigned team."
+    }
+  ],
+  "related": ["private-housekeeping", "deep-cleaning", "luxury-retail-hospitality"]
 }

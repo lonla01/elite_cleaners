@@ -4,5 +4,94 @@
   "category": "corporate",
   "order": 70,
   "title": "Disinfection & sanitisation",
-  "summary": "Targeted disinfection of high-contact surfaces and shared areas, as a one-off or on a schedule."
+  "summary": "Targeted disinfection of high-contact surfaces and shared areas, as a one-off or on a schedule.",
+  "meta": {
+    "title": "Disinfection and sanitisation in Luxembourg",
+    "description": "Targeted disinfection of high-contact surfaces and shared areas in Luxembourg offices, practices and homes, as a one-off or on a schedule."
+  },
+  "hero": {
+    "intro": "Targeted disinfection of the surfaces people touch most, using authorised products and documented methods. As a one-off, after an incident or as part of a regular routine.",
+    "image": {
+      "key": "service-disinfection-sanitisation",
+      "alt": "A team member wiping down a door handle with a disinfectant cloth"
+    }
+  },
+  "included": {
+    "intro": "Disinfection works only on clean surfaces, so every intervention starts with cleaning.",
+    "groups": [
+      {
+        "title": "Method",
+        "items": [
+          "Assessment of the areas and the level of risk",
+          "Cleaning, then disinfection with the correct contact time",
+          "Biocidal products authorised for use in Luxembourg, with safety data sheets",
+          "Colour-coded equipment to prevent cross-contamination"
+        ]
+      },
+      {
+        "title": "Typical areas",
+        "items": [
+          "Door handles, switches, handrails and lift buttons",
+          "Desks, keyboards, phones and shared equipment",
+          "Kitchens, washrooms and break rooms",
+          "Reception counters and payment terminals"
+        ]
+      },
+      {
+        "title": "Reporting",
+        "items": [
+          "Written record of areas treated, products and times",
+          "Recommendations for daily hygiene between interventions"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "One-off",
+        "body": "After an illness in the team, an incident or before reopening."
+      },
+      {
+        "title": "Scheduled",
+        "body": "Weekly or monthly, alongside regular cleaning."
+      },
+      {
+        "title": "Seasonal",
+        "body": "During winter illness peaks, for offices and schools."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "building",
+      "title": "Offices and shared spaces",
+      "body": "Fewer shared surfaces left untreated in busy workplaces."
+    },
+    {
+      "icon": "stethoscope",
+      "title": "Practices and care settings",
+      "body": "An additional layer of hygiene between regular cleans."
+    },
+    {
+      "icon": "home",
+      "title": "Homes",
+      "body": "After an illness in the household or before welcoming a vulnerable relative."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is disinfection the same as cleaning?",
+      "answer": "No. Cleaning removes dirt and most germs; disinfection kills remaining microorganisms on a surface that is already clean. Both are needed, in that order."
+    },
+    {
+      "question": "Are the products safe for people and pets?",
+      "answer": "We use authorised products according to their instructions and ventilate the area. We tell you when the space can be used again."
+    },
+    {
+      "question": "Do you offer fogging or misting?",
+      "answer": "We favour targeted manual disinfection, which is more reliable on high-contact surfaces. Other methods can be discussed for specific situations."
+    }
+  ],
+  "related": ["office-cleaning", "medical-practices", "deep-cleaning"]
 }

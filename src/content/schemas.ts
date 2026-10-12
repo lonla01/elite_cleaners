@@ -9,6 +9,7 @@ export const linkSchema = z.object({
   label: z.string().min(1),
   href: z.enum(routeKeys),
   params: z.record(z.string(), z.string()).optional(),
+  query: z.record(z.string(), z.string()).optional(),
 });
 export type ContentLinkData = z.infer<typeof linkSchema>;
 
@@ -37,6 +38,13 @@ export const iconNames = [
   "message",
   "check",
   "star",
+  "briefcase",
+  "stethoscope",
+  "store",
+  "train",
+  "hammer",
+  "map-pin",
+  "clock",
 ] as const;
 export const iconSchema = z.enum(iconNames);
 export type IconName = z.infer<typeof iconSchema>;
@@ -79,20 +87,50 @@ export const serviceCategorySchema = z.object({
 });
 export type ServiceCategory = z.infer<typeof serviceCategorySchema>;
 
+const faqItemSchema = z.object({ question: z.string(), answer: z.string() });
+
+/** URL slugs: lowercase ASCII, digits and hyphens. Localised per content file. */
+const slugSchema = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
+
 /**
- * Service summary. The full service page fields (included checklist, frequencies, FAQ...) are
- * added in milestone 3.
+ * A service and everything its page needs. All service pages share one template
+ * (app/[locale]/services/[slug]); section headings come from the `ServicePage` messages.
  */
 export const serviceSchema = z.object({
   id: z.string(),
-  /** Localised URL slug. */
-  slug: z.string().regex(/^[a-z0-9-]+$/),
+  slug: slugSchema,
   category: z.enum(serviceCategoryIds),
   order: z.number().int(),
   title: z.string(),
+  /** One sentence, used on cards, menus and as the default meta description. */
   summary: z.string(),
+  meta: metaSchema,
+  hero: z.object({ intro: z.string(), image: imageRefSchema }),
+  included: z.object({
+    intro: z.string().optional(),
+    groups: z.array(z.object({ title: z.string(), items: z.array(z.string()).min(1) })).min(1),
+  }),
+  frequencies: z.object({
+    intro: z.string().optional(),
+    options: z.array(z.object({ title: z.string(), body: z.string() })).min(1),
+  }),
+  audience: z.array(featureSchema).min(1),
+  faq: z.array(faqItemSchema).min(1),
+  /** Service ids, shown as "Related services". */
+  related: z.array(z.string()).max(3),
 });
 export type Service = z.infer<typeof serviceSchema>;
+export type ServiceSummary = Pick<
+  Service,
+  "id" | "slug" | "category" | "order" | "title" | "summary"
+>;
+
+export const servicesPageSchema = z.object({
+  meta: metaSchema,
+  hero: sectionIntroSchema.extend({ image: imageRefSchema }),
+  cta: ctaSchema,
+});
+export type ServicesPage = z.infer<typeof servicesPageSchema>;
 
 export const testimonialSchema = z.object({
   id: z.string(),
@@ -153,9 +191,7 @@ export const howItWorksPageSchema = z.object({
   hero: sectionIntroSchema.extend({ image: imageRefSchema }),
   steps: sectionIntroSchema.extend({ items: z.array(stepSchema) }),
   promises: sectionIntroSchema.extend({ items: z.array(featureSchema) }),
-  faq: sectionIntroSchema.extend({
-    items: z.array(z.object({ question: z.string(), answer: z.string() })),
-  }),
+  faq: sectionIntroSchema.extend({ items: z.array(faqItemSchema) }),
   cta: ctaSchema,
 });
 export type HowItWorksPage = z.infer<typeof howItWorksPageSchema>;

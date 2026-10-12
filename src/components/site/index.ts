@@ -13,3 +13,7 @@ export { StepsList } from "./steps-list";
 export { CtaBand } from "./cta-band";
 export { FaqList } from "./faq-list";
 export { TestimonialCards } from "./testimonial-cards";
+export { JsonLd } from "./json-ld";
+export { Breadcrumbs, type Crumb } from "./breadcrumbs";
+export { ServiceCardList } from "./services/service-card-list";
+export { Checklist } from "./services/checklist";

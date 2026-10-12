@@ -4,5 +4,93 @@
   "category": "corporate",
   "order": 50,
   "title": "Luxury retail & hospitality",
-  "summary": "Immaculate boutiques, showrooms and hospitality spaces, before opening or after closing."
+  "summary": "Immaculate boutiques, showrooms and hospitality spaces, before opening or after closing.",
+  "meta": {
+    "title": "Cleaning for luxury retail and hospitality in Luxembourg",
+    "description": "Immaculate boutiques, showrooms, restaurants and hotel spaces in Luxembourg, cleaned before opening or after closing with care for fine materials."
+  },
+  "hero": {
+    "intro": "In a boutique, showroom or hotel lobby, the setting is part of the experience. We keep it flawless before your doors open, with care for every fine material.",
+    "image": {
+      "key": "service-luxury-retail-hospitality",
+      "alt": "An elegant boutique interior with polished floors and glass display cases"
+    }
+  },
+  "included": {
+    "groups": [
+      {
+        "title": "Front of house",
+        "items": [
+          "Shop floors, fitting rooms and lounges",
+          "Display cases, mirrors and glass polished without streaks",
+          "Entrances, shop windows and door furniture",
+          "Fine materials such as marble, brass, leather and lacquer cared for"
+        ]
+      },
+      {
+        "title": "Hospitality spaces",
+        "items": [
+          "Lobbies, bars and restaurant dining rooms",
+          "Function and event rooms reset",
+          "Guest washrooms finished to hotel standard"
+        ]
+      },
+      {
+        "title": "Back of house",
+        "items": [
+          "Stockrooms, offices and staff areas",
+          "Waste and recycling managed",
+          "Consumables restocked"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Daily, before opening",
+        "body": "Every morning, finished before the first customer arrives."
+      },
+      {
+        "title": "After closing",
+        "body": "Evening and night cleaning when the space is empty."
+      },
+      {
+        "title": "Events and launches",
+        "body": "Preparation and reset around openings, launches and private events."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "store",
+      "title": "Luxury boutiques",
+      "body": "Fashion, jewellery and watch houses."
+    },
+    {
+      "icon": "star",
+      "title": "Showrooms and galleries",
+      "body": "Automotive, design and art spaces where presentation is everything."
+    },
+    {
+      "icon": "users",
+      "title": "Hotels and restaurants",
+      "body": "Public areas and dining rooms kept impeccable."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you work around opening hours?",
+      "answer": "Yes. We schedule cleaning before opening, after closing or overnight, so that customers never see the work in progress."
+    },
+    {
+      "question": "Do you know how to care for marble and other fine surfaces?",
+      "answer": "Our teams are trained to identify materials and use suitable products. For restoration work such as marble polishing, we work with specialist partners."
+    },
+    {
+      "question": "Can you support an event at short notice?",
+      "answer": "Within our availability, yes. Contact us as early as possible and we will confirm the team and timing."
+    }
+  ],
+  "related": ["office-cleaning", "window-cleaning", "carpet-upholstery-care"]
 }
