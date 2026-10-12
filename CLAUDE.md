@@ -86,7 +86,7 @@ hosted on Railway. Repo: https://github.com/lonla01/elite_cleaners
 
 ## i18n
 
-- Locales are `en` (default, the only enabled locale in v1), `fr`, `de` and `lb`. They are
+- Locales are `en` (default) and `fr` (both enabled), plus `de` and `lb` (disabled). They are
   configured in `src/config/locales.ts`, and translated route segments live in
   `src/i18n/pathnames.ts`.
 - **No hard-coded user-facing strings.** UI strings live in `messages/<locale>.json`, and missing
@@ -97,6 +97,11 @@ hosted on Railway. Repo: https://github.com/lonla01/elite_cleaners
   currency is EUR, and `lb` falls back through lb-LU → lb → de-LU.
 - Pass `locale` explicitly to `getTranslations({ locale, namespace })` in pages and cached
   functions.
+- Services and communes have translated slugs in their content files. Pages with a dynamic
+  slug pass a per-locale `href` to `buildMetadata()` (via `getSlugMaps()`), and the header's
+  `LanguageSwitcher` uses the same maps. Any new user-facing text needs both `en` and `fr`.
+- French copy uses French typography (narrow no-break space before `? ! ;`, no-break space
+  before `:` and inside « », typographic apostrophe ’).
 - Admin UI is English-only (still uses message keys under `Admin.*`).
 - Design for text 40 % longer than English: no fixed-width buttons, no nowrap labels.
 

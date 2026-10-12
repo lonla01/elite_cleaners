@@ -79,8 +79,12 @@ Environments:
 
 ## Internationalisation
 
-- Locales: `en` (enabled), plus `fr`, `de` and `lb` (configured but disabled). URLs are always
-  prefixed (`/en/...`), and route segments are translated in `src/i18n/pathnames.ts`.
+- Locales: `en` and `fr` (enabled), plus `de` and `lb` (configured but disabled). URLs are
+  always prefixed (`/en/...`, `/fr/...`); visitors arriving on `/` are sent to the language
+  their browser prefers. Route segments are translated in `src/i18n/pathnames.ts`, and service
+  and area slugs in the content files (`/fr/services/nettoyage-de-bureaux`).
+- French UI strings are in `messages/fr.json` and French content in `content/fr/`. A missing
+  key or file falls back to English. Visitor emails are sent in the visitor's language.
 - **Luxembourgish formatting fallback:** browser and Node `Intl` support for `lb` is
   incomplete. `src/i18n/format.ts` resolves `lb` through `lb-LU → lb → de-LU`, using the first
   tag the runtime supports. Dates are always DD/MM/YYYY in the Europe/Luxembourg time zone.

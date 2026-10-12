@@ -101,6 +101,14 @@ review" notice until its `reviewed` field is set to `true`. Company details (`{l
 - [ ] When the privacy policy changes materially, update its `updated` date and
       `privacyNoticeVersion` in `src/config/legal.ts` (stored with each lead and application).
 
+## French translation
+
+- [ ] Have a native French speaker review `messages/fr.json` and everything in `content/fr/`
+      (service descriptions, area pages, emails). The legal pages in French also need the
+      lawyer's review, like the English ones.
+- [ ] The same placeholders exist in French (`[XX] ans`, `[Logo client 1]`, opening hours,
+      `[convention collective]`, legal details): replace them in both languages.
+
 ## Map data
 
 The canton map (`src/content/geo/cantons.ts`) is generated from OpenStreetMap by
