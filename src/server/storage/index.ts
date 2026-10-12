@@ -30,10 +30,17 @@ class S3Storage implements StorageProvider {
   }
 
   async put(key: string, body: Uint8Array, contentType: string) {
-    const res = await this.client.fetch(this.url(key), {
+    // Sign first, then send the raw bytes: a streamed body would go out chunked, and the
+    // bucket requires a Content-Length (411 otherwise).
+    const signed = await this.client.sign(this.url(key), {
       method: "PUT",
       body: body as BodyInit,
       headers: { "Content-Type": contentType },
+    });
+    const res = await fetch(signed.url, {
+      method: "PUT",
+      headers: signed.headers,
+      body: body as BodyInit,
     });
     if (!res.ok) throw new Error(`Storage PUT failed: ${res.status} ${await res.text()}`);
   }
