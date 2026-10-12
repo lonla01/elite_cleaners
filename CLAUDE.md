@@ -111,8 +111,30 @@ hosted on Railway. Repo: https://github.com/lonla01/elite_cleaners
   must import sibling files directly, never the barrel.
 - Every page sets metadata through `buildMetadata()` (`src/i18n/metadata.ts`), which adds the
   canonical URL and hreflang alternates.
-- In e2e tests, query headings by role. Next 16 keeps the previous page in the DOM, hidden, after
+- Unknown slugs under `[slug]`/`[commune]` render the not-found page with a 200 status and
+  `noindex` (streaming has started). A Proxy slug check for a true 404 is planned in M8.
+- In e2e tests, query headings by role and scope `alert`/`status` queries to `main` (the
+  Next route announcer is also an alert). Form tests set a random `x-real-ip` per test so the
+  rate limiter does not interfere. E2E tests need `DATABASE_URL` (CI service, or `.env.local`).
+  Next 16 keeps the previous page in the DOM, hidden, after
   client navigation, so raw `h1` selectors can match twice.
+
+## Public forms (contact, careers)
+
+- Server actions live in `src/server/actions/`. Order: honeypot (`website` field, silent
+  success), Zod parse (`src/server/forms/schemas.ts`, error messages are `Forms.errors` keys),
+  Postgres rate limit (`rateLimit()`, keyed on a salted IP hash), DB insert, then emails in
+  `after()` so the visitor never waits for the provider.
+- Actions return `FormState` (`src/lib/form-state.ts`) with the submitted values; forms remount
+  with them (`key={attempt}`) because React resets forms after an action.
+- Emails: `sendEmail()` tries the configured providers (Resend, then SMTP as fallback) and
+  logs every attempt in `email_log`. It never throws. Visitor emails use the visitor's locale;
+  internal notifications are English.
+- Uploads go through `storage()` (Railway bucket, virtual-hosted URLs; `.data/uploads` in
+  development). CVs are checked by magic bytes, max 5 MB.
+- Leads and applications store `consentAt` and `consentVersion` (`src/config/legal.ts`).
+- Cookie consent is kept in localStorage (`src/lib/consent.ts`). Analytics load only after
+  consent, from the layout's `<Analytics>` component.
 
 ## UI
 

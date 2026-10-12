@@ -10,13 +10,24 @@ Drizzle ORM + PostgreSQL · Railway.
 
 ## Getting started
 
-Requirements: Node 24+, pnpm 11, and a local PostgreSQL (optional until milestone 5).
+Requirements: Node 24+, pnpm 11, and PostgreSQL (the contact and careers forms store their
+submissions). The quickest local database is Docker:
+
+```bash
+docker run -d --name elite-pg -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=elite_dev \
+  -p 5433:5432 postgres:18
+# .env.local: DATABASE_URL=postgres://postgres:postgres@localhost:5433/elite_dev
+pnpm db:migrate
+```
 
 ```bash
 pnpm install
 cp .env.example .env.local   # then fill in values
 pnpm dev                      # http://localhost:3000 → redirects to /en
 ```
+
+With `EMAIL_PROVIDER=log`, emails are printed to the console instead of being sent, and CV
+uploads are written to `.data/uploads` when no bucket is configured.
 
 Useful pages in development:
 
@@ -52,8 +63,11 @@ src/styles/            Tailwind theme and design tokens
 
 ## Editing content
 
-Public page copy lives in `content/en/` as JSON (home, about, how it works, service
-categories, services, testimonials). UI strings such as menus, buttons and labels live in
+Public page copy lives in `content/en/` as JSON: pages, service categories, services,
+communes (areas), testimonials and the legal pages. To add a service or a commune page, add its
+id to `content/services.json` or `content/communes.json` and create the matching JSON file.
+Legal texts can use company tokens such as `{legalName}` or `{rcs}`, filled in from the
+settings. UI strings such as menus, buttons and labels live in
 `messages/en.json`. Content is validated at build time, so a typo in a field name fails the
 build with a clear message. To replace an image, see `PLACEHOLDERS.md`.
 

@@ -76,8 +76,32 @@ Photos of real staff or clients need their written consent (GDPR / image rights)
 
 - [ ] `home.json`: trust bar `[XX] years` and the insurer name, plus 6 "Trusted by" logo slots.
       **Real client logos (CFL, banks, …) only with each client's written permission.**
-- [ ] `testimonials.json`: 3 placeholder testimonials, published only with written consent.
+- [ ] `testimonials.json`: 6 placeholder testimonials (the home page shows the first 3),
+      published only with each client's written consent.
 - [ ] `pages/about.json`: founding story paragraph, `[XX] years`, insurer and cover.
-
 - [ ] `services/*.json`: original service descriptions. Review every claim (vetting checks,
       response times, partners, products) against what the company actually does.
+- [ ] `communes/*.json`: local descriptions for the 6 starter areas. Check that they match
+      where the company really works; add communes by adding an id to `content/communes.json`.
+- [ ] `pages/contact.json`: displayed opening hours `[Monday to Friday, 8:00 to 18:00]`.
+- [ ] `pages/careers.json`: `[collective agreement]` wording for employment conditions.
+
+## Legal pages (in `content/en/pages/`) — to review with a lawyer
+
+The privacy policy, cookie policy and legal notice are templates. Each shows a "pending legal
+review" notice until its `reviewed` field is set to `true`. Company details (`{legalName}`,
+`{rcs}`, …) are filled in from the settings automatically.
+
+- [ ] `privacy.json`: retention periods `[24 months]` (unconverted leads), `[6 months]`
+      (applications), `[12 months]` (email logs); processor names `[Hosting provider]`,
+      `[Storage provider]`, `[Email provider]`, `[Analytics provider]`.
+- [ ] `cookies.json`: `[Plausible Analytics]` (confirm the provider).
+- [ ] `legal-notice.json`: legal form, share capital, managing/publication director, hosting
+      provider name and address.
+- [ ] When the privacy policy changes materially, update its `updated` date and
+      `privacyNoticeVersion` in `src/config/legal.ts` (stored with each lead and application).
+
+## Map data
+
+The canton map (`src/content/geo/cantons.ts`) is generated from OpenStreetMap by
+`node scripts/build-canton-map.mjs`. Its ODbL attribution is shown under the map and must stay.
