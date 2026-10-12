@@ -29,6 +29,9 @@ hosted on Railway. Repo: https://github.com/lonla01/elite_cleaners
 - **Areas map** is an inline SVG of the cantons, built from OpenStreetMap-derived data, with an
   ODbL attribution.
 - **Analytics:** Plausible, loaded only after consent.
+- **Branches:** `main` deploys to Railway staging, and `production` deploys to Railway
+  production. Releases are PRs from `main` into `production`. Never push to `production`
+  directly.
 - **Package manager:** pnpm. Node 24 LTS in CI and on Railway (see `.nvmrc`).
 
 ## Commands

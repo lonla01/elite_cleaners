@@ -68,6 +68,13 @@ each of them:
 - a bucket (S3-compatible) for uploads and generated PDFs;
 - the variables listed in `.env.example`, with `APP_ENV=staging` or `APP_ENV=production`.
 
+### Release flow
+
+- `main` → **staging**. Every merge to `main` deploys to staging.
+- `production` → **production**. To release, open a pull request from `main` into `production`
+  (CI runs on it), then merge. Never commit directly to `production`.
+- Search engines stay blocked until `ALLOW_INDEXING=true` is set on production at launch.
+
 ## CMS trade-off
 
 All public content lives in typed per-locale files behind `src/content`, and pages call only
