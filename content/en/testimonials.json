@@ -4,6 +4,7 @@
     "quote": "[Placeholder] Replace with a genuine testimonial from a residential client, published only with their written consent.",
     "author": "[Client name or initials]",
     "context": "[Private residence, Belair]",
+    "category": "residential",
     "placeholder": true
   },
   {
@@ -11,6 +12,7 @@
     "quote": "[Placeholder] Replace with a genuine testimonial from a corporate client, published only with their written consent.",
     "author": "[Name, role]",
     "context": "[Financial institution, Kirchberg]",
+    "category": "corporate",
     "placeholder": true
   },
   {
@@ -18,6 +20,31 @@
     "quote": "[Placeholder] Replace with a genuine testimonial from a housekeeping client, published only with their written consent.",
     "author": "[Client name or initials]",
     "context": "[Family home, Strassen]",
+    "category": "housekeeping",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-4",
+    "quote": "[Placeholder] Replace with a genuine testimonial from an end-of-tenancy or deep-cleaning client, published only with their written consent.",
+    "author": "[Client name or initials]",
+    "context": "[Apartment, Luxembourg City]",
+    "category": "residential",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-5",
+    "quote": "[Placeholder] Replace with a genuine testimonial from an office or practice manager, published only with their written consent.",
+    "author": "[Name, role]",
+    "context": "[Medical practice, Bertrange]",
+    "category": "corporate",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-6",
+    "quote": "[Placeholder] Replace with a genuine testimonial from a serviced-apartment operator, published only with their written consent.",
+    "author": "[Name, role]",
+    "context": "[Serviced apartments, Esch-sur-Alzette]",
+    "category": "housekeeping",
     "placeholder": true
   }
 ]

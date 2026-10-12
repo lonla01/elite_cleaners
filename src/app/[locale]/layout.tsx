@@ -9,6 +9,9 @@ import { SkipLink } from "@/components/site";
 import { SiteHeader } from "@/components/site/layout/site-header";
 import { SiteFooter } from "@/components/site/layout/site-footer";
 import { ContactShortcuts } from "@/components/site/layout/contact-shortcuts";
+import { CookieConsent } from "@/components/site/consent/cookie-consent";
+import { Analytics } from "@/components/site/consent/analytics";
+import { env } from "@/env";
 import { getCompany, telHref, whatsappHref } from "@/server/company";
 import { fontVariables } from "../fonts";
 import "@/styles/globals.css";
@@ -54,6 +57,12 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
             tel={telHref(company.phone)}
             whatsapp={whatsappHref(company.whatsapp)}
             phoneDisplay={company.phone}
+          />
+          <CookieConsent />
+          <Analytics
+            provider={env.NEXT_PUBLIC_ANALYTICS_PROVIDER}
+            domain={env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN}
+            src={env.NEXT_PUBLIC_PLAUSIBLE_SRC}
           />
         </NextIntlClientProvider>
       </body>

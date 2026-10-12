@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { getCompany, telHref } from "@/server/company";
 import { Container } from "../container";
 import { Brand } from "./brand";
+import { ConsentSettingsButton } from "../consent/cookie-consent";
 
 export async function SiteFooter({ locale }: { locale: Locale }) {
   const [t, tn, tc, company, categories] = await Promise.all([
@@ -105,6 +106,9 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
                 </Link>
               </li>
             ))}
+            <li>
+              <ConsentSettingsButton className={`${link} text-left`} />
+            </li>
           </ul>
         </nav>
       </Container>

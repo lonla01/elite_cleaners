@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Client testimonials",
+    "description": "What homeowners, families and businesses across Luxembourg say about working with us."
+  },
+  "hero": {
+    "eyebrow": "Testimonials",
+    "title": "In our clients' words",
+    "intro": "We publish feedback only with each client's written permission, and never edit its meaning.",
+    "image": {
+      "key": "testimonials-hero",
+      "alt": "A calm, immaculate living space in late afternoon light"
+    }
+  },
+  "note": "Testimonials are published with each client's written consent. Some clients prefer to be identified by initials or by the type of premises only.",
+  "cta": {
+    "title": "Experience the difference yourself",
+    "body": "Tell us about your home or premises and we will arrange a consultation at a time that suits you.",
+    "primary": {
+      "label": "Request a quote",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "How it works",
+      "href": "/how-it-works"
+    }
+  }
+}

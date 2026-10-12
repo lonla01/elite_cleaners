@@ -1,0 +1,29 @@
+{
+  "id": "bertrange",
+  "slug": "bertrange",
+  "name": "Bertrange",
+  "kind": "commune",
+  "canton": "luxembourg",
+  "coordinates": {
+    "lat": 49.6111,
+    "lon": 6.05
+  },
+  "mapLabel": "below-left",
+  "meta": {
+    "title": "Cleaning services in Bertrange",
+    "description": "Home cleaning and commercial cleaning in Bertrange, including residential areas and businesses around Helfent."
+  },
+  "intro": "Family homes, retail and business parks: Bertrange has a bit of everything, and we tailor the service to each.",
+  "paragraphs": [
+    "Bertrange's residential neighbourhoods are largely made up of houses with gardens, where regular cleaning, window cleaning and seasonal deep cleans are popular.",
+    "The commune is also a commercial hub, with shopping and business areas such as Helfent. We clean offices and commercial premises before opening or after closing, so that work is never visible to customers."
+  ],
+  "services": [
+    "regular-home-cleaning",
+    "window-cleaning",
+    "deep-cleaning",
+    "office-cleaning",
+    "commercial-post-construction"
+  ],
+  "nearby": ["strassen", "belair", "luxembourg-city"]
+}

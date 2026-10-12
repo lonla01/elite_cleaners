@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Legal notice",
+    "description": "Publisher, registration and hosting information for the {companyName} website."
+  },
+  "title": "Legal notice",
+  "updated": "2026-10-12",
+  "reviewed": false,
+  "intro": "Information about the publisher of this website, as required by Luxembourg law on electronic commerce.",
+  "sections": [
+    {
+      "id": "publisher",
+      "title": "Publisher",
+      "list": [
+        "{legalName}, [legal form, e.g. société à responsabilité limitée]",
+        "Registered office: {address}",
+        "Share capital: [EUR 00,000]",
+        "Trade and Companies Register (RCS): {rcs}",
+        "Business permit (autorisation d'établissement): {permit}",
+        "VAT number: {vat}",
+        "Phone: {phone}",
+        "Email: {email}",
+        "Managing director and publication director: [Name]"
+      ]
+    },
+    {
+      "id": "hosting",
+      "title": "Hosting",
+      "paragraphs": [
+        "This website is hosted by [Hosting provider name, legal address], on servers located in the European Union."
+      ]
+    },
+    {
+      "id": "ip",
+      "title": "Intellectual property",
+      "paragraphs": [
+        "All content on this website, including text, images, graphics and logos, is the property of {legalName} or used with permission. Any reproduction without prior written consent is prohibited.",
+        "Client names and logos are shown only with each client's written permission."
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "Liability",
+      "paragraphs": [
+        "We take care to keep the information on this website accurate and up to date, but it is provided for general information only and does not constitute a contractual offer. Services and conditions are confirmed in our written quotes.",
+        "Links to other websites are provided for convenience. We are not responsible for their content."
+      ]
+    },
+    {
+      "id": "law",
+      "title": "Applicable law",
+      "paragraphs": [
+        "This website and this notice are governed by Luxembourg law. Any dispute falls within the jurisdiction of the courts of Luxembourg City."
+      ]
+    }
+  ]
+}

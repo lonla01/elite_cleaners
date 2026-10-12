@@ -12,7 +12,15 @@ vi.mock("./source/fs", () => ({
   },
 }));
 
-import { getServicesPage, listServiceCategories, listServices } from "./index";
+import { privacyNoticeVersion } from "@/config/legal";
+import {
+  getAreasPage,
+  getLegalPage,
+  getServicesPage,
+  listCommunes,
+  listServiceCategories,
+  listServices,
+} from "./index";
 
 describe("content", () => {
   it.each(allLocales)("services are valid and consistent (%s)", async (locale) => {
@@ -29,6 +37,32 @@ describe("content", () => {
         expect(ids, `${service.id} → ${related}`).toContain(related);
         expect(related).not.toBe(service.id);
       }
+    }
+  });
+
+  it.each(allLocales)("communes reference valid services and communes (%s)", async (locale) => {
+    const [communes, services] = await Promise.all([
+      listCommunes(locale),
+      listServices(locale),
+      getAreasPage(locale),
+    ]);
+    const communeIds = communes.map((c) => c.id);
+    const serviceIds = services.map((s) => s.id);
+    expect(new Set(communes.map((c) => c.slug)).size).toBe(communes.length);
+    for (const commune of communes) {
+      for (const id of commune.services) expect(serviceIds).toContain(id);
+      for (const id of commune.nearby) expect(communeIds).toContain(id);
+      if (commune.kind === "quarter") expect(communeIds).toContain(commune.parent);
+    }
+  });
+
+  it("the privacy notice version matches the privacy policy date", async () => {
+    expect((await getLegalPage("privacy", "en")).updated).toBe(privacyNoticeVersion);
+  });
+
+  it.each(allLocales)("legal pages are valid (%s)", async (locale) => {
+    for (const id of ["privacy", "cookies", "legal-notice"] as const) {
+      await expect(getLegalPage(id, locale)).resolves.toBeDefined();
     }
   });
 });

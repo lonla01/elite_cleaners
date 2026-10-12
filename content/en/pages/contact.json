@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "title": "Contact us and request a quote",
+    "description": "Request a tailored quote for home, housekeeping or commercial cleaning in Luxembourg. We reply within one working day."
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Tell us about your home or premises",
+    "intro": "Every quote is tailored. Share a few details and we will reply within one working day to discuss your needs and arrange a visit if useful."
+  },
+  "form": {
+    "title": "Request a quote",
+    "intro": "Fields marked optional can be left blank. The more you tell us, the more precise our first answer."
+  },
+  "hours": "[Monday to Friday, 8:00 to 18:00]",
+  "next": {
+    "title": "What happens next",
+    "steps": [
+      {
+        "title": "We call or email you",
+        "body": "Within one working day, using the contact method you prefer."
+      },
+      {
+        "title": "We visit if useful",
+        "body": "A short, free visit to understand the space, the surfaces and your expectations."
+      },
+      {
+        "title": "You receive a written quote",
+        "body": "A clear scope and price, excluding and including VAT, with no obligation."
+      }
+    ]
+  }
+}

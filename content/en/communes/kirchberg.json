@@ -1,0 +1,35 @@
+{
+  "id": "kirchberg",
+  "slug": "kirchberg",
+  "name": "Kirchberg",
+  "kind": "quarter",
+  "parent": "luxembourg-city",
+  "canton": "luxembourg",
+  "coordinates": {
+    "lat": 49.628,
+    "lon": 6.165
+  },
+  "meta": {
+    "title": "Cleaning services in Kirchberg",
+    "description": "Office cleaning for financial and corporate premises, and home cleaning for apartments on the Kirchberg plateau in Luxembourg City."
+  },
+  "intro": "On the Kirchberg plateau, offices and new residential buildings sit side by side. We clean both, to the standards each one requires.",
+  "paragraphs": [
+    "Kirchberg is home to European institutions, banks and corporate headquarters, as well as a growing number of apartment buildings. Many premises have strict access procedures and expect cleaning to happen outside working hours.",
+    "For businesses, we provide vetted staff, documented key and badge protocols and evening or early-morning schedules. For residents, we offer regular home cleaning and end-of-tenancy cleans for the many apartments that change hands each year."
+  ],
+  "services": [
+    "office-cleaning",
+    "financial-institutions",
+    "regular-home-cleaning",
+    "end-of-tenancy-cleaning",
+    "window-cleaning"
+  ],
+  "nearby": ["luxembourg-city", "belair", "strassen"],
+  "faq": [
+    {
+      "question": "Can you work with our building's security procedures?",
+      "answer": "Yes. We review your access, badge and visitor procedures during onboarding and follow them on every visit."
+    }
+  ]
+}

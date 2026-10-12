@@ -1,0 +1,29 @@
+{
+  "id": "strassen",
+  "slug": "strassen",
+  "name": "Strassen",
+  "kind": "commune",
+  "canton": "luxembourg",
+  "coordinates": {
+    "lat": 49.6206,
+    "lon": 6.0734
+  },
+  "mapLabel": "left",
+  "meta": {
+    "title": "Cleaning services in Strassen",
+    "description": "Home cleaning, housekeeping and office cleaning in Strassen, just west of Luxembourg City."
+  },
+  "intro": "Just west of the capital, Strassen mixes quiet residential streets with businesses along the route d'Arlon. We serve both.",
+  "paragraphs": [
+    "Strassen's houses and apartment buildings are home to many families and professionals who work in the city. Regular home cleaning on a fixed day, with the same cleaner, is the service most requested here.",
+    "Businesses along the route d'Arlon and in the commune's office buildings rely on us for scheduled office cleaning and for showroom and retail spaces kept ready for customers."
+  ],
+  "services": [
+    "regular-home-cleaning",
+    "deep-cleaning",
+    "office-cleaning",
+    "luxury-retail-hospitality",
+    "end-of-tenancy-cleaning"
+  ],
+  "nearby": ["bertrange", "belair", "luxembourg-city"]
+}

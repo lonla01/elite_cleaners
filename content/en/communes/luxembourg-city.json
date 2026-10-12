@@ -1,0 +1,40 @@
+{
+  "id": "luxembourg-city",
+  "slug": "luxembourg-city",
+  "name": "Luxembourg City",
+  "kind": "commune",
+  "canton": "luxembourg",
+  "coordinates": {
+    "lat": 49.6116,
+    "lon": 6.1319
+  },
+  "meta": {
+    "title": "Cleaning services in Luxembourg City",
+    "description": "Home cleaning, housekeeping and office cleaning across every quarter of Luxembourg City, from Ville-Haute and Limpertsberg to Gare and Cloche d'Or."
+  },
+  "intro": "From apartments in Limpertsberg to offices around the Gare and Cloche d'Or, we look after homes and workplaces in every quarter of the capital.",
+  "paragraphs": [
+    "Luxembourg City combines historic townhouses, modern apartment buildings and some of the country's busiest offices. Each brings its own constraints: narrow streets and limited parking in Ville-Haute and Grund, building access rules in larger residences, and tight schedules in commercial districts.",
+    "We plan visits around those details. Our teams know how to work with concierges and building managers, arrange access badges and parking in advance, and keep to fixed time slots so that your routine is never disrupted.",
+    "Whether you need a weekly home clean, a housekeeper for a family residence or an evening team for your offices, you have one point of contact and a team that stays the same."
+  ],
+  "services": [
+    "regular-home-cleaning",
+    "private-housekeeping",
+    "office-cleaning",
+    "end-of-tenancy-cleaning",
+    "financial-institutions",
+    "window-cleaning"
+  ],
+  "nearby": ["kirchberg", "belair", "strassen", "bertrange"],
+  "faq": [
+    {
+      "question": "Do you cover every quarter of Luxembourg City?",
+      "answer": "Yes. We work across all of the city's quarters, including Ville-Haute, Grund, Limpertsberg, Belair, Kirchberg, Gare, Bonnevoie, Merl and Cloche d'Or."
+    },
+    {
+      "question": "How do you deal with parking in the city centre?",
+      "answer": "We plan parking or public transport for every visit in advance, and agree any building access or parking arrangements with you or your building manager."
+    }
+  ]
+}

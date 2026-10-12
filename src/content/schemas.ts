@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { pathnames } from "@/i18n/pathnames";
 import { imageKeys } from "./images";
+import { cantonIds } from "./geo/cantons";
 
 /** Internal route keys (see src/i18n/pathnames.ts). Links in content refer to routes, never raw URLs. */
 const routeKeys = Object.keys(pathnames) as [keyof typeof pathnames, ...(keyof typeof pathnames)[]];
@@ -137,10 +138,19 @@ export const testimonialSchema = z.object({
   quote: z.string(),
   author: z.string(),
   context: z.string(),
+  category: z.enum(serviceCategoryIds),
   /** Placeholders are visibly marked on the site until replaced with genuine, consented quotes. */
   placeholder: z.boolean(),
 });
 export type Testimonial = z.infer<typeof testimonialSchema>;
+
+export const testimonialsPageSchema = z.object({
+  meta: metaSchema,
+  hero: sectionIntroSchema.extend({ image: imageRefSchema }),
+  note: z.string(),
+  cta: ctaSchema,
+});
+export type TestimonialsPage = z.infer<typeof testimonialsPageSchema>;
 
 export const homePageSchema = z.object({
   meta: metaSchema,
@@ -195,3 +205,90 @@ export const howItWorksPageSchema = z.object({
   cta: ctaSchema,
 });
 export type HowItWorksPage = z.infer<typeof howItWorksPageSchema>;
+
+// ---------------------------------------------------------------------------------------------
+// Areas
+
+export const communeSchema = z.object({
+  id: z.string(),
+  slug: slugSchema,
+  name: z.string(),
+  /** Quarters (e.g. Kirchberg) belong to a commune (`parent`); they have their own pages. */
+  kind: z.enum(["commune", "quarter"]),
+  parent: z.string().optional(),
+  canton: z.enum(cantonIds),
+  coordinates: z.object({ lat: z.number(), lon: z.number() }),
+  /** Side of the map marker its label sits on (avoids overlaps between close communes). */
+  mapLabel: z.enum(["right", "left", "below-left"]).default("right"),
+  meta: metaSchema,
+  intro: z.string(),
+  paragraphs: z.array(z.string()).min(1),
+  /** Service ids most requested locally. */
+  services: z.array(z.string()).min(1).max(6),
+  /** Commune ids shown as "Nearby areas". */
+  nearby: z.array(z.string()).default([]),
+  faq: z.array(faqItemSchema).default([]),
+});
+export type Commune = z.infer<typeof communeSchema>;
+
+export const areasPageSchema = z.object({
+  meta: metaSchema,
+  hero: sectionIntroSchema.extend({ image: imageRefSchema }),
+  map: sectionIntroSchema.extend({ label: z.string() }),
+  /** Display names of the cantons, in this locale. */
+  cantons: z.record(z.enum(cantonIds), z.string()),
+  communes: sectionIntroSchema,
+  crossBorder: z.string(),
+  cta: ctaSchema,
+});
+export type AreasPage = z.infer<typeof areasPageSchema>;
+
+// ---------------------------------------------------------------------------------------------
+// Legal pages. Text may contain company tokens such as {legalName}; see src/content/tokens.ts.
+
+export const legalPageSchema = z.object({
+  meta: metaSchema,
+  title: z.string(),
+  /** ISO date of the last substantive change. */
+  updated: z.iso.date(),
+  /** false until a lawyer has reviewed the text; the page then shows a notice. */
+  reviewed: z.boolean(),
+  intro: z.string(),
+  sections: z
+    .array(
+      z.object({
+        id: slugSchema,
+        title: z.string(),
+        paragraphs: z.array(z.string()).default([]),
+        list: z.array(z.string()).default([]),
+        after: z.array(z.string()).default([]),
+      }),
+    )
+    .min(1),
+});
+export type LegalPage = z.infer<typeof legalPageSchema>;
+
+// ---------------------------------------------------------------------------------------------
+// Forms
+
+export const contactPageSchema = z.object({
+  meta: metaSchema,
+  hero: sectionIntroSchema,
+  form: sectionIntroSchema,
+  /** Opening hours as displayed (the machine-readable value is in the settings). */
+  hours: z.string(),
+  next: sectionIntroSchema.extend({ steps: z.array(stepSchema).min(1) }),
+});
+export type ContactPage = z.infer<typeof contactPageSchema>;
+
+export const careersPageSchema = z.object({
+  meta: metaSchema,
+  hero: sectionIntroSchema.extend({ image: imageRefSchema }),
+  why: sectionIntroSchema.extend({ items: z.array(featureSchema) }),
+  roles: sectionIntroSchema.extend({
+    items: z.array(z.object({ title: z.string(), body: z.string() })),
+  }),
+  process: sectionIntroSchema.extend({ steps: z.array(stepSchema) }),
+  form: sectionIntroSchema,
+});
+export type CareersPage = z.infer<typeof careersPageSchema>;

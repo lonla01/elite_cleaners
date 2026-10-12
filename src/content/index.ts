@@ -4,15 +4,22 @@ import type { Locale } from "@/config/locales";
 import { readContent } from "./source/fs";
 import {
   aboutPageSchema,
+  areasPageSchema,
+  careersPageSchema,
+  communeSchema,
+  contactPageSchema,
+  legalPageSchema,
   homePageSchema,
   howItWorksPageSchema,
   serviceCategorySchema,
   serviceSchema,
   servicesPageSchema,
   testimonialSchema,
+  testimonialsPageSchema,
   type ServiceCategoryId,
 } from "./schemas";
 import serviceIds from "../../content/services.json";
+import communeIds from "../../content/communes.json";
 
 export type * from "./schemas";
 
@@ -58,6 +65,39 @@ export function getServicesPage(locale: Locale) {
   return readContent("pages/services", locale, servicesPageSchema);
 }
 
-export function listTestimonials(locale: Locale) {
-  return readContent("testimonials", locale, z.array(testimonialSchema));
+export async function listTestimonials(locale: Locale, limit?: number) {
+  const all = await readContent("testimonials", locale, z.array(testimonialSchema));
+  return limit ? all.slice(0, limit) : all;
+}
+
+export function getTestimonialsPage(locale: Locale) {
+  return readContent("pages/testimonials", locale, testimonialsPageSchema);
+}
+
+/** Communes and quarters with a local page, in the order of content/communes.json. */
+export function listCommunes(locale: Locale) {
+  return Promise.all(communeIds.map((id) => readContent(`communes/${id}`, locale, communeSchema)));
+}
+
+export async function getCommuneBySlug(slug: string, locale: Locale) {
+  return (await listCommunes(locale)).find((c) => c.slug === slug);
+}
+
+export function getAreasPage(locale: Locale) {
+  return readContent("pages/areas", locale, areasPageSchema);
+}
+
+export type LegalPageId = "privacy" | "cookies" | "legal-notice";
+
+/** Legal pages. Their text contains company tokens; render through `fillTokens()`. */
+export function getLegalPage(id: LegalPageId, locale: Locale) {
+  return readContent(`pages/${id}`, locale, legalPageSchema);
+}
+
+export function getContactPage(locale: Locale) {
+  return readContent("pages/contact", locale, contactPageSchema);
+}
+
+export function getCareersPage(locale: Locale) {
+  return readContent("pages/careers", locale, careersPageSchema);
 }

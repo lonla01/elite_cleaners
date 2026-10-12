@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "title": "Privacy policy",
+    "description": "How {companyName} collects, uses and protects personal data, and how to exercise your rights under the GDPR."
+  },
+  "title": "Privacy policy",
+  "updated": "2026-10-12",
+  "reviewed": false,
+  "intro": "This policy explains what personal data {legalName} collects through this website and in the course of its services, why, for how long, and the rights you have under the General Data Protection Regulation (GDPR) and Luxembourg law.",
+  "sections": [
+    {
+      "id": "controller",
+      "title": "Who is responsible for your data",
+      "paragraphs": [
+        "The data controller is {legalName}, {address}, registered with the Luxembourg Trade and Companies Register (RCS) under number {rcs}.",
+        "For any question about your personal data or to exercise your rights, write to {email} or to the postal address above."
+      ]
+    },
+    {
+      "id": "data",
+      "title": "The data we collect",
+      "paragraphs": ["We only collect the data we need for the purposes described below."],
+      "list": [
+        "Quote and contact requests: your name, email address, phone number, company, location, the service you are interested in, your preferred contact method and your message.",
+        "Job applications: your name, email address, phone number, languages, availability, your CV if you choose to send one, and your message.",
+        "Clients: contact details, service addresses, access instructions you choose to give us, contract details, quotes, invoices and payments.",
+        "Website use: technical data such as your IP address and browser type, processed for security and to prevent abuse of our forms. IP addresses used for rate limiting are stored only as a one-way hash, for at most 24 hours.",
+        "Audience measurement: only if you accept it, anonymous and aggregated statistics on page visits (see our cookie policy)."
+      ]
+    },
+    {
+      "id": "purposes",
+      "title": "Why we use it, and on what legal basis",
+      "list": [
+        "To answer your request and prepare a quote: steps taken at your request before entering into a contract (Article 6(1)(b) GDPR).",
+        "To deliver our services, invoice them and manage our relationship with clients: performance of a contract (Article 6(1)(b)).",
+        "To keep accounting and tax records: compliance with our legal obligations (Article 6(1)(c)).",
+        "To assess job applications: steps taken at your request before entering into an employment contract (Article 6(1)(b)).",
+        "To secure the website, prevent spam and abuse, and keep a record of the emails we send: our legitimate interests (Article 6(1)(f)).",
+        "To measure audience: your consent (Article 6(1)(a)), which you can withdraw at any time."
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "How long we keep it",
+      "list": [
+        "Quote and contact requests that do not lead to a contract: [24 months] after our last exchange.",
+        "Job applications: [6 months] after the end of the recruitment process, unless you agree that we keep your application longer for future openings.",
+        "Client records: for the duration of the contract, then for the limitation periods applicable to contractual claims.",
+        "Invoices and accounting documents: 10 years, as required by Luxembourg law.",
+        "Email logs: [12 months]."
+      ],
+      "after": ["When a retention period ends, the data is deleted or anonymised."]
+    },
+    {
+      "id": "recipients",
+      "title": "Who receives it",
+      "paragraphs": [
+        "Your data is processed by our staff who need it for their work. We do not sell your data or use it for advertising.",
+        "We use service providers who process data on our behalf, under contracts that require them to protect it:"
+      ],
+      "list": [
+        "Website and database hosting: [Hosting provider], with servers located in the European Union.",
+        "File storage (CVs and documents): [Storage provider], European Union.",
+        "Email delivery: [Email provider].",
+        "Audience measurement, with your consent: [Analytics provider]."
+      ],
+      "after": [
+        "If a provider processes data outside the European Economic Area, we make sure appropriate safeguards are in place, such as the European Commission's standard contractual clauses or an adequacy decision."
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "Your rights",
+      "paragraphs": ["You have the right to:"],
+      "list": [
+        "access your personal data and receive a copy of it;",
+        "have inaccurate data corrected;",
+        "have your data erased, where the law allows;",
+        "restrict or object to certain processing;",
+        "receive your data in a portable format;",
+        "withdraw your consent at any time, without affecting earlier processing."
+      ],
+      "after": [
+        "To exercise these rights, contact us at {email}. We may ask you to confirm your identity. We reply within one month.",
+        "You can also lodge a complaint with the Luxembourg data protection authority, the Commission nationale pour la protection des données (CNPD), at cnpd.public.lu."
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "paragraphs": [
+        "We protect your data with technical and organisational measures, including encrypted connections, restricted staff access, and confidentiality agreements signed by all employees."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Changes to this policy",
+      "paragraphs": [
+        "We may update this policy. The date at the top of the page shows when it last changed. If the change is significant, we will tell our clients directly."
+      ]
+    }
+  ]
+}

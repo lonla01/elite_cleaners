@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Areas we serve in Luxembourg",
+    "description": "Premium home and commercial cleaning in all twelve cantons of the Grand Duchy of Luxembourg, from Luxembourg City and Kirchberg to Esch-sur-Alzette."
+  },
+  "hero": {
+    "eyebrow": "Areas we serve",
+    "title": "Across the Grand Duchy, with the same standards everywhere",
+    "intro": "We work in all twelve cantons of Luxembourg. Wherever you are, you get the same vetted staff, the same written checklist and the same point of contact.",
+    "image": {
+      "key": "areas-hero",
+      "alt": "A residential street in Luxembourg in soft morning light"
+    }
+  },
+  "map": {
+    "eyebrow": "Coverage",
+    "title": "All twelve cantons",
+    "intro": "Our teams are based around the capital and travel throughout the country. Select a highlighted location to see local information.",
+    "label": "Map of Luxembourg's twelve cantons, all of which we serve"
+  },
+  "cantons": {
+    "capellen": "Capellen",
+    "clervaux": "Clervaux",
+    "diekirch": "Diekirch",
+    "echternach": "Echternach",
+    "esch-sur-alzette": "Esch-sur-Alzette",
+    "grevenmacher": "Grevenmacher",
+    "luxembourg": "Luxembourg",
+    "mersch": "Mersch",
+    "redange": "Redange",
+    "remich": "Remich",
+    "vianden": "Vianden",
+    "wiltz": "Wiltz"
+  },
+  "communes": {
+    "eyebrow": "Local pages",
+    "title": "Where we work most often",
+    "intro": "Information for some of the communes and quarters where we look after the most homes and premises. Not listed? We very likely cover you too."
+  },
+  "crossBorder": "Premises just across the border in France, Belgium or Germany can be served on request.",
+  "cta": {
+    "title": "Check availability in your area",
+    "body": "Tell us where your home or premises are, and what you need. We will confirm availability and arrange a consultation.",
+    "primary": { "label": "Request a quote", "href": "/contact" },
+    "secondary": { "label": "Our services", "href": "/services" }
+  }
+}

@@ -33,7 +33,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const [page, categories, testimonials] = await Promise.all([
     getHomePage(locale),
     listServiceCategories(locale),
-    listTestimonials(locale),
+    listTestimonials(locale, 3),
   ]);
 
   return (

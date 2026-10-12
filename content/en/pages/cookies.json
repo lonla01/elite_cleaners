@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Cookie policy",
+    "description": "Which cookies and similar technologies {companyName} uses on this website, and how to manage your choices."
+  },
+  "title": "Cookie policy",
+  "updated": "2026-10-12",
+  "reviewed": false,
+  "intro": "We keep this website as light as possible. No optional cookie or tracking script is used until you have made a choice, and you can change your mind at any time.",
+  "sections": [
+    {
+      "id": "what",
+      "title": "What cookies are",
+      "paragraphs": [
+        "Cookies are small files that a website stores in your browser. Similar technologies, such as local storage, work in the same way. The rules on consent apply to all of them."
+      ]
+    },
+    {
+      "id": "essential",
+      "title": "Strictly necessary",
+      "paragraphs": ["These are needed for the website to work and do not require consent."],
+      "list": [
+        "Your cookie choice: stored in your browser's local storage under the name \"cookie-consent\", for 12 months, so that we do not ask you again on every page.",
+        "Back-office session: a secure cookie set only when our staff sign in to the administration area. Visitors never receive it."
+      ]
+    },
+    {
+      "id": "analytics",
+      "title": "Audience measurement (optional)",
+      "paragraphs": [
+        "If you accept it, we load [Plausible Analytics], a privacy-friendly service hosted in the European Union. It counts page visits anonymously, does not use cookies, does not track you across websites and does not collect personal data.",
+        "We still ask for your consent before loading it, and nothing is loaded if you decline."
+      ]
+    },
+    {
+      "id": "none",
+      "title": "What we do not use",
+      "paragraphs": [
+        "We do not use advertising cookies, social media trackers or cross-site profiling."
+      ]
+    },
+    {
+      "id": "links",
+      "title": "Links to other services",
+      "paragraphs": [
+        "Our WhatsApp button opens WhatsApp, which is operated by a third party under its own privacy and cookie policies."
+      ]
+    },
+    {
+      "id": "choices",
+      "title": "Managing your choice",
+      "paragraphs": [
+        "You can change your choice at any time with the \"Cookie settings\" link at the bottom of every page. You can also clear stored data in your browser settings; we will then ask you again.",
+        "For any question, contact us at {email}."
+      ]
+    }
+  ]
+}

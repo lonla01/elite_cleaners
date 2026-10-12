@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Careers",
+    "description": "Join a cleaning team in Luxembourg that values reliability, respect and care. Stable contracts, training and fixed schedules."
+  },
+  "hero": {
+    "eyebrow": "Careers",
+    "title": "Join a team that takes pride in the details",
+    "intro": "We are always looking for reliable, careful people to look after homes and workplaces across Luxembourg. Experience helps, but attitude matters most.",
+    "image": {
+      "key": "careers-hero",
+      "alt": "Team members preparing for the day in a bright corridor"
+    }
+  },
+  "why": {
+    "eyebrow": "Why join us",
+    "title": "Respect for the people who do the work",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Stable schedules",
+        "body": "Regular clients and fixed time slots, so you can plan your life."
+      },
+      {
+        "icon": "award",
+        "title": "Training",
+        "body": "Paid training on methods, products, materials and safety, from your first week."
+      },
+      {
+        "icon": "users",
+        "title": "A supportive team",
+        "body": "A supervisor you can reach, and colleagues who cover for each other."
+      },
+      {
+        "icon": "shield",
+        "title": "Proper contracts",
+        "body": "Employment contracts under Luxembourg law, with [collective agreement] conditions."
+      }
+    ]
+  },
+  "roles": {
+    "eyebrow": "Roles",
+    "title": "Who we hire",
+    "items": [
+      {
+        "title": "Residential cleaners",
+        "body": "Regular and one-off cleaning in private homes."
+      },
+      {
+        "title": "Housekeepers",
+        "body": "Laundry, ironing and the day-to-day care of private residences."
+      },
+      {
+        "title": "Commercial cleaners",
+        "body": "Offices, practices and public facilities, often early morning or evening."
+      },
+      {
+        "title": "Team leaders and supervisors",
+        "body": "Experienced professionals who train, check quality and support teams."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "How recruitment works",
+    "steps": [
+      {
+        "title": "Apply",
+        "body": "Send the form below. A CV is welcome but not required."
+      },
+      {
+        "title": "Phone call",
+        "body": "If your profile matches an opening, we call you for a short conversation."
+      },
+      {
+        "title": "Interview",
+        "body": "We meet in person, talk about the job and check your documents."
+      },
+      {
+        "title": "Start",
+        "body": "Training, then your first clients with a team leader at your side."
+      }
+    ]
+  },
+  "form": {
+    "title": "Apply now",
+    "intro": "We read every application. Your data is used only for recruitment and kept for a limited time, as explained in our privacy policy."
+  }
+}

@@ -52,7 +52,8 @@
     "closeMenu": "Close menu",
     "menuTitle": "Menu",
     "megaPromoTitle": "Not sure what you need?",
-    "megaPromoBody": "Describe your home or premises and we will recommend the right service."
+    "megaPromoBody": "Describe your home or premises and we will recommend the right service.",
+    "requestQuote": "Request a quote"
   },
   "Carousel": {
     "label": "Featured services",
@@ -90,5 +91,158 @@
     "relatedTitle": "Related services",
     "ctaTitle": "Ready to discuss your requirements?",
     "ctaBody": "Tell us about your home or premises. We reply within one working day with next steps."
+  },
+  "Areas": {
+    "mapAttribution": "Canton boundaries © <link>OpenStreetMap contributors</link>, available under the Open Database Licence.",
+    "cantonsTitle": "Cantons",
+    "canton": "Canton of {name}",
+    "quarterOf": "A quarter of {parent}",
+    "servicesTitle": "Popular services in {name}",
+    "nearbyTitle": "Nearby areas",
+    "faqTitle": "Local questions",
+    "ctaTitle": "Cleaning in {name}",
+    "ctaBody": "Tell us about your home or premises in {name}. We reply within one working day.",
+    "allAreas": "All areas we serve"
+  },
+  "Legal": {
+    "updated": "Last updated {date}",
+    "contents": "Contents",
+    "pendingReview": "This text is a template awaiting review by a legal adviser. Company details in brackets are placeholders."
+  },
+  "Consent": {
+    "title": "Your privacy",
+    "body": "We would like to measure visits anonymously to improve this website. It uses no cookies and no personal data, but we only load it with your agreement. Essential storage is always on. <link>Cookie policy</link>",
+    "accept": "Accept audience measurement",
+    "decline": "Decline",
+    "settings": "Cookie settings",
+    "currentAccepted": "Current choice: audience measurement accepted.",
+    "currentDeclined": "Current choice: audience measurement declined."
+  },
+  "Forms": {
+    "optional": "optional",
+    "submitting": "Sending…",
+    "fields": {
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "company": "Company",
+      "service": "Service",
+      "propertyType": "Type of property",
+      "location": "Commune or postcode",
+      "preferredContact": "How should we contact you?",
+      "message": "Your message",
+      "languages": "Languages you speak",
+      "availability": "Availability",
+      "cv": "CV",
+      "consent": "Privacy"
+    },
+    "hints": {
+      "phone": "Include the country code if you are not in Luxembourg, e.g. +33.",
+      "message": "Size of the premises, how often you need us, any special requirements or access constraints.",
+      "location": "For example Strassen, or L-1234.",
+      "cv": "Optional. PDF or Word, up to 5 MB.",
+      "languages": "Select all that apply."
+    },
+    "options": {
+      "serviceNotSure": "Not sure yet: please advise me",
+      "selectPlaceholder": "Please choose",
+      "propertyType": {
+        "apartment": "Apartment",
+        "house": "House",
+        "office": "Office",
+        "retail": "Shop or hospitality venue",
+        "medical": "Medical or dental practice",
+        "other": "Other"
+      },
+      "preferredContact": {
+        "email": "Email",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp"
+      },
+      "languages": {
+        "lb": "Luxembourgish",
+        "fr": "French",
+        "de": "German",
+        "en": "English",
+        "pt": "Portuguese",
+        "other": "Other"
+      },
+      "availability": {
+        "full-time": "Full-time",
+        "part-time": "Part-time",
+        "mornings": "Mornings",
+        "evenings": "Evenings",
+        "weekends": "Weekends",
+        "flexible": "Flexible"
+      }
+    },
+    "consent": "I have read the <link>privacy policy</link> and agree that my data is used to answer my request.",
+    "consentCareers": "I have read the <link>privacy policy</link> and agree that my application is processed for recruitment purposes.",
+    "errors": {
+      "summary": "Please check the highlighted fields.",
+      "required": "This field is required.",
+      "tooLong": "This is too long.",
+      "email": "Enter a valid email address, like name@example.lu.",
+      "phone": "Enter a valid phone number.",
+      "messageTooShort": "Please tell us a little more (at least 10 characters).",
+      "consent": "Please accept the privacy policy so that we can process your request.",
+      "languages": "Select at least one language.",
+      "cvTooLarge": "The file is larger than 5 MB.",
+      "cvType": "Upload a PDF or Word document.",
+      "invalid": "This value is not valid.",
+      "rateLimited": "Too many attempts. Please wait a few minutes, or call us.",
+      "server": "Something went wrong on our side. Please try again, or contact us by phone or email."
+    }
+  },
+  "Contact": {
+    "formTitle": "Request a quote",
+    "submit": "Send my request",
+    "successTitle": "Thank you, your request is on its way",
+    "successBody": "We have sent a confirmation to your email address and will reply within one working day.",
+    "successUrgent": "Urgent? Call us on {phone}.",
+    "detailsTitle": "Contact details",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "address": "Office",
+    "hours": "Hours"
+  },
+  "Careers": {
+    "formTitle": "Apply",
+    "submit": "Send my application",
+    "successTitle": "Thank you for your application",
+    "successBody": "We have sent a confirmation to your email address. If your profile matches an opening, we will call you to arrange an interview."
+  },
+  "Emails": {
+    "leadConfirmation": {
+      "subject": "We have received your request · {company}",
+      "heading": "Thank you, {name}",
+      "received": "We have received your request and will get back to you within one working day to discuss your needs and, if useful, arrange a visit.",
+      "urgent": "If your request is urgent, you can call us on {phone}.",
+      "summary": "Here is a copy of your request:",
+      "signature": "Kind regards,\nThe {company} team"
+    },
+    "leadNotification": {
+      "subject": "New quote request from {name}",
+      "heading": "New quote request",
+      "intro": "A visitor submitted the contact form on the website ({locale}).",
+      "reference": "Reference",
+      "replyHint": "Reply to this email to answer the visitor directly."
+    },
+    "applicationConfirmation": {
+      "subject": "Your application · {company}",
+      "heading": "Thank you, {name}",
+      "received": "We have received your application.",
+      "next": "We review every application. If your profile matches an opening, we will call you to arrange an interview.",
+      "summary": "Here is a copy of your application:",
+      "signature": "Kind regards,\nThe {company} team"
+    },
+    "applicationNotification": {
+      "subject": "New job application from {name}",
+      "heading": "New job application",
+      "intro": "A candidate applied through the careers page.",
+      "reference": "Reference",
+      "cvHint": "The CV, if any, is stored securely and will be available in the back office."
+    }
   }
 }
