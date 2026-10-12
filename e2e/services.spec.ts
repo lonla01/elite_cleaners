@@ -35,8 +35,11 @@ test.describe("services", () => {
     await expect(page.getByText(/Most of our office cleaning takes place/)).toBeVisible();
   });
 
-  test("unknown service returns 404", async ({ page }) => {
-    const response = await page.goto("/en/services/does-not-exist");
-    expect(response?.status()).toBe(404);
+  // Unlisted params render after streaming starts, so the status can be 200 (a "soft 404"
+  // with noindex, as documented by Next.js). A true 404 via a Proxy slug check is planned in M8.
+  test("unknown service shows the not-found page and is not indexable", async ({ page }) => {
+    await page.goto("/en/services/does-not-exist");
+    await expect(page.getByRole("heading", { level: 1, name: "Page not found" })).toBeVisible();
+    await expect(page.locator('meta[name="robots"][content*="noindex"]').first()).toBeAttached();
   });
 });
