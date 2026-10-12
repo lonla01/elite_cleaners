@@ -7,6 +7,11 @@
  *   only on navy or ink.
  * - ivory and mist are text-safe on navy and ink.
  */
+/* Plain custom properties (not Tailwind theme values). */
+:root {
+  --header-height: 4.5rem;
+}
+
 @theme {
   /* Neutrals (warm) */
   --color-ivory: #f7f4ee;

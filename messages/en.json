@@ -8,17 +8,20 @@
     "skipToContent": "Skip to main content",
     "requestQuote": "Request a quote",
     "callUs": "Call us",
-    "whatsapp": "Message us on WhatsApp",
-    "learnMore": "Learn more"
+    "whatsapp": "WhatsApp",
+    "learnMore": "Learn more",
+    "callUsAt": "Call us at {phone}",
+    "whatsappLabel": "Message us on WhatsApp",
+    "placeholder": "Placeholder",
+    "logoPlaceholder": "Client logo placeholder: {name}",
+    "homeLinkLabel": "{company}, home page",
+    "breadcrumbs": "Breadcrumb",
+    "home": "Home"
   },
   "NotFound": {
     "title": "Page not found",
     "body": "The page you are looking for has moved or no longer exists.",
     "backHome": "Return to the home page"
-  },
-  "Placeholder": {
-    "title": "Site under construction",
-    "body": "The public pages arrive in milestone 2."
   },
   "Styleguide": {
     "title": "Design system",
@@ -34,5 +37,43 @@
   "Admin": {
     "placeholderTitle": "Back office",
     "placeholderBody": "Authentication and the back office arrive in milestone 6."
+  },
+  "Nav": {
+    "main": "Main navigation",
+    "services": "Services",
+    "allServices": "All services",
+    "about": "About",
+    "howItWorks": "How it works",
+    "areas": "Areas we serve",
+    "testimonials": "Testimonials",
+    "careers": "Careers",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menuTitle": "Menu",
+    "megaPromoTitle": "Not sure what you need?",
+    "megaPromoBody": "Describe your home or premises and we will recommend the right service."
+  },
+  "Carousel": {
+    "label": "Featured services",
+    "slide": "Slide {current} of {total}",
+    "goTo": "Show slide {index}: {title}",
+    "previous": "Previous slide",
+    "next": "Next slide"
+  },
+  "Footer": {
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie policy",
+    "legalNotice": "Legal notice",
+    "copyright": "© {year} {legalName}. All rights reserved.",
+    "registration": "RCS {rcs} · VAT {vat}",
+    "coverage": "Serving all twelve cantons of the Grand Duchy of Luxembourg."
+  },
+  "Home": {
+    "processStep": "Step {number}"
   }
 }
