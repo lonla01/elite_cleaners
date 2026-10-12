@@ -50,6 +50,19 @@ src/server/            Server-only code: db, auth, billing, email, storage
 src/styles/            Tailwind theme and design tokens
 ```
 
+## Editing content
+
+Public page copy lives in `content/en/` as JSON (home, about, how it works, service
+categories, services, testimonials). UI strings such as menus, buttons and labels live in
+`messages/en.json`. Content is validated at build time, so a typo in a field name fails the
+build with a clear message. To replace an image, see `PLACEHOLDERS.md`.
+
+Environments:
+
+- Staging (from `main`): https://web-staging-995d.up.railway.app
+- Production (from `production`): https://web-production-d8b3.up.railway.app (until the custom
+  domain is set up)
+
 ## Internationalisation
 
 - Locales: `en` (enabled), plus `fr`, `de` and `lb` (configured but disabled). URLs are always

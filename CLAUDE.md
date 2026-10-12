@@ -100,6 +100,20 @@ hosted on Railway. Repo: https://github.com/lonla01/elite_cleaners
 - Admin UI is English-only (still uses message keys under `Admin.*`).
 - Design for text 40 % longer than English: no fixed-width buttons, no nowrap labels.
 
+## Content and components
+
+- Content files live in `content/<locale>/*.json`, validated by the Zod schemas in
+  `src/content/schemas.ts`. A missing locale file falls back to English. The list of services
+  is in `content/services.json`, so adding a service means adding its id there plus one JSON file.
+- Links in content are route keys plus params (`{ "href": "/services/[slug]", "params": {...} }`),
+  never raw URLs. Images are registry keys (`src/content/images.ts`) plus translatable alt text.
+- `@/components/site` (the barrel file) includes async server components. Client components
+  must import sibling files directly, never the barrel.
+- Every page sets metadata through `buildMetadata()` (`src/i18n/metadata.ts`), which adds the
+  canonical URL and hreflang alternates.
+- In e2e tests, query headings by role. Next 16 keeps the previous page in the DOM, hidden, after
+  client navigation, so raw `h1` selectors can match twice.
+
 ## UI
 
 - Design tokens live in `src/styles/tokens.css` (Tailwind `@theme`). The public site uses the
