@@ -95,6 +95,11 @@ each of them:
 - a bucket (S3-compatible) for uploads and generated PDFs;
 - the variables listed in `.env.example`, with `APP_ENV=staging` or `APP_ENV=production`.
 
+Check the service settings in each environment as well: Railway did not apply the
+`railway.json` pre-deploy command to this project, so set **Pre-deploy command**
+`pnpm db:migrate`, **Start command** `pnpm start` and **Healthcheck path** `/api/health`
+explicitly. Without the pre-deploy command, new tables are never created and forms fail.
+
 ### Release flow
 
 - `main` → **staging**. Every merge to `main` deploys to staging.
