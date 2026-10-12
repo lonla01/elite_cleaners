@@ -23,11 +23,12 @@ export function buildMetadata({
   description,
 }: {
   locale: Locale;
-  href: Href | AppPathname;
+  /** The page's route, or one per locale when slugs are translated. */
+  href: Href | AppPathname | ((locale: Locale) => Href);
   title: string;
   description: string;
 }): Metadata {
-  const url = (l: Locale) => absoluteUrl(l, href);
+  const url = (l: Locale) => absoluteUrl(l, typeof href === "function" ? href(l) : href);
   const languages: Record<string, string> = Object.fromEntries(
     routing.locales.map((l) => [localeDefinitions[l].hreflang, url(l)]),
   );

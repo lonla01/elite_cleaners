@@ -2,7 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/config/locales";
-import { getServiceBySlug, getServicesByIds, listServiceCategories, listServices } from "@/content";
+import {
+  getServiceBySlug,
+  getServicesByIds,
+  getSlugMaps,
+  listServiceCategories,
+  listServices,
+} from "@/content";
 import { absoluteUrl, buildMetadata } from "@/i18n/metadata";
 import { routing } from "@/i18n/routing";
 import {
@@ -46,9 +52,10 @@ export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/services/[slug]">): Promise<Metadata> {
   const { locale, service } = await load(params);
+  const slugs = (await getSlugMaps()).services[service.id] ?? {};
   return buildMetadata({
     locale,
-    href: { pathname: "/services/[slug]", params: { slug: service.slug } },
+    href: (l) => ({ pathname: "/services/[slug]", params: { slug: slugs[l] ?? service.slug } }),
     ...service.meta,
   });
 }

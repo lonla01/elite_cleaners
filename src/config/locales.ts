@@ -21,7 +21,7 @@ type LocaleDefinition = {
 
 export const localeDefinitions: Record<Locale, LocaleDefinition> = {
   en: { label: "English", enabled: true, intl: ["en-GB"], hreflang: "en" },
-  fr: { label: "Français", enabled: false, intl: ["fr-LU", "fr"], hreflang: "fr" },
+  fr: { label: "Français", enabled: true, intl: ["fr-LU", "fr"], hreflang: "fr" },
   de: { label: "Deutsch", enabled: false, intl: ["de-LU", "de"], hreflang: "de" },
   lb: { label: "Lëtzebuergesch", enabled: false, intl: ["lb-LU", "lb", "de-LU"], hreflang: "lb" },
 };

@@ -1,20 +1,24 @@
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/config/locales";
-import { listServiceCategories, listServices } from "@/content";
+import { enabledLocales } from "@/config/locales";
+import { getSlugMaps, listServiceCategories, listServices } from "@/content";
 import { getCompany } from "@/server/company";
 import { Container } from "../container";
 import { Brand } from "./brand";
 import { HeaderQuoteButton, MegaMenu } from "./mega-menu";
 import { MobileNav } from "./mobile-nav";
+import { LanguageSwitcher } from "./language-switcher";
 import type { NavCategory } from "./nav-data";
 
 export async function SiteHeader({ locale }: { locale: Locale }) {
-  const [t, company, categories, services] = await Promise.all([
+  const [t, company, categories, services, slugMaps] = await Promise.all([
     getTranslations({ locale, namespace: "Common" }),
     getCompany(),
     listServiceCategories(locale),
     listServices(locale),
+    getSlugMaps(),
   ]);
+  const locales: readonly Locale[] = enabledLocales;
 
   const nav: NavCategory[] = categories.map((c) => ({
     id: c.id,
@@ -31,8 +35,12 @@ export async function SiteHeader({ locale }: { locale: Locale }) {
         <Brand name={company.name} label={t("homeLinkLabel", { company: company.name })} />
         <div className="flex items-center gap-2 lg:gap-6">
           <MegaMenu categories={nav} />
+          <LanguageSwitcher locales={locales} slugMaps={slugMaps} className="hidden lg:block" />
           <HeaderQuoteButton label={t("requestQuote")} />
-          <MobileNav categories={nav} />
+          <MobileNav
+            categories={nav}
+            languageSwitcher={<LanguageSwitcher locales={locales} slugMaps={slugMaps} />}
+          />
         </div>
       </Container>
     </header>

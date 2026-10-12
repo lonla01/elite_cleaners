@@ -2,7 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/config/locales";
-import { getAreasPage, getCommuneBySlug, getServicesByIds, listCommunes } from "@/content";
+import {
+  getAreasPage,
+  getCommuneBySlug,
+  getServicesByIds,
+  getSlugMaps,
+  listCommunes,
+} from "@/content";
 import { buildMetadata } from "@/i18n/metadata";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -44,9 +50,13 @@ export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/areas/[commune]">): Promise<Metadata> {
   const { locale, commune } = await load(params);
+  const slugs = (await getSlugMaps()).communes[commune.id] ?? {};
   return buildMetadata({
     locale,
-    href: { pathname: "/areas/[commune]", params: { commune: commune.slug } },
+    href: (l) => ({
+      pathname: "/areas/[commune]",
+      params: { commune: slugs[l] ?? commune.slug },
+    }),
     ...commune.meta,
   });
 }

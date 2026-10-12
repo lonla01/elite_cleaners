@@ -1,6 +1,6 @@
 import "server-only";
 import { z } from "zod";
-import type { Locale } from "@/config/locales";
+import { enabledLocales, type Locale } from "@/config/locales";
 import { readContent } from "./source/fs";
 import {
   aboutPageSchema,
@@ -100,4 +100,22 @@ export function getContactPage(locale: Locale) {
 
 export function getCareersPage(locale: Locale) {
   return readContent("pages/careers", locale, careersPageSchema);
+}
+
+export type SlugMap = Record<string, Partial<Record<Locale, string>>>;
+
+/**
+ * Localised slugs of every service and commune, by id. Used for hreflang alternates and by the
+ * language switcher, since dynamic slugs differ between languages.
+ */
+export async function getSlugMaps(): Promise<{ services: SlugMap; communes: SlugMap }> {
+  const services: SlugMap = {};
+  const communes: SlugMap = {};
+  await Promise.all(
+    enabledLocales.map(async (locale) => {
+      for (const s of await listServices(locale)) (services[s.id] ??= {})[locale] = s.slug;
+      for (const c of await listCommunes(locale)) (communes[c.id] ??= {})[locale] = c.slug;
+    }),
+  );
+  return { services, communes };
 }

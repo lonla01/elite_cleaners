@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -8,7 +8,13 @@ import { Link } from "@/i18n/navigation";
 import { buttonVariants } from "../button";
 import { primaryLinks, type NavCategory } from "./nav-data";
 
-export function MobileNav({ categories }: { categories: NavCategory[] }) {
+export function MobileNav({
+  categories,
+  languageSwitcher,
+}: {
+  categories: NavCategory[];
+  languageSwitcher?: ReactNode;
+}) {
   const t = useTranslations("Nav");
   const tc = useTranslations("Common");
   const [open, setOpen] = useState(false);
@@ -97,7 +103,8 @@ export function MobileNav({ categories }: { categories: NavCategory[] }) {
               ))}
             </ul>
           </nav>
-          <div className="border-t border-ink/10 p-6">
+          <div className="space-y-4 border-t border-ink/10 p-6">
+            {languageSwitcher}
             <Link
               href="/contact"
               onClick={close}

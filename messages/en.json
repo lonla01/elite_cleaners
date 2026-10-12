@@ -53,7 +53,8 @@
     "menuTitle": "Menu",
     "megaPromoTitle": "Not sure what you need?",
     "megaPromoBody": "Describe your home or premises and we will recommend the right service.",
-    "requestQuote": "Request a quote"
+    "requestQuote": "Request a quote",
+    "language": "Language"
   },
   "Carousel": {
     "label": "Featured services",
