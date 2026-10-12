@@ -1,0 +1,104 @@
+{
+  "id": "end-of-tenancy-cleaning",
+  "slug": "nettoyage-fin-de-bail",
+  "category": "residential",
+  "order": 30,
+  "title": "Nettoyage de fin de bail",
+  "summary": "Un nettoyage d’entrée ou de sortie de logement qui le prépare à l’état des lieux.",
+  "meta": {
+    "title": "Nettoyage de fin de bail au Luxembourg",
+    "description": "Nettoyage de sortie et d’entrée dans les lieux au Luxembourg, planifié avant l’état des lieux. Une liste de contrôle complète pour locataires, propriétaires et agences."
+  },
+  "hero": {
+    "intro": "Un nettoyage détaillé, planifié en fonction de la remise des clés, pour que le logement soit prêt pour l’état des lieux et le prochain occupant. Pour les locataires, les propriétaires et les agences immobilières.",
+    "image": {
+      "key": "service-end-of-tenancy-cleaning",
+      "alt": "Un appartement vide et lumineux aux sols propres, prêt pour la remise des clés"
+    }
+  },
+  "included": {
+    "intro": "Nous traitons un logement vide pièce par pièce, selon une liste établie à partir des points habituellement contrôlés lors de l’état des lieux.",
+    "groups": [
+      {
+        "title": "Cuisine",
+        "items": [
+          "Four, plaque, hotte et filtres dégraissés",
+          "Réfrigérateur et congélateur nettoyés à l’intérieur, une fois dégivrés",
+          "Tous les placards et tiroirs, intérieur et extérieur",
+          "Évier, robinetterie et carrelage détartrés"
+        ]
+      },
+      {
+        "title": "Salles de bains",
+        "items": [
+          "Sanitaires nettoyés, désinfectés et détartrés",
+          "Parois de douche, miroirs et carrelage lustrés",
+          "Résidus éliminés des siphons et trop-pleins",
+          "Grilles de ventilation et d’extraction nettoyées"
+        ]
+      },
+      {
+        "title": "Toutes les pièces",
+        "items": [
+          "Vitres intérieures, cadres, rebords et volets roulants",
+          "Portes, encadrements, poignées, interrupteurs et prises",
+          "Radiateurs, plinthes et placards intégrés",
+          "Sols aspirés et lavés, coins et bordures compris",
+          "Balcon ou terrasse balayé et essuyé"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Sortie des lieux",
+        "body": "Planifié dans les jours qui précèdent votre rendez-vous de remise des clés."
+      },
+      {
+        "title": "Entrée dans les lieux",
+        "body": "Un logement impeccable avant l’arrivée de vos meubles."
+      },
+      {
+        "title": "Entre deux locataires",
+        "body": "Pour les propriétaires et les agences, coordonné avec vos dates d’état des lieux."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "key",
+      "title": "Locataires",
+      "body": "Rendez les clés en toute sérénité, sans passer vos derniers jours à frotter."
+    },
+    {
+      "icon": "building",
+      "title": "Propriétaires",
+      "body": "Un bien prêt à être visité et reloué sans attendre."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Agences immobilières et de location",
+      "body": "Un partenaire fiable pour vos remises de clés régulières dans tout le pays."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Garantissez-vous la restitution de ma garantie locative ?",
+      "answer": "Aucune entreprise de nettoyage ne peut garantir le résultat d’un état des lieux, qui porte aussi sur l’usure et les dégâts. Si l’état des lieux relève un point lié à notre nettoyage, prévenez-nous sous 48 heures et nous reviendrons le reprendre."
+    },
+    {
+      "question": "Le logement doit-il être vide ?",
+      "answer": "Oui, idéalement. Un logement vide nous permet de nettoyer l’intérieur de chaque placard et sous chaque surface. Si des meubles restent sur place, indiquez-le lors de la réservation."
+    },
+    {
+      "question": "Pouvez-vous suivre la liste de contrôle de mon agence ?",
+      "answer": "Oui. Envoyez-la-nous avant le passage et nous la suivrons en complément de la nôtre."
+    },
+    {
+      "question": "Combien de temps à l’avance faut-il réserver ?",
+      "answer": "Une à deux semaines avant la remise des clés est idéal, surtout en fin de mois, lorsque la demande est la plus forte."
+    }
+  ],
+  "related": ["deep-cleaning", "carpet-upholstery-care", "window-cleaning"]
+}

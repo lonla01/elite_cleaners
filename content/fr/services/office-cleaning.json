@@ -1,0 +1,107 @@
+{
+  "id": "office-cleaning",
+  "slug": "nettoyage-de-bureaux",
+  "category": "corporate",
+  "order": 10,
+  "title": "Nettoyage de bureaux",
+  "summary": "Nettoyage quotidien ou hebdomadaire des bureaux et salles de réunion, planifié autour de vos horaires de travail.",
+  "meta": {
+    "title": "Nettoyage de bureaux au Luxembourg",
+    "description": "Nettoyage de bureaux au Luxembourg avant ou après les heures de travail : postes de travail, salles de réunion, cuisines et sanitaires selon un cahier des charges documenté."
+  },
+  "hero": {
+    "intro": "Un lieu de travail propre et sain que vos équipes et vos visiteurs remarquent, entretenu discrètement autour de vos horaires par une équipe stable avec un superviseur attitré.",
+    "image": {
+      "key": "service-office-cleaning",
+      "alt": "Un open space moderne, propre et ordonné tôt le matin"
+    }
+  },
+  "included": {
+    "intro": "Nous établissons avec vous un cahier des charges zone par zone, puis nous contrôlons sur cette base.",
+    "groups": [
+      {
+        "title": "Espaces de travail",
+        "items": [
+          "Bureaux et plans de travail essuyés, dans le respect de votre politique de bureau rangé",
+          "Corbeilles vidées et déchets triés par flux",
+          "Sols aspirés et lavés",
+          "Téléphones, claviers et points de contact désinfectés sur demande"
+        ]
+      },
+      {
+        "title": "Salles de réunion et accueil",
+        "items": [
+          "Salles de réunion remises en ordre et tables nettoyées",
+          "Banques d’accueil, portes et cloisons vitrées lustrées",
+          "Hall et entrée toujours présentables pour les visiteurs"
+        ]
+      },
+      {
+        "title": "Cuisines et sanitaires",
+        "items": [
+          "Cuisines, coins café et appareils nettoyés",
+          "Lave-vaisselle rempli et vidé",
+          "Sanitaires nettoyés, désinfectés et réapprovisionnés",
+          "Consommables suivis et recommandés sur demande"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "intro": "Les passages ont lieu en dehors de vos heures de pointe, ou discrètement en journée.",
+    "options": [
+      {
+        "title": "Quotidien",
+        "body": "Pour les bureaux très fréquentés et les locaux qui reçoivent souvent des visiteurs."
+      },
+      {
+        "title": "Deux ou trois fois par semaine",
+        "body": "Pour les petites équipes et les bureaux en mode hybride."
+      },
+      {
+        "title": "Hebdomadaire",
+        "body": "Pour les petits bureaux, studios et cabinets."
+      },
+      {
+        "title": "Agent de propreté sur site",
+        "body": "Un membre de l’équipe présent pendant les heures de bureau."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "building",
+      "title": "Sièges et bureaux d’entreprise",
+      "body": "Sièges sociaux et agences dans tout le Luxembourg."
+    },
+    {
+      "icon": "users",
+      "title": "Coworkings et espaces partagés",
+      "body": "Espaces très fréquentés remis en ordre entre les membres et les événements."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Cabinets professionnels",
+      "body": "Cabinets d’avocats, d’audit et de conseil qui reçoivent des clients chaque jour."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Pouvez-vous intervenir en dehors des heures de bureau ?",
+      "answer": "Oui. La plupart de nos prestations de nettoyage de bureaux ont lieu tôt le matin ou le soir. Clés, badges et codes d’alarme sont gérés selon un protocole écrit."
+    },
+    {
+      "question": "Gardons-nous la même équipe ?",
+      "answer": "Oui. Votre site dispose d’une équipe régulière et d’un superviseur attitré qui effectue les contrôles qualité et reste votre interlocuteur unique."
+    },
+    {
+      "question": "Pouvez-vous fournir les consommables ?",
+      "answer": "Nous pouvons fournir et réapprovisionner papier, savon et sacs-poubelle, facturés mensuellement aux tarifs convenus, ou utiliser les fournitures que vous achetez."
+    },
+    {
+      "question": "Quel délai faut-il pour démarrer ?",
+      "answer": "Après la visite et le devis, nous pouvons généralement commencer sous deux semaines. Un démarrage urgent peut être étudié."
+    }
+  ],
+  "related": ["financial-institutions", "disinfection-sanitisation", "commercial-post-construction"]
+}

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Notre méthode",
+    "description": "De la première consultation aux contrôles qualité réguliers : comment nous concevons et assurons un service de nettoyage sur mesure pour votre logement ou vos locaux au Luxembourg."
+  },
+  "hero": {
+    "eyebrow": "Notre méthode",
+    "title": "Un service pensé pour vous, puis tenu dans la durée",
+    "intro": "Pas de formule standard, pas de surprise. Nous prenons le temps de comprendre ce qui compte pour vous, puis nous le faisons de la même manière à chaque passage.",
+    "image": {
+      "key": "how-it-works-hero",
+      "alt": "Une conseillère prenant des notes lors d’une visite dans une résidence privée"
+    }
+  },
+  "steps": {
+    "eyebrow": "Quatre étapes",
+    "title": "Du premier appel à une routine durable",
+    "items": [
+      {
+        "title": "Consultation",
+        "body": "Un bref appel, puis une visite de votre logement ou de vos locaux au moment qui vous convient.",
+        "points": [
+          "Nous évaluons les surfaces, les matériaux et les exigences particulières",
+          "Nous abordons l’accès, les clés, les alarmes et les protocoles de sécurité",
+          "Sans engagement et sans frais pour la visite"
+        ]
+      },
+      {
+        "title": "Plan sur mesure",
+        "body": "Sous quelques jours ouvrables, vous recevez une proposition écrite.",
+        "points": [
+          "Périmètre et liste de contrôle détaillés, pièce par pièce ou zone par zone",
+          "Fréquence, jour et créneau horaire recommandés",
+          "Un devis clair en euros, hors TVA et TVA comprise"
+        ]
+      },
+      {
+        "title": "Réalisation",
+        "body": "Votre intervenant ou votre équipe attitrée commence à la date convenue.",
+        "points": [
+          "Les mêmes personnes, à la même heure, à chaque passage régulier",
+          "Des produits écoresponsables adaptés à chaque surface",
+          "Clés et badges gérés selon un protocole écrit"
+        ]
+      },
+      {
+        "title": "Suivi",
+        "body": "Nous faisons régulièrement le point et adaptons le service à l’évolution de vos besoins.",
+        "points": [
+          "Visites de contrôle par un superviseur",
+          "Un interlocuteur unique pour toute demande ou modification",
+          "Remplacements pendant les congés et absences prévus à l’avance"
+        ]
+      }
+    ]
+  },
+  "promises": {
+    "eyebrow": "Ce qui vous attend",
+    "title": "Les détails qui font la différence",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Même intervenant, même créneau",
+        "body": "Les clients réguliers gardent la même personne de confiance, à jour et heure fixes."
+      },
+      {
+        "icon": "key",
+        "title": "Gestion sécurisée des clés",
+        "body": "Clés codées et remises signées. Vos clés ne portent jamais votre adresse."
+      },
+      {
+        "icon": "message",
+        "title": "Un interlocuteur unique",
+        "body": "Un coordinateur attitré qui connaît votre logement ou vos locaux et vous répond rapidement."
+      },
+      {
+        "icon": "shield",
+        "title": "Assurés et responsables",
+        "body": "Chaque passage est couvert par notre assurance responsabilité civile professionnelle."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Dois-je être présent lors de la consultation ?",
+        "answer": "Idéalement oui, ou une personne qui peut nous faire visiter les lieux. La visite dure généralement de 30 à 45 minutes."
+      },
+      {
+        "question": "Que se passe-t-il lorsque mon intervenant habituel est en congé ?",
+        "answer": "Nous vous prévenons à l’avance et envoyons un remplaçant formé, informé de votre liste de contrôle. Vous pouvez aussi choisir de suspendre le service."
+      },
+      {
+        "question": "Apportez-vous vos produits et votre matériel ?",
+        "answer": "Oui. Nous apportons des produits et du matériel professionnels et écoresponsables. Si vous préférez des produits précis pour certaines surfaces, nous les utilisons volontiers."
+      },
+      {
+        "question": "Quelles zones couvrez-vous ?",
+        "answer": "Nous intervenons dans tout le Grand-Duché, dans les douze cantons. Les adresses frontalières peuvent être étudiées sur demande."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Commençons par en parler",
+    "body": "Dites-nous ce dont vous avez besoin. Nous organiserons une consultation au moment qui vous convient.",
+    "primary": {
+      "label": "Demander un devis",
+      "href": "/contact"
+    }
+  }
+}

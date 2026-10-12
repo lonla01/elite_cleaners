@@ -1,0 +1,89 @@
+{
+  "id": "window-cleaning",
+  "slug": "nettoyage-vitres",
+  "category": "residential",
+  "order": 50,
+  "title": "Nettoyage des vitres",
+  "summary": "Fenêtres, cadres, vérandas et cloisons vitrées sans traces, à l’intérieur comme à l’extérieur.",
+  "meta": {
+    "title": "Nettoyage des vitres au Luxembourg",
+    "description": "Nettoyage des vitres sans traces au Luxembourg : fenêtres, cadres, volets, vérandas, jardins d’hiver et cloisons vitrées, à l’intérieur comme à l’extérieur."
+  },
+  "hero": {
+    "intro": "Des vitres claires et sans traces, à l’intérieur comme à l’extérieur, avec les cadres, rebords et volets nettoyés au passage. Pour les logements, les vérandas et les intérieurs vitrés.",
+    "image": {
+      "key": "service-window-cleaning",
+      "alt": "Le soleil à travers de grandes baies vitrées impeccables"
+    }
+  },
+  "included": {
+    "groups": [
+      {
+        "title": "Vitres",
+        "items": [
+          "Faces intérieures et extérieures des fenêtres accessibles",
+          "Portes-fenêtres, vérandas et panneaux de jardin d’hiver",
+          "Garde-corps vitrés, cloisons et parois de douche sur demande",
+          "Fenêtres de toit accessibles en toute sécurité depuis l’intérieur"
+        ]
+      },
+      {
+        "title": "Cadres et équipements",
+        "items": [
+          "Cadres, joints et rebords essuyés",
+          "Volets roulants et stores dépoussiérés ou lavés sur demande",
+          "Moustiquaires retirées, rincées et reposées lorsque c’est possible"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "intro": "Les vitres restent propres plus longtemps avec un rythme régulier, surtout pendant la saison des pollens.",
+    "options": [
+      {
+        "title": "Ponctuel",
+        "body": "Avant un événement, après l’hiver ou après des travaux."
+      },
+      {
+        "title": "Trimestriel",
+        "body": "Quatre passages par an suffisent à la plupart des logements."
+      },
+      {
+        "title": "Mensuel",
+        "body": "Pour les grandes surfaces vitrées, les vérandas ou les logements proches d’axes très fréquentés."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "home",
+      "title": "Logements très vitrés",
+      "body": "Baies vitrées, vérandas et jardins d’hiver qui méritent de briller."
+    },
+    {
+      "icon": "building",
+      "title": "Propriétaires d’appartements",
+      "body": "Des fenêtres et vitres de balcon difficiles à atteindre en toute sécurité."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Clients réguliers",
+      "body": "Un simple complément à votre planning d’entretien."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Nettoyez-vous les vitres en hauteur ?",
+      "answer": "Nous nettoyons ce qui peut être atteint en sécurité depuis le sol, depuis l’intérieur ou avec des échelles et perches adaptées. Pour les façades plus hautes, nous organisons un équipement d’accès spécialisé et l’indiquons dans le devis."
+    },
+    {
+      "question": "Que se passe-t-il s’il pleut ?",
+      "answer": "Une pluie légère n’affecte pas le résultat. En cas de forte pluie ou de gel, nous reportons le travail extérieur sans frais."
+    },
+    {
+      "question": "Nettoyez-vous aussi les cadres ?",
+      "answer": "Oui. Les cadres et rebords sont toujours inclus. Les volets, stores et moustiquaires peuvent être ajoutés."
+    }
+  ],
+  "related": ["regular-home-cleaning", "deep-cleaning", "post-renovation-cleaning"]
+}

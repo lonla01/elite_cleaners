@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Services de nettoyage au Luxembourg",
+    "description": "Nettoyage résidentiel, intendance et nettoyage professionnel dans tout le Luxembourg. Chaque service est sur mesure, chiffré individuellement et assuré par du personnel vérifié."
+  },
+  "hero": {
+    "eyebrow": "Nos services",
+    "title": "Chaque service, adapté au lieu et aux personnes qui y vivent",
+    "intro": "Logements, résidences, bureaux et sites sensibles demandent chacun une approche différente. Choisissez un service pour découvrir ce qu’il comprend, ou demandez-nous conseil.",
+    "image": {
+      "key": "services-hero",
+      "alt": "Du matériel de nettoyage professionnel soigneusement rangé dans une entrée lumineuse"
+    }
+  },
+  "cta": {
+    "title": "Vous ne savez pas quel service choisir ?",
+    "body": "Présentez-nous votre logement ou vos locaux. Nous vous recommanderons la bonne combinaison de services et vous préparerons un devis écrit.",
+    "primary": {
+      "label": "Demander un devis",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "Notre méthode",
+      "href": "/how-it-works"
+    }
+  }
+}

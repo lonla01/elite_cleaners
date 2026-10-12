@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "Politique en matière de cookies",
+    "description": "Les cookies et technologies similaires utilisés sur le site de {companyName}, et comment gérer vos choix."
+  },
+  "title": "Politique en matière de cookies",
+  "updated": "2026-10-12",
+  "reviewed": false,
+  "intro": "Nous gardons ce site aussi léger que possible. Aucun cookie ni script de suivi facultatif n’est utilisé tant que vous n’avez pas fait votre choix, et vous pouvez changer d’avis à tout moment.",
+  "sections": [
+    {
+      "id": "definition",
+      "title": "Qu’est-ce qu’un cookie ?",
+      "paragraphs": [
+        "Les cookies sont de petits fichiers qu’un site enregistre dans votre navigateur. Les technologies similaires, comme le stockage local, fonctionnent de la même manière. Les règles relatives au consentement s’appliquent à toutes."
+      ]
+    },
+    {
+      "id": "essentiels",
+      "title": "Strictement nécessaires",
+      "paragraphs": [
+        "Ils sont indispensables au fonctionnement du site et ne requièrent pas de consentement."
+      ],
+      "list": [
+        "Votre choix en matière de cookies : enregistré dans le stockage local de votre navigateur sous le nom « cookie-consent », pendant 12 mois, afin de ne pas vous le redemander à chaque page.",
+        "Session d’administration : un cookie sécurisé, déposé uniquement lorsque notre personnel se connecte à l’espace d’administration. Les visiteurs ne le reçoivent jamais."
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Mesure d’audience (facultative)",
+      "paragraphs": [
+        "Si vous l’acceptez, nous chargeons [Plausible Analytics], un service respectueux de la vie privée hébergé dans l’Union européenne. Il compte les visites de façon anonyme, n’utilise pas de cookies, ne vous suit pas d’un site à l’autre et ne collecte aucune donnée personnelle.",
+        "Nous vous demandons tout de même votre consentement avant de le charger, et rien n’est chargé si vous refusez."
+      ]
+    },
+    {
+      "id": "exclus",
+      "title": "Ce que nous n’utilisons pas",
+      "paragraphs": [
+        "Nous n’utilisons ni cookies publicitaires, ni traceurs de réseaux sociaux, ni profilage entre sites."
+      ]
+    },
+    {
+      "id": "liens",
+      "title": "Liens vers d’autres services",
+      "paragraphs": [
+        "Notre bouton WhatsApp ouvre WhatsApp, service exploité par un tiers selon ses propres politiques de confidentialité et de cookies."
+      ]
+    },
+    {
+      "id": "choix",
+      "title": "Gérer votre choix",
+      "paragraphs": [
+        "Vous pouvez modifier votre choix à tout moment grâce au lien « Paramètres des cookies » en bas de chaque page. Vous pouvez aussi effacer les données enregistrées dans les réglages de votre navigateur ; nous vous redemanderons alors votre choix.",
+        "Pour toute question, contactez-nous à {email}."
+      ]
+    }
+  ]
+}

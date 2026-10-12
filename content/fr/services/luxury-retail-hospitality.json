@@ -1,0 +1,96 @@
+{
+  "id": "luxury-retail-hospitality",
+  "slug": "boutiques-de-luxe-et-hotellerie",
+  "category": "corporate",
+  "order": 50,
+  "title": "Boutiques de luxe & hôtellerie",
+  "summary": "Boutiques, showrooms et espaces hôteliers immaculés, avant l’ouverture ou après la fermeture.",
+  "meta": {
+    "title": "Nettoyage pour boutiques de luxe et hôtellerie au Luxembourg",
+    "description": "Boutiques, showrooms, restaurants et espaces hôteliers impeccables au Luxembourg, nettoyés avant l’ouverture ou après la fermeture, dans le respect des matériaux nobles."
+  },
+  "hero": {
+    "intro": "Dans une boutique, un showroom ou un hall d’hôtel, le cadre fait partie de l’expérience. Nous le gardons irréprochable avant l’ouverture de vos portes, avec soin pour chaque matériau noble.",
+    "image": {
+      "key": "service-luxury-retail-hospitality",
+      "alt": "L’intérieur élégant d’une boutique aux sols lustrés et aux vitrines en verre"
+    }
+  },
+  "included": {
+    "groups": [
+      {
+        "title": "Espaces clients",
+        "items": [
+          "Surfaces de vente, cabines d’essayage et salons",
+          "Vitrines, miroirs et verre lustrés sans traces",
+          "Entrées, devantures et quincaillerie de porte",
+          "Matériaux nobles tels que marbre, laiton, cuir et laque entretenus"
+        ]
+      },
+      {
+        "title": "Espaces hôteliers",
+        "items": [
+          "Halls, bars et salles de restaurant",
+          "Salles de réception et d’événements remises en ordre",
+          "Sanitaires clients finis au standard hôtelier"
+        ]
+      },
+      {
+        "title": "Arrière-boutique",
+        "items": [
+          "Réserves, bureaux et espaces du personnel",
+          "Déchets et recyclage gérés",
+          "Consommables réapprovisionnés"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Chaque jour, avant l’ouverture",
+        "body": "Chaque matin, terminé avant l’arrivée du premier client."
+      },
+      {
+        "title": "Après la fermeture",
+        "body": "Nettoyage en soirée ou de nuit, lorsque les lieux sont vides."
+      },
+      {
+        "title": "Événements et lancements",
+        "body": "Préparation et remise en état autour des inaugurations, lancements et événements privés."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "store",
+      "title": "Boutiques de luxe",
+      "body": "Maisons de mode, de joaillerie et d’horlogerie."
+    },
+    {
+      "icon": "star",
+      "title": "Showrooms et galeries",
+      "body": "Automobile, design et art, là où la présentation fait tout."
+    },
+    {
+      "icon": "users",
+      "title": "Hôtels et restaurants",
+      "body": "Espaces publics et salles de restaurant toujours impeccables."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Pouvez-vous intervenir en dehors des heures d’ouverture ?",
+      "answer": "Oui. Nous planifions le nettoyage avant l’ouverture, après la fermeture ou de nuit, pour que vos clients ne voient jamais le travail en cours."
+    },
+    {
+      "question": "Savez-vous entretenir le marbre et les autres surfaces délicates ?",
+      "answer": "Nos équipes sont formées à identifier les matériaux et à utiliser des produits adaptés. Pour les travaux de restauration comme le polissage du marbre, nous faisons appel à des partenaires spécialisés."
+    },
+    {
+      "question": "Pouvez-vous accompagner un événement à bref délai ?",
+      "answer": "Selon nos disponibilités, oui. Contactez-nous le plus tôt possible et nous confirmerons l’équipe et les horaires."
+    }
+  ],
+  "related": ["office-cleaning", "window-cleaning", "carpet-upholstery-care"]
+}

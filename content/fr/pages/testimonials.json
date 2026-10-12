@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Témoignages clients",
+    "description": "Ce que disent les particuliers, les familles et les entreprises du Luxembourg qui travaillent avec nous."
+  },
+  "hero": {
+    "eyebrow": "Témoignages",
+    "title": "Avec les mots de nos clients",
+    "intro": "Nous ne publions un avis qu’avec l’accord écrit du client, et sans jamais en modifier le sens.",
+    "image": {
+      "key": "testimonials-hero",
+      "alt": "Un intérieur calme et impeccable dans la lumière de fin d’après-midi"
+    }
+  },
+  "note": "Les témoignages sont publiés avec l’accord écrit de chaque client. Certains clients préfèrent n’être identifiés que par leurs initiales ou par le type de lieu.",
+  "cta": {
+    "title": "Faites vous-même la différence",
+    "body": "Présentez-nous votre logement ou vos locaux et nous organiserons une consultation au moment qui vous convient.",
+    "primary": {
+      "label": "Demander un devis",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "Notre méthode",
+      "href": "/how-it-works"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Zones desservies au Luxembourg",
+    "description": "Nettoyage haut de gamme pour particuliers et professionnels dans les douze cantons du Grand-Duché de Luxembourg, de Luxembourg-Ville et du Kirchberg à Esch-sur-Alzette."
+  },
+  "hero": {
+    "eyebrow": "Zones desservies",
+    "title": "Dans tout le Grand-Duché, avec les mêmes exigences partout",
+    "intro": "Nous intervenons dans les douze cantons du Luxembourg. Où que vous soyez, vous bénéficiez du même personnel vérifié, de la même liste écrite et du même interlocuteur.",
+    "image": {
+      "key": "areas-hero",
+      "alt": "Une rue résidentielle au Luxembourg dans la douce lumière du matin"
+    }
+  },
+  "map": {
+    "eyebrow": "Couverture",
+    "title": "Les douze cantons",
+    "intro": "Nos équipes sont basées autour de la capitale et se déplacent dans tout le pays. Sélectionnez un lieu en surbrillance pour consulter les informations locales.",
+    "label": "Carte des douze cantons du Luxembourg, tous desservis"
+  },
+  "cantons": {
+    "capellen": "Capellen",
+    "clervaux": "Clervaux",
+    "diekirch": "Diekirch",
+    "echternach": "Echternach",
+    "esch-sur-alzette": "Esch-sur-Alzette",
+    "grevenmacher": "Grevenmacher",
+    "luxembourg": "Luxembourg",
+    "mersch": "Mersch",
+    "redange": "Redange",
+    "remich": "Remich",
+    "vianden": "Vianden",
+    "wiltz": "Wiltz"
+  },
+  "communes": {
+    "eyebrow": "Pages locales",
+    "title": "Là où nous intervenons le plus souvent",
+    "intro": "Des informations sur quelques communes et quartiers où nous entretenons le plus de logements et de locaux. Votre commune n’apparaît pas ? Nous la desservons très probablement aussi."
+  },
+  "crossBorder": "Les locaux situés juste de l’autre côté de la frontière, en France, en Belgique ou en Allemagne, peuvent être desservis sur demande.",
+  "cta": {
+    "title": "Vérifiez nos disponibilités dans votre secteur",
+    "body": "Indiquez-nous où se trouvent votre logement ou vos locaux, et ce dont vous avez besoin. Nous confirmerons nos disponibilités et organiserons une consultation.",
+    "primary": {
+      "label": "Demander un devis",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "Nos services",
+      "href": "/services"
+    }
+  }
+}

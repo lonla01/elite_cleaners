@@ -1,0 +1,97 @@
+{
+  "id": "disinfection-sanitisation",
+  "slug": "desinfection",
+  "category": "corporate",
+  "order": 70,
+  "title": "Désinfection",
+  "summary": "Désinfection ciblée des surfaces fréquemment touchées et des espaces communs, ponctuellement ou selon un planning.",
+  "meta": {
+    "title": "Désinfection au Luxembourg",
+    "description": "Désinfection ciblée des surfaces fréquemment touchées et des espaces communs dans les bureaux, cabinets et logements au Luxembourg, ponctuellement ou selon un planning."
+  },
+  "hero": {
+    "intro": "Une désinfection ciblée des surfaces les plus touchées, avec des produits autorisés et des méthodes documentées. Ponctuellement, après un incident ou dans le cadre d’un entretien régulier.",
+    "image": {
+      "key": "service-disinfection-sanitisation",
+      "alt": "Un membre de l’équipe essuyant une poignée de porte avec une lingette désinfectante"
+    }
+  },
+  "included": {
+    "intro": "La désinfection n’est efficace que sur une surface propre : chaque intervention commence donc par un nettoyage.",
+    "groups": [
+      {
+        "title": "Méthode",
+        "items": [
+          "Évaluation des zones et du niveau de risque",
+          "Nettoyage, puis désinfection en respectant le temps de contact",
+          "Produits biocides autorisés au Luxembourg, avec fiches de données de sécurité",
+          "Matériel à code couleur pour éviter les contaminations croisées"
+        ]
+      },
+      {
+        "title": "Zones types",
+        "items": [
+          "Poignées, interrupteurs, rampes et boutons d’ascenseur",
+          "Bureaux, claviers, téléphones et équipements partagés",
+          "Cuisines, sanitaires et salles de pause",
+          "Comptoirs d’accueil et terminaux de paiement"
+        ]
+      },
+      {
+        "title": "Compte rendu",
+        "items": [
+          "Relevé écrit des zones traitées, des produits et des horaires",
+          "Recommandations d’hygiène au quotidien entre deux interventions"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Ponctuelle",
+        "body": "Après une maladie dans l’équipe, un incident ou avant une réouverture."
+      },
+      {
+        "title": "Planifiée",
+        "body": "Chaque semaine ou chaque mois, en complément du nettoyage régulier."
+      },
+      {
+        "title": "Saisonnière",
+        "body": "Pendant les pics de maladies hivernales, pour les bureaux et les écoles."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "building",
+      "title": "Bureaux et espaces partagés",
+      "body": "Moins de surfaces communes laissées sans traitement dans les lieux de travail animés."
+    },
+    {
+      "icon": "stethoscope",
+      "title": "Cabinets et lieux de soins",
+      "body": "Une couche d’hygiène supplémentaire entre deux nettoyages réguliers."
+    },
+    {
+      "icon": "home",
+      "title": "Logements",
+      "body": "Après une maladie dans le foyer ou avant d’accueillir un proche vulnérable."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Désinfecter, est-ce la même chose que nettoyer ?",
+      "answer": "Non. Le nettoyage élimine la saleté et la plupart des germes ; la désinfection détruit les micro-organismes restants sur une surface déjà propre. Les deux sont nécessaires, dans cet ordre."
+    },
+    {
+      "question": "Les produits sont-ils sans danger pour les personnes et les animaux ?",
+      "answer": "Nous utilisons des produits autorisés selon leur mode d’emploi et aérons les lieux. Nous vous indiquons quand l’espace peut de nouveau être utilisé."
+    },
+    {
+      "question": "Proposez-vous la nébulisation ?",
+      "answer": "Nous privilégions la désinfection manuelle ciblée, plus fiable sur les surfaces fréquemment touchées. D’autres méthodes peuvent être étudiées pour des situations particulières."
+    }
+  ],
+  "related": ["office-cleaning", "medical-practices", "deep-cleaning"]
+}

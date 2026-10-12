@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Carrières",
+    "description": "Rejoignez une équipe de nettoyage au Luxembourg qui valorise la fiabilité, le respect et le soin. Contrats stables, formation et horaires fixes."
+  },
+  "hero": {
+    "eyebrow": "Carrières",
+    "title": "Rejoignez une équipe fière du travail bien fait",
+    "intro": "Nous recherchons en permanence des personnes fiables et soigneuses pour entretenir logements et lieux de travail dans tout le Luxembourg. L’expérience aide, mais l’attitude compte avant tout.",
+    "image": {
+      "key": "careers-hero",
+      "alt": "Des membres de l’équipe se préparant pour la journée dans un couloir lumineux"
+    }
+  },
+  "why": {
+    "eyebrow": "Pourquoi nous rejoindre",
+    "title": "Le respect de celles et ceux qui font le travail",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Des horaires stables",
+        "body": "Des clients réguliers et des créneaux fixes, pour organiser votre vie."
+      },
+      {
+        "icon": "award",
+        "title": "Formation",
+        "body": "Une formation rémunérée aux méthodes, produits, matériaux et à la sécurité, dès la première semaine."
+      },
+      {
+        "icon": "users",
+        "title": "Une équipe solidaire",
+        "body": "Une superviseure joignable, et des collègues qui se remplacent les uns les autres."
+      },
+      {
+        "icon": "shield",
+        "title": "De vrais contrats",
+        "body": "Des contrats de travail de droit luxembourgeois, aux conditions de la [convention collective]."
+      }
+    ]
+  },
+  "roles": {
+    "eyebrow": "Postes",
+    "title": "Qui nous recrutons",
+    "items": [
+      {
+        "title": "Agents d’entretien à domicile",
+        "body": "Ménage régulier et ponctuel chez des particuliers."
+      },
+      {
+        "title": "Gouvernantes et employés de maison",
+        "body": "Linge, repassage et entretien quotidien de résidences privées."
+      },
+      {
+        "title": "Agents de nettoyage professionnel",
+        "body": "Bureaux, cabinets et lieux publics, souvent tôt le matin ou le soir."
+      },
+      {
+        "title": "Chefs d’équipe et superviseurs",
+        "body": "Des professionnels expérimentés qui forment, contrôlent la qualité et accompagnent les équipes."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Processus",
+    "title": "Comment se déroule le recrutement",
+    "steps": [
+      {
+        "title": "Candidature",
+        "body": "Envoyez le formulaire ci-dessous. Un CV est bienvenu mais pas obligatoire."
+      },
+      {
+        "title": "Appel téléphonique",
+        "body": "Si votre profil correspond à un poste, nous vous appelons pour un court échange."
+      },
+      {
+        "title": "Entretien",
+        "body": "Nous nous rencontrons, parlons du poste et vérifions vos documents."
+      },
+      {
+        "title": "Démarrage",
+        "body": "Une formation, puis vos premiers clients avec un chef d’équipe à vos côtés."
+      }
+    ]
+  },
+  "form": {
+    "title": "Postuler",
+    "intro": "Nous lisons chaque candidature. Vos données ne servent qu’au recrutement et sont conservées pour une durée limitée, comme expliqué dans notre politique de confidentialité."
+  }
+}

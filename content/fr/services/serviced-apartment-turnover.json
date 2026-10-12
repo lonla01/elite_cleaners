@@ -1,0 +1,98 @@
+{
+  "id": "serviced-apartment-turnover",
+  "slug": "appartements-meubles-et-locations-courte-duree",
+  "category": "housekeeping",
+  "order": 20,
+  "title": "Appartements meublés & locations courte durée",
+  "summary": "Des rotations fiables entre deux séjours : ménage, linge et contrôle de la présentation, avec un niveau hôtelier constant.",
+  "meta": {
+    "title": "Ménage d’appartements meublés et de locations courte durée au Luxembourg",
+    "description": "Ménage de rotation pour appartements meublés et locations courte durée au Luxembourg : nettoyage, linge, réassort et contrôle de la présentation entre deux séjours."
+  },
+  "hero": {
+    "intro": "Chaque voyageur doit trouver l’appartement exactement comme le précédent. Nous nettoyons, changeons le linge, réapprovisionnons et vérifions la présentation entre deux séjours, y compris à bref délai.",
+    "image": {
+      "key": "service-serviced-apartment-turnover",
+      "alt": "Une chambre d’appartement meublé au linge blanc impeccable et aux serviettes pliées"
+    }
+  },
+  "included": {
+    "intro": "Chaque rotation suit la liste de contrôle et les photos de référence propres à votre logement.",
+    "groups": [
+      {
+        "title": "Ménage",
+        "items": [
+          "Nettoyage complet de la cuisine, des salles de bains et des pièces de vie",
+          "Vaisselle lavée et rangée, appareils vérifiés",
+          "Poubelles vidées et tri effectué",
+          "Sols aspirés et lavés"
+        ]
+      },
+      {
+        "title": "Linge et présentation",
+        "items": [
+          "Draps et serviettes changés au standard hôtelier",
+          "Linge collecté et livré par notre blanchisserie partenaire, ou la vôtre",
+          "Produits d’accueil et consommables réapprovisionnés",
+          "Mise en place finale d’après vos photos de référence"
+        ]
+      },
+      {
+        "title": "Compte rendu",
+        "items": [
+          "Dégâts, objets manquants ou besoins d’entretien signalés avec photos",
+          "Objets trouvés consignés et conservés",
+          "Confirmation envoyée lorsque l’appartement est prêt"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "À chaque rotation",
+        "body": "Déclenchée par votre calendrier de réservations ou votre gestionnaire de canaux."
+      },
+      {
+        "title": "Service en cours de séjour",
+        "body": "Linge frais et ménage léger pendant les longs séjours."
+      },
+      {
+        "title": "Grand ménage périodique",
+        "body": "Un grand ménage planifié entre deux séjours, chaque mois ou chaque trimestre."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "building",
+      "title": "Exploitants d’appartements meublés",
+      "body": "Une équipe fiable qui grandit avec votre parc."
+    },
+    {
+      "icon": "key",
+      "title": "Hôtes en location courte durée",
+      "body": "Une présentation cinq étoiles constante, sans gérer vous-même le ménage."
+    },
+    {
+      "icon": "users",
+      "title": "Fournisseurs de logements d’entreprise",
+      "body": "Des appartements prêts pour les collaborateurs arrivants et les longs séjours."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Pouvez-vous assurer des rotations le jour même ?",
+      "answer": "Oui, lorsque les heures de départ et d’arrivée le permettent. Les rotations le jour même sont planifiées avec vous à l’avance pour qu’une équipe soit disponible."
+    },
+    {
+      "question": "Fournissez-vous le linge ?",
+      "answer": "Nous pouvons organiser la location et l’entretien du linge avec un partenaire, ou travailler avec votre propre stock. Les deux options apparaissent clairement sur le devis."
+    },
+    {
+      "question": "Comment accédez-vous aux appartements ?",
+      "answer": "Par boîte à clés, serrure connectée ou clés conservées selon notre protocole. Les codes d’accès ne sont jamais communiqués au-delà de l’équipe concernée."
+    }
+  ],
+  "related": ["private-housekeeping", "deep-cleaning", "luxury-retail-hospitality"]
+}

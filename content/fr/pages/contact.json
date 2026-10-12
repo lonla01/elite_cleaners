@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "title": "Contact et demande de devis",
+    "description": "Demandez un devis personnalisé pour le ménage, l’intendance ou le nettoyage professionnel au Luxembourg. Réponse sous un jour ouvrable."
+  },
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Parlez-nous de votre logement ou de vos locaux",
+    "intro": "Chaque devis est sur mesure. Donnez-nous quelques détails : nous vous répondons sous un jour ouvrable pour faire le point sur vos besoins et, si utile, convenir d’une visite."
+  },
+  "form": {
+    "title": "Demander un devis",
+    "intro": "Les champs facultatifs peuvent rester vides. Plus vous nous en dites, plus notre première réponse sera précise."
+  },
+  "hours": "[Du lundi au vendredi, de 8 h à 18 h]",
+  "next": {
+    "title": "La suite",
+    "steps": [
+      {
+        "title": "Nous vous appelons ou vous écrivons",
+        "body": "Sous un jour ouvrable, par le moyen de contact que vous préférez."
+      },
+      {
+        "title": "Nous passons si c’est utile",
+        "body": "Une courte visite gratuite pour comprendre les lieux, les surfaces et vos attentes."
+      },
+      {
+        "title": "Vous recevez un devis écrit",
+        "body": "Un périmètre et un prix clairs, hors TVA et TVA comprise, sans engagement."
+      }
+    ]
+  }
+}

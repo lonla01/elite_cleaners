@@ -1,0 +1,102 @@
+{
+  "id": "post-renovation-cleaning",
+  "slug": "nettoyage-apres-travaux",
+  "category": "residential",
+  "order": 40,
+  "title": "Nettoyage après travaux",
+  "summary": "Poussière fine, résidus et films de protection éliminés avec soin, pour réintégrer votre logement sans attendre.",
+  "meta": {
+    "title": "Nettoyage après travaux au Luxembourg",
+    "description": "Nettoyage soigné après rénovation ou travaux dans les logements au Luxembourg : poussière fine, résidus de peinture et de plâtre, films de protection et surfaces neuves."
+  },
+  "hero": {
+    "intro": "Après le départ des artisans, une poussière fine se dépose partout. Nous l’éliminons méthodiquement, traitons les matériaux neufs avec le soin qu’ils exigent et vous rendons un logement prêt à vivre.",
+    "image": {
+      "key": "service-post-renovation-cleaning",
+      "alt": "Une cuisine neuve dont on retire le film de protection d’un meuble"
+    }
+  },
+  "included": {
+    "intro": "Nous commençons par examiner les matériaux et les finitions, afin d’appliquer à chaque surface la bonne méthode et le bon produit.",
+    "groups": [
+      {
+        "title": "Élimination de la poussière",
+        "items": [
+          "Aspiration industrielle avec filtres à poussière fine",
+          "Murs, plafonds, rebords et luminaires dépoussiérés",
+          "Intérieur des placards, tiroirs et meubles intégrés",
+          "Grilles de ventilation et radiateurs dégagés"
+        ]
+      },
+      {
+        "title": "Résidus et finitions",
+        "items": [
+          "Taches de peinture, de plâtre et de colle retirées des vitres et cadres",
+          "Films de protection et autocollants enlevés",
+          "Voile de joint retiré des sanitaires et carrelages neufs",
+          "Sols nettoyés selon des méthodes adaptées au bois, à la pierre ou au carrelage"
+        ]
+      },
+      {
+        "title": "Prêt à vivre",
+        "items": [
+          "Cuisine et salles de bains nettoyées et désinfectées",
+          "Vitres nettoyées à l’intérieur et à l’extérieur lorsqu’elles sont accessibles",
+          "Une visite finale avec vous, si vous le souhaitez"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Nettoyage final",
+        "body": "Un passage complet une fois les travaux terminés."
+      },
+      {
+        "title": "Nettoyage en deux temps",
+        "body": "Un premier nettoyage après les travaux, puis un nettoyage de finition après les dernières retouches ou la livraison des meubles."
+      },
+      {
+        "title": "Pendant de longs travaux",
+        "body": "Des nettoyages périodiques des pièces que vous continuez d’occuper."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "home",
+      "title": "Propriétaires",
+      "body": "Réintégrez votre logement sans vivre des semaines avec la poussière qui retombe."
+    },
+    {
+      "icon": "building",
+      "title": "Architectes et entreprises",
+      "body": "Un projet terminé, livré dans l’état qu’il mérite."
+    },
+    {
+      "icon": "key",
+      "title": "Investisseurs immobiliers",
+      "body": "Des biens rénovés prêts pour les photos, les visites et les locataires."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quand le nettoyage doit-il avoir lieu ?",
+      "answer": "Une fois que tous les corps de métier ont terminé dans les pièces concernées. Si des peintres ou des poseurs doivent encore intervenir, un nettoyage en deux temps évite de payer deux fois les mêmes pièces."
+    },
+    {
+      "question": "Évacuez-vous les déchets de chantier ?",
+      "answer": "Nous retirons les emballages et les petits débris lors du nettoyage. Les gravats et déchets volumineux relèvent de l’entreprise de travaux, ou nous pouvons vous recommander un partenaire agréé."
+    },
+    {
+      "question": "Pouvez-vous nettoyer des matériaux neufs délicats ?",
+      "answer": "Oui. Signalez-nous la pierre naturelle, le bois huilé, la laque ou les revêtements spéciaux, et nous suivrons les recommandations d’entretien du fabricant."
+    },
+    {
+      "question": "Ce service concerne-t-il uniquement les logements ?",
+      "answer": "Cette page concerne les logements privés. Pour les bureaux, boutiques et locaux professionnels, consultez notre service de nettoyage de fin de chantier."
+    }
+  ],
+  "related": ["deep-cleaning", "window-cleaning", "commercial-post-construction"]
+}

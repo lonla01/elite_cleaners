@@ -1,0 +1,96 @@
+{
+  "id": "transport-public-facilities",
+  "slug": "transports-et-lieux-publics",
+  "category": "corporate",
+  "order": 30,
+  "title": "Transports & lieux publics",
+  "summary": "Gares, dépôts et salles d’attente propres et accueillants pour les voyageurs comme pour le personnel.",
+  "meta": {
+    "title": "Nettoyage des transports et lieux publics au Luxembourg",
+    "description": "Nettoyage de gares, dépôts, salles d’attente et bâtiments publics au Luxembourg : des espaces très fréquentés maintenus propres, sûrs et accueillants."
+  },
+  "hero": {
+    "intro": "Gares, dépôts et bâtiments publics accueillent des milliers de personnes chaque jour. Nous les maintenons propres, sûrs et accueillants, avec des plannings construits autour des horaires d’exploitation et des heures de pointe.",
+    "image": {
+      "key": "service-transport-public-facilities",
+      "alt": "Une salle d’attente lumineuse et propre dans une gare"
+    }
+  },
+  "included": {
+    "groups": [
+      {
+        "title": "Espaces voyageurs et publics",
+        "items": [
+          "Halls, salles d’attente, quais et entrées",
+          "Assises, abris vitrés et points d’information",
+          "Ramassage des détritus et vidage des poubelles",
+          "Retrait des graffitis et autocollants sur demande"
+        ]
+      },
+      {
+        "title": "Espaces techniques et du personnel",
+        "items": [
+          "Dépôts, ateliers et salles de pause",
+          "Locaux des conducteurs et du personnel",
+          "Bureaux et salles de contrôle"
+        ]
+      },
+      {
+        "title": "Sanitaires",
+        "items": [
+          "Rondes de nettoyage fréquentes, consignées sur place",
+          "Désinfection des points de contact",
+          "Consommables réapprovisionnés tout au long de la journée"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "En continu",
+        "body": "Des équipes sur site pendant les heures d’exploitation, avec rondes consignées."
+      },
+      {
+        "title": "De nuit",
+        "body": "Un nettoyage intensif lorsque les lieux sont fermés ou calmes."
+      },
+      {
+        "title": "Périodique",
+        "body": "Autolaveuse, dépoussiérage en hauteur et vitres selon un planning défini."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "train",
+      "title": "Opérateurs de transport",
+      "body": "Gares, arrêts, dépôts et locaux du personnel."
+    },
+    {
+      "icon": "building",
+      "title": "Communes et organismes publics",
+      "body": "Bâtiments publics, halls sportifs et espaces associatifs."
+    },
+    {
+      "icon": "users",
+      "title": "Lieux très fréquentés",
+      "body": "Des espaces qui doivent rester présentables toute la journée."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Pouvez-vous répondre aux marchés publics ?",
+      "answer": "Oui. Nous pouvons préparer une réponse aux procédures de marchés publics et fournir les certificats et références requis."
+    },
+    {
+      "question": "Travaillez-vous la nuit et le week-end ?",
+      "answer": "Oui. Les plannings sont construits autour de vos horaires d’exploitation, y compris la nuit, le week-end et les jours fériés."
+    },
+    {
+      "question": "Comment rendez-vous compte du travail effectué ?",
+      "answer": "Les rondes sont consignées sur place, et nous fournissons des rapports réguliers avec les contrôles, les incidents et les points à traiter."
+    }
+  ],
+  "related": ["office-cleaning", "disinfection-sanitisation", "commercial-post-construction"]
+}

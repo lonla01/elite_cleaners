@@ -1,0 +1,50 @@
+[
+  {
+    "id": "placeholder-1",
+    "quote": "[Exemple] À remplacer par un véritable témoignage d’un client particulier, publié uniquement avec son accord écrit.",
+    "author": "[Nom ou initiales du client]",
+    "context": "[Résidence privée, Belair]",
+    "category": "residential",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-2",
+    "quote": "[Exemple] À remplacer par un véritable témoignage d’un client entreprise, publié uniquement avec son accord écrit.",
+    "author": "[Nom, fonction]",
+    "context": "[Institution financière, Kirchberg]",
+    "category": "corporate",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-3",
+    "quote": "[Exemple] À remplacer par un véritable témoignage d’un client en intendance, publié uniquement avec son accord écrit.",
+    "author": "[Nom ou initiales du client]",
+    "context": "[Maison familiale, Strassen]",
+    "category": "housekeeping",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-4",
+    "quote": "[Exemple] À remplacer par un véritable témoignage d’un client fin de bail ou grand ménage, publié uniquement avec son accord écrit.",
+    "author": "[Nom ou initiales du client]",
+    "context": "[Appartement, Luxembourg-Ville]",
+    "category": "residential",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-5",
+    "quote": "[Exemple] À remplacer par un véritable témoignage d’un responsable de bureaux ou de cabinet, publié uniquement avec son accord écrit.",
+    "author": "[Nom, fonction]",
+    "context": "[Cabinet médical, Bertrange]",
+    "category": "corporate",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-6",
+    "quote": "[Exemple] À remplacer par un véritable témoignage d’un exploitant d’appartements meublés, publié uniquement avec son accord écrit.",
+    "author": "[Nom, fonction]",
+    "context": "[Appartements meublés, Esch-sur-Alzette]",
+    "category": "housekeeping",
+    "placeholder": true
+  }
+]

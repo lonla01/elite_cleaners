@@ -1,0 +1,35 @@
+{
+  "id": "kirchberg",
+  "slug": "kirchberg",
+  "name": "Kirchberg",
+  "kind": "quarter",
+  "parent": "luxembourg-city",
+  "canton": "luxembourg",
+  "coordinates": {
+    "lat": 49.628,
+    "lon": 6.165
+  },
+  "meta": {
+    "title": "Nettoyage au Kirchberg",
+    "description": "Nettoyage de bureaux pour les sièges financiers et d’entreprise, et ménage des appartements sur le plateau du Kirchberg à Luxembourg-Ville."
+  },
+  "intro": "Sur le plateau du Kirchberg, bureaux et nouvelles résidences se côtoient. Nous entretenons les uns comme les autres, selon les exigences de chacun.",
+  "paragraphs": [
+    "Le Kirchberg accueille des institutions européennes, des banques et des sièges d’entreprise, ainsi qu’un nombre croissant d’immeubles résidentiels. De nombreux locaux appliquent des procédures d’accès strictes et attendent un nettoyage en dehors des heures de bureau.",
+    "Pour les entreprises, nous proposons du personnel vérifié, des protocoles écrits pour les clés et badges, et des interventions le soir ou tôt le matin. Pour les résidents, nous assurons le ménage régulier et les nettoyages de fin de bail des nombreux appartements qui changent d’occupants chaque année."
+  ],
+  "services": [
+    "office-cleaning",
+    "financial-institutions",
+    "regular-home-cleaning",
+    "end-of-tenancy-cleaning",
+    "window-cleaning"
+  ],
+  "nearby": ["luxembourg-city", "belair", "strassen"],
+  "faq": [
+    {
+      "question": "Pouvez-vous respecter les procédures de sécurité de notre immeuble ?",
+      "answer": "Oui. Nous étudions vos procédures d’accès, de badges et d’accueil des visiteurs lors de la mise en place, et les appliquons à chaque passage."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "belair",
+  "slug": "belair",
+  "name": "Belair",
+  "kind": "quarter",
+  "parent": "luxembourg-city",
+  "canton": "luxembourg",
+  "coordinates": {
+    "lat": 49.611,
+    "lon": 6.11
+  },
+  "meta": {
+    "title": "Nettoyage à Belair",
+    "description": "Ménage discret et intendance pour les maisons et appartements de Belair, à Luxembourg-Ville."
+  },
+  "intro": "Les maisons familiales et les appartements élégants de Belair appellent un service discret et constant. C’est ce que nous offrons, avec les mêmes personnes à chaque passage.",
+  "paragraphs": [
+    "Proche du centre-ville et du parc de Merl, Belair est l’un des quartiers résidentiels les plus prisés de la capitale. Beaucoup de ses logements sont spacieux, avec des matériaux et un mobilier qui demandent un entretien averti.",
+    "Nos clients y associent souvent ménage régulier, intendance, repassage et nettoyage des vitres de saison. Chaque foyer dispose d’une liste écrite et d’une personne attitrée, épaulée par une superviseure."
+  ],
+  "services": [
+    "regular-home-cleaning",
+    "private-housekeeping",
+    "deep-cleaning",
+    "window-cleaning",
+    "carpet-upholstery-care"
+  ],
+  "nearby": ["luxembourg-city", "strassen", "bertrange"]
+}

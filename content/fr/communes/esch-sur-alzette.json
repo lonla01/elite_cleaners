@@ -1,0 +1,28 @@
+{
+  "id": "esch-sur-alzette",
+  "slug": "esch-sur-alzette",
+  "name": "Esch-sur-Alzette",
+  "kind": "commune",
+  "canton": "esch-sur-alzette",
+  "coordinates": {
+    "lat": 49.4958,
+    "lon": 5.9806
+  },
+  "meta": {
+    "title": "Nettoyage à Esch-sur-Alzette",
+    "description": "Ménage, nettoyage de bureaux et nettoyage de fin de chantier à Esch-sur-Alzette et Belval, dans le sud du Luxembourg."
+  },
+  "intro": "La deuxième ville du pays évolue vite, de son centre historique au nouveau quartier de Belval. Nous accompagnons habitants et entreprises dans toute la commune.",
+  "paragraphs": [
+    "Esch-sur-Alzette associe un centre-ville animé à de nouveaux quartiers comme Belval, construit sur une ancienne friche sidérurgique et qui accueille le campus principal de l’Université du Luxembourg, des bureaux et de nouveaux immeubles résidentiels.",
+    "Qui dit bâtiments neufs dit emménagements, aménagements et réceptions fréquents. En plus du ménage et du nettoyage de bureaux réguliers, nous assurons des nettoyages de fin de chantier et de fin de bail calés sur vos remises de clés et vos dates d’ouverture."
+  ],
+  "services": [
+    "regular-home-cleaning",
+    "office-cleaning",
+    "commercial-post-construction",
+    "end-of-tenancy-cleaning",
+    "post-renovation-cleaning"
+  ],
+  "nearby": ["bertrange", "luxembourg-city"]
+}

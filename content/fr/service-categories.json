@@ -1,0 +1,32 @@
+[
+  {
+    "id": "residential",
+    "title": "Nettoyage résidentiel",
+    "navTitle": "Particuliers",
+    "description": "Maisons et appartements entretenus avec constance et discrétion, du passage hebdomadaire au nettoyage de fin de bail.",
+    "image": {
+      "key": "category-residential",
+      "alt": "Un salon lumineux et parfaitement rangé, baigné de lumière naturelle"
+    }
+  },
+  {
+    "id": "housekeeping",
+    "title": "Intendance",
+    "navTitle": "Intendance",
+    "description": "Du personnel dédié à la bonne marche des résidences privées et des appartements meublés.",
+    "image": {
+      "key": "category-housekeeping",
+      "alt": "Du linge fraîchement repassé, plié sur un lit"
+    }
+  },
+  {
+    "id": "corporate",
+    "title": "Entreprises & locaux professionnels",
+    "navTitle": "Entreprises & professionnels",
+    "description": "Bureaux, institutions financières, lieux publics et cabinets, nettoyés selon des standards documentés.",
+    "image": {
+      "key": "category-corporate",
+      "alt": "Un open space calme et impeccable après les heures de bureau"
+    }
+  }
+]

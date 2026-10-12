@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "À propos",
+    "description": "Une entreprise de nettoyage luxembourgeoise fondée sur la constance, la confidentialité et le soin, au service des résidences et des institutions dans tout le Grand-Duché."
+  },
+  "hero": {
+    "eyebrow": "À propos",
+    "title": "Un soin sur lequel compter, une discrétion qui va de soi",
+    "intro": "Depuis [XX] ans, nous entretenons des résidences privées, des bureaux et des institutions dans tout le Luxembourg, discrètement et avec la même exigence à chaque passage.",
+    "image": {
+      "key": "about-hero",
+      "alt": "Un membre de notre équipe polissant soigneusement une surface vitrée"
+    }
+  },
+  "story": {
+    "title": "Notre histoire",
+    "paragraphs": [
+      "[Texte provisoire : histoire de la fondation. Qui a créé l’entreprise, quand et pourquoi. Deux ou trois phrases, dans les mots du fondateur.]",
+      "Dès le départ, nous avons choisi de grandir sans précipitation et de travailler durablement avec les mêmes personnes. C’est cette continuité que nos clients remarquent en premier : ils savent qui viendra, quand, et ce qui sera fait.",
+      "Aujourd’hui, nos équipes interviennent chez des particuliers à Belair, au Limpertsberg et à Strassen, ainsi que dans des bureaux au Kirchberg, à la Cloche d’Or et dans le quartier de la Gare. Certains de nos clients comptent parmi les institutions les plus exigeantes du pays en matière de sécurité."
+    ]
+  },
+  "values": {
+    "eyebrow": "Ce qui nous guide",
+    "title": "Quatre principes derrière chaque passage",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Constance",
+        "body": "La même personne de confiance, le même jour et à la même heure, pour chaque client régulier."
+      },
+      {
+        "icon": "lock",
+        "title": "Confidentialité",
+        "body": "Ce que nous voyons et entendons reste entre nous. Un accord de confidentialité est possible pour chaque mission."
+      },
+      {
+        "icon": "check",
+        "title": "Fiabilité",
+        "body": "Les remplacements sont prévus à l’avance pendant les congés et absences : votre service ne s’interrompt jamais sans prévenir."
+      },
+      {
+        "icon": "leaf",
+        "title": "Responsabilité",
+        "body": "Des produits et des méthodes écoresponsables, choisis pour protéger vos surfaces, votre santé et l’environnement."
+      }
+    ]
+  },
+  "standards": {
+    "eyebrow": "Nos équipes",
+    "title": "Choisies avec soin, formées à nos standards",
+    "intro": "Nos clients nous ouvrent leur maison et leurs bureaux. Cette confiance commence par la façon dont nous recrutons et accompagnons nos équipes.",
+    "items": [
+      {
+        "title": "Sélection rigoureuse",
+        "body": "Références, entretiens et extrait de casier judiciaire (bulletin n° 3) pour chaque membre de l’équipe."
+      },
+      {
+        "title": "Formation en interne",
+        "body": "Entretien des surfaces, produits, sécurité, et le savoir-être attendu dans les résidences privées et les sites sécurisés."
+      },
+      {
+        "title": "Entièrement assurés",
+        "body": "Notre assurance responsabilité civile professionnelle couvre chaque intervention. [Assureur et garanties à confirmer.]"
+      },
+      {
+        "title": "Qualité encadrée",
+        "body": "Nos superviseurs effectuent des visites de contrôle régulières et restent en contact direct avec chaque client."
+      }
+    ],
+    "image": {
+      "key": "about-standards",
+      "alt": "Une superviseure passant en revue une liste de contrôle avec un membre de l’équipe"
+    }
+  },
+  "cta": {
+    "title": "Rencontrons-nous",
+    "body": "Le meilleur moyen de nous connaître est une consultation chez vous ou dans vos locaux, sans engagement.",
+    "primary": {
+      "label": "Demander un devis",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "Notre méthode",
+      "href": "/how-it-works"
+    }
+  }
+}

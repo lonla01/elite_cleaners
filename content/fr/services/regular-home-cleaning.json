@@ -1,0 +1,117 @@
+{
+  "id": "regular-home-cleaning",
+  "slug": "menage-regulier",
+  "category": "residential",
+  "order": 10,
+  "title": "Ménage régulier",
+  "summary": "Un entretien hebdomadaire ou bimensuel des maisons et appartements par la même personne de confiance, le même jour et à la même heure.",
+  "meta": {
+    "title": "Ménage régulier au Luxembourg",
+    "description": "Ménage hebdomadaire ou bimensuel au Luxembourg par la même personne vérifiée et assurée, à jour et heure fixes. Demandez un devis personnalisé."
+  },
+  "hero": {
+    "intro": "Une seule personne de confiance, un créneau fixe et un intérieur entretenu de la même façon à chaque passage. Nous convenons des détails une fois, nous les mettons par écrit et nous nous y tenons.",
+    "image": {
+      "key": "service-regular-home-cleaning",
+      "alt": "Un salon calme et fraîchement nettoyé, coussins arrangés et surfaces dégagées"
+    }
+  },
+  "included": {
+    "intro": "Votre liste de tâches est définie lors de la première visite et peut évoluer à tout moment. Voici un point de départ type.",
+    "groups": [
+      {
+        "title": "Pièces de vie et chambres",
+        "items": [
+          "Dépoussiérage des meubles, étagères, cadres et plinthes",
+          "Aspiration et lavage de tous les sols, y compris sous les meubles légers",
+          "Lits faits, linge changé sur demande",
+          "Miroirs, tables en verre et vitrages intérieurs nettoyés",
+          "Rangement léger et coussins arrangés"
+        ]
+      },
+      {
+        "title": "Cuisine",
+        "items": [
+          "Plans de travail, crédence et façades essuyés et dégraissés",
+          "Plaque de cuisson, façade de la hotte et extérieur des appareils nettoyés",
+          "Évier et robinetterie détartrés et lustrés",
+          "Poubelles vidées, avec tri pour les collectes luxembourgeoises"
+        ]
+      },
+      {
+        "title": "Salles de bains",
+        "items": [
+          "Douches, baignoires, lavabos et toilettes nettoyés et désinfectés",
+          "Calcaire éliminé sur les parois, le carrelage et la robinetterie",
+          "Serviettes renouvelées et consommables vérifiés"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "intro": "Les passages réguliers sont toujours assurés par la même personne, le même jour et à la même heure.",
+    "options": [
+      {
+        "title": "Hebdomadaire",
+        "body": "Le choix le plus courant pour les maisons familiales et les foyers actifs."
+      },
+      {
+        "title": "Toutes les deux semaines",
+        "body": "Adapté aux petits appartements ou aux intérieurs déjà bien tenus."
+      },
+      {
+        "title": "Plusieurs fois par semaine",
+        "body": "Pour les grandes résidences ou les foyers avec jeunes enfants ou animaux."
+      },
+      {
+        "title": "Sur mesure",
+        "body": "Un rythme construit autour de vos voyages, des saisons ou de votre agenda."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "home",
+      "title": "Actifs très occupés",
+      "body": "Retrouvez un intérieur en ordre sans sacrifier vos soirées ni vos week-ends."
+    },
+    {
+      "icon": "users",
+      "title": "Familles",
+      "body": "Une routine régulière qui suit le rythme des enfants, des invités et des semaines d’école."
+    },
+    {
+      "icon": "key",
+      "title": "Grands voyageurs",
+      "body": "Votre logement entretenu pendant votre absence, clés conservées selon un protocole écrit."
+    },
+    {
+      "icon": "heart-handshake",
+      "title": "Personnes âgées",
+      "body": "Un visage familier et patient, et un service qui s’adapte à l’évolution de vos besoins."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Aurai-je toujours la même personne ?",
+      "answer": "Oui. Les passages réguliers sont confiés à une seule personne. En cas de congé ou de maladie, nous vous prévenons à l’avance et envoyons un remplaçant informé, qui suit votre liste écrite."
+    },
+    {
+      "question": "Dois-je être présent ?",
+      "answer": "Non. Beaucoup de clients nous confient une clé ou un code d’accès. Les clés sont identifiées par un code, jamais par votre adresse, et conservées en lieu sûr. Vous pouvez aussi être présent si vous le préférez."
+    },
+    {
+      "question": "Apportez-vous les produits et le matériel ?",
+      "answer": "Nous apportons du matériel professionnel et des produits écoresponsables adaptés à chaque surface. Si vous préférez certains produits, nous utilisons volontiers les vôtres."
+    },
+    {
+      "question": "Puis-je payer en chèques-service ou bénéficier d’un avantage fiscal ?",
+      "answer": "Posez-nous la question lors de la consultation. Nous vous expliquerons les modes de paiement applicables à votre situation et vous fournirons des factures claires."
+    },
+    {
+      "question": "Combien cela coûte-t-il ?",
+      "answer": "Chaque intérieur est différent : nous établissons un devis après une courte visite ou un appel détaillé. Le devis est ferme pour le périmètre convenu et indique les montants hors TVA et TVA comprise."
+    }
+  ],
+  "related": ["deep-cleaning", "private-housekeeping", "window-cleaning"]
+}

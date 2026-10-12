@@ -1,0 +1,99 @@
+{
+  "id": "financial-institutions",
+  "slug": "institutions-financieres-et-sites-securises",
+  "category": "corporate",
+  "order": 20,
+  "title": "Institutions financières & sites sécurisés",
+  "summary": "Personnel vérifié, accords de confidentialité, interventions hors heures de bureau et protocoles stricts pour les clés et badges.",
+  "meta": {
+    "title": "Nettoyage pour institutions financières et sites sécurisés au Luxembourg",
+    "description": "Nettoyage pour banques, administrateurs de fonds et sites sécurisés au Luxembourg : personnel vérifié, accords de confidentialité, interventions hors heures et protocoles d’accès stricts."
+  },
+  "hero": {
+    "intro": "Un nettoyage conçu autour de la sécurité et de la confidentialité : personnel vérifié, protocoles d’accès écrits et une équipe stable qui connaît vos locaux et vos règles.",
+    "image": {
+      "key": "service-financial-institutions",
+      "alt": "Le hall d’accueil d’une banque, calme et lustré après la fermeture"
+    }
+  },
+  "included": {
+    "intro": "Le périmètre et les procédures de sécurité sont convenus avec vos services généraux et de sécurité avant le premier passage.",
+    "groups": [
+      {
+        "title": "Sécurité et confidentialité",
+        "items": [
+          "Personnel vérifié avant affectation, extraits de casier judiciaire contrôlés",
+          "Accords de confidentialité individuels",
+          "Procédures pour badges, clés et alarmes documentées et respectées",
+          "Zones à accès restreint nettoyées uniquement selon vos règles de supervision",
+          "Déchets confidentiels traités selon votre politique"
+        ]
+      },
+      {
+        "title": "Locaux",
+        "items": [
+          "Bureaux, salles de marché et salles de réunion",
+          "Étages de direction et salons clients",
+          "Cuisines, sanitaires et espaces du personnel",
+          "Cloisons vitrées, entrées et ascenseurs"
+        ]
+      },
+      {
+        "title": "Gouvernance",
+        "items": [
+          "Un responsable de compte et un superviseur de site attitrés",
+          "Audits qualité réguliers avec rapports écrits",
+          "Documentation disponible pour vos revues fournisseurs et d’externalisation"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Quotidien, hors heures de bureau",
+        "body": "Le modèle standard, en dehors des heures d’ouverture et de marché."
+      },
+      {
+        "title": "Présence en journée",
+        "body": "Un agent sur site pour l’accueil, les salles de réunion et les imprévus."
+      },
+      {
+        "title": "Week-ends et travaux périodiques",
+        "body": "Grands nettoyages, moquettes et vitres planifiés lorsque les étages sont vides."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "lock",
+      "title": "Banques et banques privées",
+      "body": "Agences, sièges et salons clients."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Administrateurs de fonds et assureurs",
+      "body": "Bureaux traitant des informations clients sensibles."
+    },
+    {
+      "icon": "shield",
+      "title": "Sites sécurisés et réglementés",
+      "body": "Locaux à accès contrôlé et aux règles strictes pour les visiteurs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Comment vérifiez-vous votre personnel ?",
+      "answer": "Avant toute affectation, nous vérifions l’identité, le droit au travail et les références, et demandons un extrait de casier judiciaire récent. Vos propres contrôles complémentaires peuvent être intégrés."
+    },
+    {
+      "question": "Pouvez-vous respecter nos politiques de sécurité et d’externalisation ?",
+      "answer": "Oui. Nous étudions vos politiques lors de la mise en place et adaptons nos procédures. Nous fournissons la documentation dont vos équipes risques, conformité ou achats ont besoin."
+    },
+    {
+      "question": "Que se passe-t-il si une clé ou un badge est perdu ?",
+      "answer": "Nous vous prévenons immédiatement, selon la procédure d’incident convenue lors de la mise en place. Les clés sont codées et ne portent jamais votre adresse."
+    }
+  ],
+  "related": ["office-cleaning", "disinfection-sanitisation", "luxury-retail-hospitality"]
+}

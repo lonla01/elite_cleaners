@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Politique de confidentialité",
+    "description": "Comment {companyName} collecte, utilise et protège les données personnelles, et comment exercer vos droits au titre du RGPD."
+  },
+  "title": "Politique de confidentialité",
+  "updated": "2026-10-12",
+  "reviewed": false,
+  "intro": "Cette politique explique quelles données personnelles {legalName} collecte via ce site et dans le cadre de ses services, pourquoi, pendant combien de temps, et quels sont vos droits au titre du règlement général sur la protection des données (RGPD) et du droit luxembourgeois.",
+  "sections": [
+    {
+      "id": "responsable",
+      "title": "Responsable du traitement",
+      "paragraphs": [
+        "Le responsable du traitement est {legalName}, {address}, immatriculée au Registre de commerce et des sociétés (RCS) de Luxembourg sous le numéro {rcs}.",
+        "Pour toute question relative à vos données personnelles ou pour exercer vos droits, écrivez à {email} ou à l’adresse postale ci-dessus."
+      ]
+    },
+    {
+      "id": "donnees",
+      "title": "Les données que nous collectons",
+      "paragraphs": [
+        "Nous ne collectons que les données nécessaires aux finalités décrites ci-dessous."
+      ],
+      "list": [
+        "Demandes de devis et de contact : vos nom, adresse e-mail, numéro de téléphone, société, localisation, le service qui vous intéresse, votre moyen de contact préféré et votre message.",
+        "Candidatures : vos nom, adresse e-mail, numéro de téléphone, langues, disponibilités, votre CV si vous choisissez de l’envoyer, et votre message.",
+        "Clients : coordonnées, adresses d’intervention, consignes d’accès que vous choisissez de nous communiquer, éléments du contrat, devis, factures et paiements.",
+        "Utilisation du site : données techniques telles que votre adresse IP et votre type de navigateur, traitées pour la sécurité et pour prévenir les abus de nos formulaires. Les adresses IP utilisées pour limiter le nombre d’envois ne sont conservées que sous forme d’empreinte irréversible, pendant 24 heures au maximum.",
+        "Mesure d’audience : uniquement si vous l’acceptez, des statistiques anonymes et agrégées sur les pages consultées (voir notre politique en matière de cookies)."
+      ]
+    },
+    {
+      "id": "finalites",
+      "title": "Finalités et bases légales",
+      "list": [
+        "Répondre à votre demande et préparer un devis : mesures précontractuelles prises à votre demande (article 6, paragraphe 1, point b, du RGPD).",
+        "Fournir nos services, les facturer et gérer la relation client : exécution d’un contrat (article 6, paragraphe 1, point b).",
+        "Tenir notre comptabilité et nos registres fiscaux : respect de nos obligations légales (article 6, paragraphe 1, point c).",
+        "Étudier les candidatures : mesures précontractuelles prises à votre demande en vue d’un contrat de travail (article 6, paragraphe 1, point b).",
+        "Sécuriser le site, prévenir le spam et les abus, et conserver une trace des e-mails envoyés : notre intérêt légitime (article 6, paragraphe 1, point f).",
+        "Mesurer l’audience : votre consentement (article 6, paragraphe 1, point a), que vous pouvez retirer à tout moment."
+      ]
+    },
+    {
+      "id": "conservation",
+      "title": "Durées de conservation",
+      "list": [
+        "Demandes de devis et de contact non suivies d’un contrat : [24 mois] après notre dernier échange.",
+        "Candidatures : [6 mois] après la fin du processus de recrutement, sauf si vous acceptez que nous conservions votre candidature plus longtemps pour de futurs postes.",
+        "Dossiers clients : pendant la durée du contrat, puis pendant les délais de prescription applicables aux actions contractuelles.",
+        "Factures et documents comptables : 10 ans, comme l’exige le droit luxembourgeois.",
+        "Journaux d’envoi d’e-mails : [12 mois]."
+      ],
+      "after": [
+        "À l’expiration de la durée de conservation, les données sont supprimées ou anonymisées."
+      ]
+    },
+    {
+      "id": "destinataires",
+      "title": "Destinataires",
+      "paragraphs": [
+        "Vos données sont traitées par les membres de notre personnel qui en ont besoin pour leur travail. Nous ne vendons pas vos données et ne les utilisons pas à des fins publicitaires.",
+        "Nous faisons appel à des prestataires qui traitent des données pour notre compte, dans le cadre de contrats qui les obligent à les protéger :"
+      ],
+      "list": [
+        "Hébergement du site et de la base de données : [Hébergeur], avec des serveurs situés dans l’Union européenne.",
+        "Stockage de fichiers (CV et documents) : [Prestataire de stockage], Union européenne.",
+        "Envoi des e-mails : [Prestataire d’e-mails].",
+        "Mesure d’audience, avec votre consentement : [Prestataire de mesure d’audience]."
+      ],
+      "after": [
+        "Si un prestataire traite des données en dehors de l’Espace économique européen, nous veillons à ce que des garanties appropriées soient en place, comme les clauses contractuelles types de la Commission européenne ou une décision d’adéquation."
+      ]
+    },
+    {
+      "id": "droits",
+      "title": "Vos droits",
+      "paragraphs": ["Vous avez le droit :"],
+      "list": [
+        "d’accéder à vos données personnelles et d’en obtenir une copie ;",
+        "de faire rectifier des données inexactes ;",
+        "de faire effacer vos données, lorsque la loi le permet ;",
+        "de limiter certains traitements ou de vous y opposer ;",
+        "de recevoir vos données dans un format portable ;",
+        "de retirer votre consentement à tout moment, sans remettre en cause les traitements antérieurs."
+      ],
+      "after": [
+        "Pour exercer ces droits, contactez-nous à {email}. Nous pourrons vous demander de justifier de votre identité. Nous répondons dans un délai d’un mois.",
+        "Vous pouvez également introduire une réclamation auprès de l’autorité luxembourgeoise de protection des données, la Commission nationale pour la protection des données (CNPD), sur cnpd.public.lu."
+      ]
+    },
+    {
+      "id": "securite",
+      "title": "Sécurité",
+      "paragraphs": [
+        "Nous protégeons vos données par des mesures techniques et organisationnelles, notamment des connexions chiffrées, un accès restreint pour le personnel et des accords de confidentialité signés par tous les collaborateurs."
+      ]
+    },
+    {
+      "id": "modifications",
+      "title": "Modifications de cette politique",
+      "paragraphs": [
+        "Nous pouvons mettre à jour cette politique. La date en haut de page indique sa dernière modification. Si le changement est important, nous en informerons directement nos clients."
+      ]
+    }
+  ]
+}

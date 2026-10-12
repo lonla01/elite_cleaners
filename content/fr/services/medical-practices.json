@@ -1,0 +1,97 @@
+{
+  "id": "medical-practices",
+  "slug": "cabinets-medicaux-et-dentaires",
+  "category": "corporate",
+  "order": 40,
+  "title": "Cabinets médicaux & dentaires",
+  "summary": "Un nettoyage axé sur l’hygiène pour les cabinets et cliniques, selon des protocoles documentés.",
+  "meta": {
+    "title": "Nettoyage de cabinets médicaux et dentaires au Luxembourg",
+    "description": "Nettoyage axé sur l’hygiène des cabinets médicaux, dentaires et paramédicaux au Luxembourg, selon des protocoles documentés et un code couleur."
+  },
+  "hero": {
+    "intro": "Les patients jugent un cabinet à sa propreté. Nous suivons des protocoles d’hygiène documentés, un matériel à code couleur et les consignes de votre cabinet, à chaque passage.",
+    "image": {
+      "key": "service-medical-practices",
+      "alt": "Une salle de soins dentaires impeccable aux surfaces dégagées"
+    }
+  },
+  "included": {
+    "intro": "Notre périmètre couvre le bionettoyage des locaux. La stérilisation des instruments et dispositifs médicaux reste de la responsabilité de votre personnel soignant.",
+    "groups": [
+      {
+        "title": "Espaces patients",
+        "items": [
+          "Salles d’attente, accueil et assises",
+          "Poignées, interrupteurs, terminaux de paiement et autres points de contact désinfectés",
+          "Sanitaires des patients nettoyés et désinfectés",
+          "Sols nettoyés selon des méthodes adaptées aux zones de soins"
+        ]
+      },
+      {
+        "title": "Salles de soins",
+        "items": [
+          "Surfaces, lavabos et équipements nettoyés et désinfectés selon les consignes du cabinet",
+          "Lavettes et franges à code couleur pour éviter les contaminations croisées",
+          "Déchets ordinaires évacués ; déchets de soins laissés à votre collecteur agréé"
+        ]
+      },
+      {
+        "title": "Traçabilité",
+        "items": [
+          "Protocole de nettoyage écrit convenu avec le cabinet",
+          "Fiches de passage tenues à chaque intervention",
+          "Fiches de données de sécurité pour chaque produit utilisé"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Quotidien, après les consultations",
+        "body": "La norme pour les cabinets en activité."
+      },
+      {
+        "title": "Plusieurs fois par semaine",
+        "body": "Pour les petits cabinets ou les consultations à temps partiel."
+      },
+      {
+        "title": "Grand nettoyage périodique",
+        "body": "Pendant les fermetures, les congés ou après des travaux."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "stethoscope",
+      "title": "Cabinets médicaux",
+      "body": "Médecins généralistes, spécialistes et cabinets de groupe."
+    },
+    {
+      "icon": "sparkles",
+      "title": "Cabinets dentaires",
+      "body": "Salles de soins, salles d’attente et laboratoires."
+    },
+    {
+      "icon": "heart-handshake",
+      "title": "Cabinets paramédicaux",
+      "body": "Kinésithérapie, ostéopathie, psychologie et centres de bien-être."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Votre personnel est-il formé aux environnements médicaux ?",
+      "answer": "Le personnel affecté aux cabinets est formé aux protocoles d’hygiène, au code couleur et à la manipulation sûre des produits, et suit vos consignes particulières."
+    },
+    {
+      "question": "Prenez-vous en charge les déchets de soins ?",
+      "answer": "Non. Les déchets de soins et infectieux doivent passer par un collecteur agréé. Nous évacuons les déchets ordinaires et ne touchons pas aux conteneurs de déchets de soins."
+    },
+    {
+      "question": "Quels produits utilisez-vous ?",
+      "answer": "Des détergents et désinfectants professionnels adaptés aux environnements médicaux. Nous fournissons les fiches de données de sécurité et pouvons utiliser les produits prescrits par votre cabinet."
+    }
+  ],
+  "related": ["disinfection-sanitisation", "office-cleaning", "deep-cleaning"]
+}

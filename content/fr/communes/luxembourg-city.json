@@ -1,0 +1,40 @@
+{
+  "id": "luxembourg-city",
+  "slug": "luxembourg-ville",
+  "name": "Luxembourg-Ville",
+  "kind": "commune",
+  "canton": "luxembourg",
+  "coordinates": {
+    "lat": 49.6116,
+    "lon": 6.1319
+  },
+  "meta": {
+    "title": "Nettoyage à Luxembourg-Ville",
+    "description": "Ménage, intendance et nettoyage de bureaux dans tous les quartiers de Luxembourg-Ville, de la Ville-Haute et du Limpertsberg à la Gare et à la Cloche d’Or."
+  },
+  "intro": "Des appartements du Limpertsberg aux bureaux de la Gare et de la Cloche d’Or, nous entretenons logements et lieux de travail dans tous les quartiers de la capitale.",
+  "paragraphs": [
+    "Luxembourg-Ville réunit maisons de ville historiques, immeubles résidentiels modernes et certains des bureaux les plus actifs du pays. Chacun a ses contraintes : rues étroites et stationnement limité en Ville-Haute et au Grund, règles d’accès dans les grandes résidences, horaires serrés dans les quartiers d’affaires.",
+    "Nous organisons nos passages en tenant compte de ces détails. Nos équipes savent travailler avec les concierges et les syndics, prévoient badges d’accès et stationnement à l’avance, et respectent des créneaux fixes pour ne jamais perturber votre quotidien.",
+    "Que vous ayez besoin d’un ménage hebdomadaire, d’une gouvernante pour une résidence familiale ou d’une équipe en soirée pour vos bureaux, vous avez un interlocuteur unique et une équipe qui ne change pas."
+  ],
+  "services": [
+    "regular-home-cleaning",
+    "private-housekeeping",
+    "office-cleaning",
+    "end-of-tenancy-cleaning",
+    "financial-institutions",
+    "window-cleaning"
+  ],
+  "nearby": ["kirchberg", "belair", "strassen", "bertrange"],
+  "faq": [
+    {
+      "question": "Couvrez-vous tous les quartiers de Luxembourg-Ville ?",
+      "answer": "Oui. Nous intervenons dans tous les quartiers de la ville, notamment la Ville-Haute, le Grund, le Limpertsberg, Belair, le Kirchberg, la Gare, Bonnevoie, Merl et la Cloche d’Or."
+    },
+    {
+      "question": "Comment gérez-vous le stationnement au centre-ville ?",
+      "answer": "Nous prévoyons le stationnement ou les transports en commun pour chaque passage, et convenons à l’avance avec vous ou votre syndic des modalités d’accès et de stationnement."
+    }
+  ]
+}

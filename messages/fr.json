@@ -1,1 +1,220 @@
-{}
+{
+  "Metadata": {
+    "titleTemplate": "%s · {company}",
+    "defaultTitle": "{company} · Nettoyage haut de gamme au Luxembourg",
+    "defaultDescription": "Un nettoyage haut de gamme, discret et régulier pour les résidences, les bureaux et les institutions financières dans tout le Grand-Duché de Luxembourg."
+  },
+  "Common": {
+    "skipToContent": "Aller au contenu principal",
+    "requestQuote": "Demander un devis",
+    "callUs": "Appelez-nous",
+    "whatsapp": "WhatsApp",
+    "learnMore": "En savoir plus",
+    "callUsAt": "Appelez-nous au {phone}",
+    "whatsappLabel": "Écrivez-nous sur WhatsApp",
+    "placeholder": "Exemple",
+    "logoPlaceholder": "Emplacement pour logo client : {name}",
+    "homeLinkLabel": "{company}, page d’accueil",
+    "breadcrumbs": "Fil d’Ariane",
+    "home": "Accueil"
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "body": "La page que vous recherchez a été déplacée ou n’existe plus.",
+    "backHome": "Retour à la page d’accueil"
+  },
+  "Nav": {
+    "main": "Navigation principale",
+    "services": "Services",
+    "allServices": "Tous les services",
+    "about": "À propos",
+    "howItWorks": "Notre méthode",
+    "areas": "Zones desservies",
+    "testimonials": "Témoignages",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menuTitle": "Menu",
+    "megaPromoTitle": "Vous hésitez ?",
+    "megaPromoBody": "Décrivez votre logement ou vos locaux, nous vous recommanderons le service adapté.",
+    "requestQuote": "Demander un devis",
+    "language": "Langue"
+  },
+  "Carousel": {
+    "label": "Services à la une",
+    "slide": "Diapositive {current} sur {total}",
+    "goTo": "Afficher la diapositive {index} : {title}",
+    "previous": "Diapositive précédente",
+    "next": "Diapositive suivante"
+  },
+  "Footer": {
+    "services": "Services",
+    "company": "Entreprise",
+    "legal": "Informations légales",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique en matière de cookies",
+    "legalNotice": "Mentions légales",
+    "copyright": "© {year} {legalName}. Tous droits réservés.",
+    "registration": "RCS {rcs} · TVA {vat}",
+    "coverage": "Au service des douze cantons du Grand-Duché de Luxembourg."
+  },
+  "Home": {
+    "processStep": "Étape {number}"
+  },
+  "ServicePage": {
+    "quoteFor": "Demander un devis",
+    "includedEyebrow": "Le détail",
+    "includedTitle": "Ce qui est inclus",
+    "frequencyEyebrow": "Fréquence",
+    "frequencyTitle": "À quel rythme",
+    "quoteOnly": "Chaque prestation fait l’objet d’un devis personnalisé après un bref échange, avec des montants hors TVA et TVA comprise.",
+    "audienceEyebrow": "Pour qui",
+    "audienceTitle": "Pensé pour",
+    "faqEyebrow": "Questions",
+    "faqTitle": "Questions fréquentes",
+    "relatedTitle": "Services associés",
+    "ctaTitle": "Parlons de vos besoins",
+    "ctaBody": "Présentez-nous votre logement ou vos locaux. Nous vous répondons sous un jour ouvrable."
+  },
+  "Areas": {
+    "mapAttribution": "Limites des cantons © <link>contributeurs OpenStreetMap</link>, sous licence Open Database Licence.",
+    "cantonsTitle": "Cantons",
+    "canton": "Canton de {name}",
+    "quarterOf": "Un quartier de {parent}",
+    "servicesTitle": "Services les plus demandés à {name}",
+    "nearbyTitle": "À proximité",
+    "faqTitle": "Questions locales",
+    "ctaTitle": "Nettoyage à {name}",
+    "ctaBody": "Présentez-nous votre logement ou vos locaux à {name}. Nous vous répondons sous un jour ouvrable.",
+    "allAreas": "Toutes les zones desservies"
+  },
+  "Legal": {
+    "updated": "Dernière mise à jour le {date}",
+    "contents": "Sommaire",
+    "pendingReview": "Ce texte est un modèle en attente de validation par un conseiller juridique. Les informations entre crochets sont provisoires."
+  },
+  "Consent": {
+    "title": "Votre vie privée",
+    "body": "Nous aimerions mesurer l’audience de ce site de façon anonyme afin de l’améliorer. Cette mesure n’utilise ni cookie ni donnée personnelle, mais nous ne l’activons qu’avec votre accord. Le stockage essentiel est toujours actif. <link>Politique en matière de cookies</link>",
+    "accept": "Accepter la mesure d’audience",
+    "decline": "Refuser",
+    "settings": "Paramètres des cookies",
+    "currentAccepted": "Choix actuel : mesure d’audience acceptée.",
+    "currentDeclined": "Choix actuel : mesure d’audience refusée."
+  },
+  "Forms": {
+    "optional": "facultatif",
+    "submitting": "Envoi en cours…",
+    "fields": {
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "company": "Société",
+      "service": "Service",
+      "propertyType": "Type de bien",
+      "location": "Commune ou code postal",
+      "preferredContact": "Comment préférez-vous être contacté ?",
+      "message": "Votre message",
+      "languages": "Langues parlées",
+      "availability": "Disponibilités",
+      "cv": "CV",
+      "consent": "Confidentialité"
+    },
+    "hints": {
+      "phone": "Indiquez l’indicatif du pays si vous n’êtes pas au Luxembourg, par exemple +33.",
+      "message": "Surface des locaux, fréquence souhaitée, exigences particulières ou contraintes d’accès.",
+      "location": "Par exemple Strassen, ou L-1234.",
+      "cv": "Facultatif. PDF ou Word, 5 Mo maximum.",
+      "languages": "Sélectionnez toutes les langues concernées."
+    },
+    "options": {
+      "serviceNotSure": "Je ne sais pas encore : conseillez-moi",
+      "selectPlaceholder": "Veuillez choisir",
+      "propertyType": {
+        "apartment": "Appartement",
+        "house": "Maison",
+        "office": "Bureaux",
+        "retail": "Boutique ou établissement hôtelier",
+        "medical": "Cabinet médical ou dentaire",
+        "other": "Autre"
+      },
+      "preferredContact": {
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "whatsapp": "WhatsApp"
+      },
+      "languages": {
+        "lb": "Luxembourgeois",
+        "fr": "Français",
+        "de": "Allemand",
+        "en": "Anglais",
+        "pt": "Portugais",
+        "other": "Autre"
+      },
+      "availability": {
+        "full-time": "Temps plein",
+        "part-time": "Temps partiel",
+        "mornings": "Matinées",
+        "evenings": "Soirées",
+        "weekends": "Week-ends",
+        "flexible": "Flexible"
+      }
+    },
+    "consent": "J’ai lu la <link>politique de confidentialité</link> et j’accepte que mes données soient utilisées pour répondre à ma demande.",
+    "consentCareers": "J’ai lu la <link>politique de confidentialité</link> et j’accepte que ma candidature soit traitée à des fins de recrutement.",
+    "errors": {
+      "summary": "Veuillez vérifier les champs signalés.",
+      "required": "Ce champ est obligatoire.",
+      "tooLong": "Ce texte est trop long.",
+      "email": "Saisissez une adresse e-mail valide, par exemple nom@exemple.lu.",
+      "phone": "Saisissez un numéro de téléphone valide.",
+      "messageTooShort": "Merci de nous en dire un peu plus (au moins 10 caractères).",
+      "consent": "Veuillez accepter la politique de confidentialité afin que nous puissions traiter votre demande.",
+      "languages": "Sélectionnez au moins une langue.",
+      "cvTooLarge": "Le fichier dépasse 5 Mo.",
+      "cvType": "Envoyez un document PDF ou Word.",
+      "invalid": "Cette valeur n’est pas valide.",
+      "rateLimited": "Trop de tentatives. Veuillez patienter quelques minutes, ou appelez-nous.",
+      "server": "Une erreur s’est produite de notre côté. Veuillez réessayer, ou contactez-nous par téléphone ou par e-mail."
+    }
+  },
+  "Contact": {
+    "formTitle": "Demander un devis",
+    "submit": "Envoyer ma demande",
+    "successTitle": "Merci, votre demande nous a bien été transmise",
+    "successBody": "Nous vous avons envoyé une confirmation par e-mail et vous répondrons sous un jour ouvrable.",
+    "successUrgent": "C’est urgent ? Appelez-nous au {phone}.",
+    "detailsTitle": "Coordonnées",
+    "phone": "Téléphone",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "address": "Bureau",
+    "hours": "Horaires"
+  },
+  "Careers": {
+    "formTitle": "Postuler",
+    "submit": "Envoyer ma candidature",
+    "successTitle": "Merci pour votre candidature",
+    "successBody": "Nous vous avons envoyé une confirmation par e-mail. Si votre profil correspond à un poste à pourvoir, nous vous appellerons pour convenir d’un entretien."
+  },
+  "Emails": {
+    "leadConfirmation": {
+      "subject": "Nous avons bien reçu votre demande · {company}",
+      "heading": "Merci, {name}",
+      "received": "Nous avons bien reçu votre demande et reviendrons vers vous sous un jour ouvrable pour faire le point sur vos besoins et, si cela est utile, convenir d’une visite.",
+      "urgent": "Si votre demande est urgente, vous pouvez nous appeler au {phone}.",
+      "summary": "Voici une copie de votre demande :",
+      "signature": "Bien cordialement,\nL’équipe {company}"
+    },
+    "applicationConfirmation": {
+      "subject": "Votre candidature · {company}",
+      "heading": "Merci, {name}",
+      "received": "Nous avons bien reçu votre candidature.",
+      "next": "Nous étudions chaque candidature. Si votre profil correspond à un poste à pourvoir, nous vous appellerons pour convenir d’un entretien.",
+      "summary": "Voici une copie de votre candidature :",
+      "signature": "Bien cordialement,\nL’équipe {company}"
+    }
+  }
+}

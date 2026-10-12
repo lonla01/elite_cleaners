@@ -1,0 +1,95 @@
+{
+  "id": "carpet-upholstery-care",
+  "slug": "nettoyage-tapis-et-canapes",
+  "category": "residential",
+  "order": 60,
+  "title": "Tapis & canapés",
+  "summary": "Un nettoyage doux et adapté aux fibres pour les tapis, moquettes, canapés et tissus délicats.",
+  "meta": {
+    "title": "Nettoyage de tapis et canapés au Luxembourg",
+    "description": "Nettoyage doux et adapté aux fibres des tapis, moquettes, canapés, fauteuils et matelas dans les logements et bureaux au Luxembourg."
+  },
+  "hero": {
+    "intro": "Les fibres sont d’abord identifiées, puis nettoyées avec la méthode la plus douce qui soit efficace. Tapis, moquettes, canapés et matelas ravivés sans risque pour les couleurs ni la texture.",
+    "image": {
+      "key": "service-carpet-upholstery-care",
+      "alt": "Gros plan sur un tapis en laine nettoyé avec soin"
+    }
+  },
+  "included": {
+    "groups": [
+      {
+        "title": "Diagnostic",
+        "items": [
+          "Test des fibres et de la tenue des couleurs sur une zone cachée",
+          "Taches identifiées et prétraitées",
+          "Méthode choisie : faible humidité, injection-extraction ou nettoyage à sec"
+        ]
+      },
+      {
+        "title": "Tapis et moquettes",
+        "items": [
+          "Aspiration en profondeur pour retirer les salissures sèches",
+          "Nettoyage selon la méthode convenue",
+          "Velours redressé et laissé sécher"
+        ]
+      },
+      {
+        "title": "Tissus d’ameublement et matelas",
+        "items": [
+          "Canapés, fauteuils, chaises et têtes de lit",
+          "Housses amovibles traitées selon leurs étiquettes",
+          "Matelas nettoyés et assainis des deux côtés"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Ponctuel",
+        "body": "Pour une tache, un déménagement ou un rafraîchissement de saison."
+      },
+      {
+        "title": "Une ou deux fois par an",
+        "body": "Recommandé pour les pièces très fréquentées et les foyers avec animaux."
+      },
+      {
+        "title": "Combiné",
+        "body": "Ajouté à un grand ménage ou à un nettoyage de fin de bail."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "home",
+      "title": "Intérieurs aux textiles délicats",
+      "body": "Laine, mélanges de soie et fibres naturelles traités avec le soin approprié."
+    },
+    {
+      "icon": "heart-handshake",
+      "title": "Familles avec animaux ou enfants",
+      "body": "Odeurs, taches et allergènes traités en profondeur et en toute sécurité."
+    },
+    {
+      "icon": "building",
+      "title": "Bureaux et salons d’accueil",
+      "body": "Dalles de moquette et sièges d’accueil toujours présentables."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Combien de temps faut-il pour sécher ?",
+      "answer": "En général quelques heures avec les méthodes à faible humidité, et jusqu’à une journée avec l’injection-extraction, selon l’aération. Nous vous conseillons le jour même."
+    },
+    {
+      "question": "Toutes les taches peuvent-elles être enlevées ?",
+      "answer": "La plupart peuvent être nettement atténuées. Certaines taches anciennes ou incrustées, ou des teintures qui ont dégorgé, ne partent pas entièrement. Nous vous le disons honnêtement avant de commencer."
+    },
+    {
+      "question": "Nettoyez-vous les tapis anciens ou noués à la main ?",
+      "answer": "Nous évaluons chaque pièce. Certains tapis précieux ou fragiles sont mieux confiés à un atelier spécialisé ; dans ce cas, nous vous en recommandons un."
+    }
+  ],
+  "related": ["deep-cleaning", "end-of-tenancy-cleaning", "regular-home-cleaning"]
+}

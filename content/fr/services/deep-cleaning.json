@@ -1,0 +1,109 @@
+{
+  "id": "deep-cleaning",
+  "slug": "grand-menage",
+  "category": "residential",
+  "order": 20,
+  "title": "Grand ménage",
+  "summary": "Un nettoyage complet, de fond en comble, pour un renouveau de saison, avant un événement ou avant de démarrer un entretien régulier.",
+  "meta": {
+    "title": "Grand ménage au Luxembourg",
+    "description": "Grand ménage complet pour les logements au Luxembourg : intérieur des placards et des appareils, calcaire et tous les détails qu’un entretien courant n’atteint pas."
+  },
+  "hero": {
+    "intro": "Une remise à neuf minutieuse, pièce par pièce, des recoins, équipements et surfaces que l’entretien courant laisse de côté. Idéal à chaque saison, avant un événement ou pour démarrer un entretien régulier.",
+    "image": {
+      "key": "service-deep-cleaning",
+      "alt": "Une cuisine étincelante aux plans de travail impeccables et à l’inox lustré"
+    }
+  },
+  "included": {
+    "intro": "Tout ce que comprend un passage régulier, plus les détails ci-dessous. Nous confirmons le périmètre exact par écrit avant le jour J.",
+    "groups": [
+      {
+        "title": "Cuisine en profondeur",
+        "items": [
+          "Intérieur du four, du micro-ondes et du réfrigérateur, clayettes retirées et lavées",
+          "Intérieur des placards et tiroirs, vidés et essuyés",
+          "Hotte et filtres dégraissés",
+          "Carrelage et joints frottés"
+        ]
+      },
+      {
+        "title": "Salles de bains en profondeur",
+        "items": [
+          "Calcaire tenace traité sur les parois, robinets et pommeaux",
+          "Joints de carrelage et de silicone nettoyés",
+          "Derrière et autour des toilettes, tuyaux et équipements",
+          "Grilles de ventilation dépoussiérées et essuyées"
+        ]
+      },
+      {
+        "title": "Dans tout le logement",
+        "items": [
+          "Portes, encadrements, interrupteurs et poignées lavés",
+          "Radiateurs, plinthes et rebords de fenêtres nettoyés",
+          "Surfaces hautes, luminaires et dessus d’armoires dépoussiérés",
+          "Vitres intérieures et cadres",
+          "Sous et derrière les meubles déplaçables"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Ponctuel",
+        "body": "Un passage unique, dimensionné selon votre logement, en équipe lorsque c’est plus rapide."
+      },
+      {
+        "title": "Saisonnier",
+        "body": "Deux à quatre fois par an, par exemple au printemps et avant les fêtes."
+      },
+      {
+        "title": "Avant un entretien régulier",
+        "body": "Un premier grand ménage qui fixe le niveau que votre intervenant attitré maintiendra ensuite."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "sparkles",
+      "title": "Un renouveau de saison",
+      "body": "Un nouveau départ au printemps ou avant les mois d’hiver passés à l’intérieur."
+    },
+    {
+      "icon": "users",
+      "title": "Avant ou après des invités",
+      "body": "Votre intérieur sous son meilleur jour pour une visite de famille, une fête ou un long séjour."
+    },
+    {
+      "icon": "home",
+      "title": "Nouveaux clients réguliers",
+      "body": "Tout est remis à niveau avant le début de l’entretien hebdomadaire."
+    },
+    {
+      "icon": "key",
+      "title": "Vente d’un bien",
+      "body": "Une présentation soignée qui ressort bien en photo et accueille les visiteurs."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Combien de temps dure un grand ménage ?",
+      "answer": "Cela dépend de la taille et de l’état du logement. Pour un appartement de deux chambres, une équipe y consacre généralement l’essentiel d’une journée. Nous vous donnons une estimation avec le devis."
+    },
+    {
+      "question": "Dois-je vider les placards avant votre venue ?",
+      "answer": "Il est préférable de ranger les objets de valeur et fragiles. Nous pouvons vider et remplir nous-mêmes les placards de cuisine, avec soin et dans le même ordre."
+    },
+    {
+      "question": "Le nettoyage du four et du réfrigérateur est-il inclus ?",
+      "answer": "Oui, l’intérieur du four, du micro-ondes et du réfrigérateur fait partie du grand ménage. Signalez-nous tout appareil nécessitant un entretien particulier."
+    },
+    {
+      "question": "Pouvez-vous nettoyer les tapis et les vitres en même temps ?",
+      "answer": "Oui. Les vitres extérieures et l’entretien des tapis ou canapés peuvent être ajoutés au même passage et figurent sur des lignes distinctes du devis."
+    }
+  ],
+  "related": ["regular-home-cleaning", "carpet-upholstery-care", "window-cleaning"]
+}

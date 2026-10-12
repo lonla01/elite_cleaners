@@ -1,0 +1,29 @@
+{
+  "id": "bertrange",
+  "slug": "bertrange",
+  "name": "Bertrange",
+  "kind": "commune",
+  "canton": "luxembourg",
+  "coordinates": {
+    "lat": 49.6111,
+    "lon": 6.05
+  },
+  "mapLabel": "below-left",
+  "meta": {
+    "title": "Nettoyage à Bertrange",
+    "description": "Ménage et nettoyage professionnel à Bertrange, des quartiers résidentiels aux entreprises de la zone Helfent."
+  },
+  "intro": "Maisons familiales, commerces et parcs d’activités : Bertrange a un peu de tout, et nous adaptons le service à chacun.",
+  "paragraphs": [
+    "Les quartiers résidentiels de Bertrange se composent surtout de maisons avec jardin, où le ménage régulier, le nettoyage des vitres et les grands ménages de saison sont très demandés.",
+    "La commune est aussi un pôle commercial, avec des zones de commerces et d’activités comme Helfent. Nous nettoyons bureaux et locaux professionnels avant l’ouverture ou après la fermeture, pour que le travail ne soit jamais visible des clients."
+  ],
+  "services": [
+    "regular-home-cleaning",
+    "window-cleaning",
+    "deep-cleaning",
+    "office-cleaning",
+    "commercial-post-construction"
+  ],
+  "nearby": ["strassen", "belair", "luxembourg-city"]
+}

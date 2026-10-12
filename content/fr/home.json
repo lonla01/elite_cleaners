@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "Nettoyage haut de gamme au Luxembourg",
+    "description": "Nettoyage et entretien discrets et réguliers pour les résidences privées, les bureaux et les institutions financières dans tout le Grand-Duché de Luxembourg."
+  },
+  "hero": {
+    "slides": [
+      {
+        "id": "residential",
+        "eyebrow": "Particuliers",
+        "title": "Votre intérieur, entretenu comme si c’était le nôtre",
+        "body": "La même personne de confiance, le même jour et à la même heure, à chaque passage. Un travail soigné, silencieux et en toute discrétion.",
+        "cta": {
+          "label": "Découvrir le nettoyage résidentiel",
+          "href": "/services"
+        },
+        "image": {
+          "key": "hero-residential",
+          "alt": "Un salon élégant baigné de lumière matinale, fraîchement nettoyé"
+        }
+      },
+      {
+        "id": "corporate",
+        "eyebrow": "Entreprises & finance",
+        "title": "Des locaux impeccables, en toute confidentialité",
+        "body": "Des équipes en dehors des heures de bureau pour les entreprises et les institutions financières, avec accords de confidentialité signés et protocoles d’accès stricts.",
+        "cta": {
+          "label": "Découvrir le nettoyage professionnel",
+          "href": "/services"
+        },
+        "image": {
+          "key": "hero-corporate",
+          "alt": "Un hall d’entreprise raffiné au Kirchberg, en soirée"
+        }
+      },
+      {
+        "id": "housekeeping",
+        "eyebrow": "Intendance",
+        "title": "Un personnel de maison dédié, à votre rythme",
+        "body": "Du personnel attitré pour le linge, le repassage et la bonne marche de votre résidence, choisi en fonction de votre foyer.",
+        "cta": {
+          "label": "Découvrir l’intendance",
+          "href": "/services"
+        },
+        "image": {
+          "key": "hero-housekeeping",
+          "alt": "Des chemises soigneusement repassées dans un dressing"
+        }
+      },
+      {
+        "id": "post-renovation",
+        "eyebrow": "Après travaux",
+        "title": "Du chantier à la maison, sans un grain de poussière",
+        "body": "Un nettoyage minutieux après travaux, pour réintégrer votre logement dès la fin du chantier.",
+        "cta": {
+          "label": "Découvrir le nettoyage après travaux",
+          "href": "/services"
+        },
+        "image": {
+          "key": "hero-post-renovation",
+          "alt": "Une cuisine fraîchement rénovée aux surfaces étincelantes"
+        }
+      }
+    ]
+  },
+  "trust": [
+    {
+      "icon": "shield",
+      "value": "Entièrement assurés",
+      "label": "Responsabilité civile professionnelle [assureur à confirmer]"
+    },
+    {
+      "icon": "user-check",
+      "value": "Personnel vérifié",
+      "label": "Antécédents contrôlés, formation en interne"
+    },
+    {
+      "icon": "award",
+      "value": "[XX] ans",
+      "label": "D’expérience au Luxembourg"
+    },
+    {
+      "icon": "leaf",
+      "value": "Écoresponsables",
+      "label": "Des produits choisis pour les personnes et la planète"
+    },
+    {
+      "icon": "lock",
+      "value": "Confidentialité",
+      "label": "Accords signés sur demande"
+    }
+  ],
+  "trustedBy": {
+    "title": "Ils nous font confiance, institutions comme particuliers, dans tout le Luxembourg",
+    "logos": [
+      {
+        "name": "[Logo client 1]",
+        "placeholder": true
+      },
+      {
+        "name": "[Logo client 2]",
+        "placeholder": true
+      },
+      {
+        "name": "[Logo client 3]",
+        "placeholder": true
+      },
+      {
+        "name": "[Logo client 4]",
+        "placeholder": true
+      },
+      {
+        "name": "[Logo client 5]",
+        "placeholder": true
+      },
+      {
+        "name": "[Logo client 6]",
+        "placeholder": true
+      }
+    ]
+  },
+  "categories": {
+    "eyebrow": "Nos services",
+    "title": "Un entretien sur mesure pour chaque lieu",
+    "intro": "Chaque collaboration commence par un échange et une visite, jamais par une grille tarifaire. Nous construisons ensuite un plan adapté à vos locaux, à votre emploi du temps et à vos exigences."
+  },
+  "commitment": {
+    "eyebrow": "Notre engagement",
+    "title": "Une excellence discrète, semaine après semaine",
+    "intro": "On nous juge sur les détails que personne d’autre ne remarque, et sur notre capacité à tenir parole.",
+    "items": [
+      {
+        "icon": "heart-handshake",
+        "title": "Envers nos clients",
+        "body": "La constance avant tout : les mêmes personnes, les mêmes standards et un interlocuteur unique qui connaît votre logement ou vos locaux."
+      },
+      {
+        "icon": "users",
+        "title": "Envers nos équipes",
+        "body": "Des contrats équitables, une vraie formation et des horaires stables. Des équipes respectées travaillent mieux et restent avec nous."
+      },
+      {
+        "icon": "home",
+        "title": "Envers notre territoire",
+        "body": "Une entreprise luxembourgeoise qui emploie des talents locaux et sert des clients dans tous les cantons du pays."
+      },
+      {
+        "icon": "leaf",
+        "title": "Envers l’environnement",
+        "body": "Des produits écoresponsables, des systèmes en microfibre et des tournées optimisées pour économiser l’eau, limiter les déchets et réduire les trajets."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Notre méthode",
+    "title": "Quatre étapes vers un service auquel vous n’avez plus à penser",
+    "steps": [
+      {
+        "title": "Consultation",
+        "body": "Nous écoutons, visitons et comprenons vos locaux, vos priorités et vos contraintes."
+      },
+      {
+        "title": "Plan sur mesure",
+        "body": "Vous recevez une proposition écrite claire : périmètre, fréquence, équipe et planning."
+      },
+      {
+        "title": "Réalisation",
+        "body": "Votre équipe attitrée suit une liste de contrôle convenue, avec discrétion et soin."
+      },
+      {
+        "title": "Suivi",
+        "body": "Des contrôles qualité réguliers et un interlocuteur unique qui ajuste le service à l’évolution de vos besoins."
+      }
+    ],
+    "link": {
+      "label": "Découvrir notre méthode",
+      "href": "/how-it-works"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Paroles de clients",
+    "title": "Ce que nos clients apprécient le plus",
+    "link": {
+      "label": "Lire d’autres témoignages",
+      "href": "/testimonials"
+    }
+  },
+  "cta": {
+    "title": "Confiez-nous l’entretien",
+    "body": "Présentez-nous votre logement ou vos locaux. Nous vous répondons sous un jour ouvrable pour convenir d’une consultation.",
+    "primary": {
+      "label": "Demander un devis",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "Notre méthode",
+      "href": "/how-it-works"
+    }
+  }
+}

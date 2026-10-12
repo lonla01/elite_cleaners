@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Mentions légales",
+    "description": "Éditeur, immatriculation et hébergement du site de {companyName}."
+  },
+  "title": "Mentions légales",
+  "updated": "2026-10-12",
+  "reviewed": false,
+  "intro": "Informations relatives à l’éditeur de ce site, conformément au droit luxembourgeois sur le commerce électronique.",
+  "sections": [
+    {
+      "id": "editeur",
+      "title": "Éditeur",
+      "list": [
+        "{legalName}, [forme juridique, par exemple société à responsabilité limitée]",
+        "Siège social : {address}",
+        "Capital social : [EUR 00 000]",
+        "Registre de commerce et des sociétés (RCS) : {rcs}",
+        "Autorisation d’établissement : {permit}",
+        "Numéro de TVA : {vat}",
+        "Téléphone : {phone}",
+        "E-mail : {email}",
+        "Gérant et directeur de la publication : [Nom]"
+      ]
+    },
+    {
+      "id": "hebergement",
+      "title": "Hébergement",
+      "paragraphs": [
+        "Ce site est hébergé par [nom et adresse de l’hébergeur], sur des serveurs situés dans l’Union européenne."
+      ]
+    },
+    {
+      "id": "propriete",
+      "title": "Propriété intellectuelle",
+      "paragraphs": [
+        "L’ensemble du contenu de ce site, notamment les textes, images, graphismes et logos, est la propriété de {legalName} ou utilisé avec autorisation. Toute reproduction sans accord écrit préalable est interdite.",
+        "Les noms et logos de clients ne sont affichés qu’avec l’autorisation écrite de chaque client."
+      ]
+    },
+    {
+      "id": "responsabilite",
+      "title": "Responsabilité",
+      "paragraphs": [
+        "Nous veillons à ce que les informations de ce site soient exactes et à jour, mais elles sont fournies à titre d’information générale et ne constituent pas une offre contractuelle. Les prestations et conditions sont confirmées dans nos devis écrits.",
+        "Les liens vers d’autres sites sont fournis pour votre commodité. Nous ne sommes pas responsables de leur contenu."
+      ]
+    },
+    {
+      "id": "droit",
+      "title": "Droit applicable",
+      "paragraphs": [
+        "Ce site et les présentes mentions sont régis par le droit luxembourgeois. Tout litige relève de la compétence des tribunaux de Luxembourg-Ville."
+      ]
+    }
+  ]
+}

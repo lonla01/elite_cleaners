@@ -1,0 +1,97 @@
+{
+  "id": "commercial-post-construction",
+  "slug": "nettoyage-de-fin-de-chantier",
+  "category": "corporate",
+  "order": 60,
+  "title": "Nettoyage de fin de chantier",
+  "summary": "Le nettoyage de fin de chantier des bureaux et locaux professionnels, calé sur vos dates de réception et d’ouverture.",
+  "meta": {
+    "title": "Nettoyage de fin de chantier au Luxembourg",
+    "description": "Nettoyage de fin de chantier pour bureaux, boutiques et bâtiments professionnels au Luxembourg, planifié selon vos dates de réception, d’aménagement et d’ouverture."
+  },
+  "hero": {
+    "intro": "Du premier nettoyage de chantier à la touche finale avant réception, nous suivons votre planning de travaux pour que les locaux soient prêts le jour de l’ouverture.",
+    "image": {
+      "key": "service-commercial-post-construction",
+      "alt": "Un plateau de bureaux fraîchement aménagé, bureaux propres et vides, prêt pour la réception"
+    }
+  },
+  "included": {
+    "intro": "Chaque phase est planifiée avec le conducteur de travaux et s’organise autour des corps de métier encore présents.",
+    "groups": [
+      {
+        "title": "Nettoyage de chantier",
+        "items": [
+          "Débris, emballages et poussière évacués après le gros œuvre",
+          "Sols balayés et aspirés",
+          "Surfaces préparées pour les corps de métier de finition"
+        ]
+      },
+      {
+        "title": "Nettoyage de réception",
+        "items": [
+          "Poussière fine éliminée sur toutes les surfaces, en hauteur comme au sol",
+          "Résidus de peinture, de plâtre et de colle retirés",
+          "Films de protection enlevés",
+          "Vitrages, cadres et cloisons nettoyés à l’intérieur et à l’extérieur lorsqu’ils sont accessibles",
+          "Cuisines et sanitaires nettoyés et désinfectés"
+        ]
+      },
+      {
+        "title": "Retouches avant ouverture",
+        "items": [
+          "Un dernier passage après l’installation du mobilier et des équipements",
+          "Liste de réception complétée avec le conducteur de travaux"
+        ]
+      }
+    ]
+  },
+  "frequencies": {
+    "options": [
+      {
+        "title": "Phase unique",
+        "body": "Un nettoyage final avant la réception."
+      },
+      {
+        "title": "Plusieurs phases",
+        "body": "Nettoyage de chantier, de réception et avant ouverture, planifiés avec les travaux."
+      },
+      {
+        "title": "Accord-cadre",
+        "body": "Pour les entreprises générales et promoteurs aux projets récurrents."
+      }
+    ]
+  },
+  "audience": [
+    {
+      "icon": "hammer",
+      "title": "Entreprises générales",
+      "body": "Une dernière étape fiable qui respecte vos délais de réception."
+    },
+    {
+      "icon": "building",
+      "title": "Promoteurs et gestionnaires immobiliers",
+      "body": "Bâtiments neufs et rénovés prêts pour les locataires."
+    },
+    {
+      "icon": "briefcase",
+      "title": "Entreprises qui aménagent leurs bureaux",
+      "body": "Vos nouveaux locaux prêts dès le premier jour de travail."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Respectez-vous les règles de sécurité du chantier ?",
+      "answer": "Oui. Nos équipes portent les équipements de protection requis, suivent les accueils sécurité et respectent le plan de prévention du chantier."
+    },
+    {
+      "question": "Pouvez-vous intervenir sur un grand bâtiment ?",
+      "answer": "Oui. Nous dimensionnons l’équipe selon la surface et le délai, et planifions le travail étage par étage avec le conducteur de travaux."
+    },
+    {
+      "question": "Nettoyez-vous aussi les logements après travaux ?",
+      "answer": "Oui. Pour les logements privés, consultez notre service de nettoyage après travaux."
+    }
+  ],
+  "related": ["office-cleaning", "post-renovation-cleaning", "window-cleaning"]
+}
