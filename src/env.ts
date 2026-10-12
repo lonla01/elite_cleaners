@@ -30,6 +30,8 @@ const schema = z.object({
   STORAGE_BUCKET: z.string().optional(),
   STORAGE_ACCESS_KEY_ID: z.string().optional(),
   STORAGE_SECRET_ACCESS_KEY: z.string().optional(),
+  /** Railway buckets use virtual-hosted URLs (https://<bucket>.<endpoint host>/<key>). */
+  STORAGE_URL_STYLE: z.enum(["virtual", "path"]).default("virtual"),
 
   NEXT_PUBLIC_ANALYTICS_PROVIDER: z.enum(["none", "plausible"]).default("none"),
   NEXT_PUBLIC_PLAUSIBLE_DOMAIN: z.string().optional(),
@@ -57,6 +59,7 @@ export const env = schema.parse({
   STORAGE_BUCKET: process.env.STORAGE_BUCKET,
   STORAGE_ACCESS_KEY_ID: process.env.STORAGE_ACCESS_KEY_ID,
   STORAGE_SECRET_ACCESS_KEY: process.env.STORAGE_SECRET_ACCESS_KEY,
+  STORAGE_URL_STYLE: process.env.STORAGE_URL_STYLE,
   NEXT_PUBLIC_ANALYTICS_PROVIDER: process.env.NEXT_PUBLIC_ANALYTICS_PROVIDER,
   NEXT_PUBLIC_PLAUSIBLE_DOMAIN: process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN,
   NEXT_PUBLIC_PLAUSIBLE_SRC: process.env.NEXT_PUBLIC_PLAUSIBLE_SRC,

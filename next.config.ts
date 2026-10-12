@@ -51,6 +51,8 @@ const nextConfig: NextConfig = {
   typedRoutes: true,
   experimental: {
     globalNotFound: true,
+    // CV uploads are limited to 5 MB; leave room for the other fields and multipart overhead.
+    serverActions: { bodySizeLimit: "6mb" },
   },
   images: {
     formats: ["image/avif", "image/webp"],
