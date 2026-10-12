@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Premium cleaning across Luxembourg",
+    "description": "Discreet, consistent cleaning and housekeeping for private residences, offices and financial institutions throughout the Grand Duchy of Luxembourg."
+  },
+  "hero": {
+    "slides": [
+      {
+        "id": "residential",
+        "eyebrow": "Residential",
+        "title": "Your home, cared for as we would care for our own",
+        "body": "The same vetted cleaner, on the same day and at the same time, every visit. Quiet, thorough and entirely discreet.",
+        "cta": { "label": "Explore residential cleaning", "href": "/services" },
+        "image": {
+          "key": "hero-residential",
+          "alt": "An elegant living room in soft morning light, freshly cleaned"
+        }
+      },
+      {
+        "id": "corporate",
+        "eyebrow": "Corporate & financial",
+        "title": "Immaculate premises, handled with absolute confidentiality",
+        "body": "After-hours teams for offices and financial institutions, working under signed confidentiality agreements and strict access protocols.",
+        "cta": { "label": "Explore corporate cleaning", "href": "/services" },
+        "image": {
+          "key": "hero-corporate",
+          "alt": "A refined corporate lobby in Kirchberg after hours"
+        }
+      },
+      {
+        "id": "housekeeping",
+        "eyebrow": "Housekeeping",
+        "title": "Dedicated housekeeping for the way you live",
+        "body": "Recurring, dedicated staff for laundry, ironing and the day-to-day running of your residence, matched to your household.",
+        "cta": { "label": "Explore housekeeping", "href": "/services" },
+        "image": {
+          "key": "hero-housekeeping",
+          "alt": "Neatly pressed shirts hanging in a dressing room"
+        }
+      },
+      {
+        "id": "post-renovation",
+        "eyebrow": "Post-renovation",
+        "title": "From building site to home, without a trace of dust",
+        "body": "Meticulous post-renovation cleaning, so you can move back in the day the work is finished.",
+        "cta": { "label": "Explore post-renovation cleaning", "href": "/services" },
+        "image": {
+          "key": "hero-post-renovation",
+          "alt": "A newly renovated kitchen with gleaming surfaces"
+        }
+      }
+    ]
+  },
+  "trust": [
+    {
+      "icon": "shield",
+      "value": "Fully insured",
+      "label": "Professional liability cover [insurer to confirm]"
+    },
+    {
+      "icon": "user-check",
+      "value": "Vetted staff",
+      "label": "Background-checked and trained in-house"
+    },
+    { "icon": "award", "value": "[XX] years", "label": "Of experience in Luxembourg" },
+    {
+      "icon": "leaf",
+      "value": "Eco-responsible",
+      "label": "Products selected for people and planet"
+    },
+    { "icon": "lock", "value": "Confidential", "label": "Signed agreements on request" }
+  ],
+  "trustedBy": {
+    "title": "Trusted by institutions and private clients across Luxembourg",
+    "logos": [
+      { "name": "[Client logo 1]", "placeholder": true },
+      { "name": "[Client logo 2]", "placeholder": true },
+      { "name": "[Client logo 3]", "placeholder": true },
+      { "name": "[Client logo 4]", "placeholder": true },
+      { "name": "[Client logo 5]", "placeholder": true },
+      { "name": "[Client logo 6]", "placeholder": true }
+    ]
+  },
+  "categories": {
+    "eyebrow": "Our services",
+    "title": "Tailored care for every kind of space",
+    "intro": "Every engagement begins with a conversation and a visit, never with a price list. We then build a plan around your premises, your schedule and your standards."
+  },
+  "commitment": {
+    "eyebrow": "Our commitment",
+    "title": "Quiet excellence, kept every week",
+    "intro": "We are judged on the details nobody else notices, and on whether we keep our word.",
+    "items": [
+      {
+        "icon": "heart-handshake",
+        "title": "To our clients",
+        "body": "Consistency above all: the same people, the same standards and one point of contact who knows your home or premises."
+      },
+      {
+        "icon": "users",
+        "title": "To our staff",
+        "body": "Fair contracts, proper training and stable schedules. Respected teams do their best work and stay with us."
+      },
+      {
+        "icon": "home",
+        "title": "To our community",
+        "body": "A Luxembourg business employing local talent and serving clients in every canton of the country."
+      },
+      {
+        "icon": "leaf",
+        "title": "To the environment",
+        "body": "Eco-responsible products, microfibre systems and route planning that reduces water, waste and travel."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "Four steps to a service you no longer have to think about",
+    "steps": [
+      {
+        "title": "Consultation",
+        "body": "We listen, visit and understand your premises, priorities and constraints."
+      },
+      {
+        "title": "Tailored plan",
+        "body": "You receive a clear written proposal: scope, frequency, team and schedule."
+      },
+      {
+        "title": "Execution",
+        "body": "Your dedicated team works to an agreed checklist, with discretion and care."
+      },
+      {
+        "title": "Review",
+        "body": "Regular quality reviews and one contact who adjusts the service as your needs change."
+      }
+    ],
+    "link": { "label": "See how we work", "href": "/how-it-works" }
+  },
+  "testimonials": {
+    "eyebrow": "Client words",
+    "title": "What our clients value most",
+    "link": { "label": "Read more testimonials", "href": "/testimonials" }
+  },
+  "cta": {
+    "title": "Let us take care of it",
+    "body": "Tell us about your home or premises. We will reply within one working day to arrange a consultation.",
+    "primary": { "label": "Request a quote", "href": "/contact" },
+    "secondary": { "label": "How it works", "href": "/how-it-works" }
+  }
+}

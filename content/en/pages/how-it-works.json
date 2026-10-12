@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "How it works",
+    "description": "From the first consultation to regular quality reviews: how we design and deliver a cleaning service tailored to your home or premises in Luxembourg."
+  },
+  "hero": {
+    "eyebrow": "How it works",
+    "title": "A service designed around you, then kept consistent",
+    "intro": "No standard packages and no surprises. We take time to understand what matters to you, then deliver it the same way every visit.",
+    "image": {
+      "key": "how-it-works-hero",
+      "alt": "A consultant taking notes during a visit to a private residence"
+    }
+  },
+  "steps": {
+    "eyebrow": "Four steps",
+    "title": "From first call to lasting routine",
+    "items": [
+      {
+        "title": "Consultation",
+        "body": "A short call, then a visit to your home or premises at a time that suits you.",
+        "points": [
+          "We assess surfaces, materials and any special requirements",
+          "We discuss access, keys, alarms and security protocols",
+          "No obligation and no charge for the visit"
+        ]
+      },
+      {
+        "title": "Tailored plan",
+        "body": "Within a few working days, you receive a written proposal.",
+        "points": [
+          "Detailed scope and checklist, room by room or zone by zone",
+          "Recommended frequency, day and time slot",
+          "A clear quote in euros, excluding and including VAT"
+        ]
+      },
+      {
+        "title": "Execution",
+        "body": "Your dedicated cleaner or team begins on the agreed date.",
+        "points": [
+          "The same people at the same time for every recurring visit",
+          "Eco-responsible products suited to each surface",
+          "Keys and badges handled under a documented protocol"
+        ]
+      },
+      {
+        "title": "Review",
+        "body": "We check in regularly and adjust the service as your needs evolve.",
+        "points": [
+          "Supervisor quality visits",
+          "One point of contact for any request or change",
+          "Holiday and absence cover planned in advance"
+        ]
+      }
+    ]
+  },
+  "promises": {
+    "eyebrow": "What you can expect",
+    "title": "The details that make the difference",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Same cleaner, same slot",
+        "body": "Recurring clients keep the same vetted cleaner on a fixed day and time."
+      },
+      {
+        "icon": "key",
+        "title": "Secure key handling",
+        "body": "Coded key storage and signed handovers. Your keys never carry your address."
+      },
+      {
+        "icon": "message",
+        "title": "One point of contact",
+        "body": "A named coordinator who knows your home or premises and answers quickly."
+      },
+      {
+        "icon": "shield",
+        "title": "Insured and accountable",
+        "body": "Every visit is covered by our professional liability insurance."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "Do I need to be at home during the consultation?",
+        "answer": "Ideally yes, or someone who can show us the premises. The visit usually takes 30 to 45 minutes."
+      },
+      {
+        "question": "What happens when my regular cleaner is on holiday?",
+        "answer": "We let you know in advance and send a trained replacement who has been briefed on your checklist. You can also choose to pause the service."
+      },
+      {
+        "question": "Do you bring your own products and equipment?",
+        "answer": "Yes. We bring professional, eco-responsible products and equipment. If you prefer specific products for certain surfaces, we are happy to use them."
+      },
+      {
+        "question": "Which areas do you cover?",
+        "answer": "We work throughout the Grand Duchy, in all twelve cantons. Cross-border locations can be considered on request."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start with a conversation",
+    "body": "Tell us what you need. We will arrange a consultation at a time that suits you.",
+    "primary": { "label": "Request a quote", "href": "/contact" }
+  }
+}

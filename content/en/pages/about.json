@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "About us",
+    "description": "A Luxembourg cleaning company built on consistency, confidentiality and care, serving residences and institutions across the Grand Duchy."
+  },
+  "hero": {
+    "eyebrow": "About us",
+    "title": "Care you can rely on, discretion you never have to ask for",
+    "intro": "For [XX] years we have looked after private residences, offices and institutions across Luxembourg, quietly and to the same exacting standard every time.",
+    "image": {
+      "key": "about-hero",
+      "alt": "A member of our team carefully polishing a glass surface"
+    }
+  },
+  "story": {
+    "title": "Our story",
+    "paragraphs": [
+      "[Placeholder: founding story. Who started the company, when and why. Two or three sentences in the owner's own words.]",
+      "From the beginning, we chose to grow slowly and to work with the same people for many years. That continuity is what our clients notice first: they know who will come, when, and what will be done.",
+      "Today our teams serve households in Belair, Limpertsberg and Strassen as well as offices in Kirchberg, Cloche d'Or and the Gare district. Some of our clients are among the country's most security-conscious institutions."
+    ]
+  },
+  "values": {
+    "eyebrow": "What guides us",
+    "title": "Four principles behind every visit",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Consistency",
+        "body": "The same vetted cleaner, on the same day and at the same time, for every recurring client."
+      },
+      {
+        "icon": "lock",
+        "title": "Confidentiality",
+        "body": "What we see and hear stays with us. Confidentiality agreements are available for every engagement."
+      },
+      {
+        "icon": "check",
+        "title": "Reliability",
+        "body": "Cover is arranged in advance for holidays and absences, so your service never simply stops."
+      },
+      {
+        "icon": "leaf",
+        "title": "Responsibility",
+        "body": "Eco-responsible products and methods, chosen to protect your surfaces, your health and the environment."
+      }
+    ]
+  },
+  "standards": {
+    "eyebrow": "Our people",
+    "title": "Selected with care, trained to our standard",
+    "intro": "Clients let us into their homes and offices. That trust starts with how we choose and support our team.",
+    "items": [
+      {
+        "title": "Rigorous selection",
+        "body": "References, interviews and a criminal record extract (bulletin n° 3) for every team member."
+      },
+      {
+        "title": "In-house training",
+        "body": "Surface care, products, safety, and the etiquette expected in private residences and secure premises."
+      },
+      {
+        "title": "Fully insured",
+        "body": "Professional liability insurance covers every intervention. [Insurer and cover to be confirmed.]"
+      },
+      {
+        "title": "Supervised quality",
+        "body": "Supervisors carry out regular quality visits and stay in direct contact with each client."
+      }
+    ],
+    "image": {
+      "key": "about-standards",
+      "alt": "A supervisor reviewing a cleaning checklist with a team member"
+    }
+  },
+  "cta": {
+    "title": "Meet us in person",
+    "body": "The best way to know us is a consultation at your home or premises, without obligation.",
+    "primary": { "label": "Request a quote", "href": "/contact" },
+    "secondary": { "label": "How it works", "href": "/how-it-works" }
+  }
+}

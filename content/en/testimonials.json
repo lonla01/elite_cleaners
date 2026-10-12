@@ -1,0 +1,23 @@
+[
+  {
+    "id": "placeholder-1",
+    "quote": "[Placeholder] Replace with a genuine testimonial from a residential client, published only with their written consent.",
+    "author": "[Client name or initials]",
+    "context": "[Private residence, Belair]",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-2",
+    "quote": "[Placeholder] Replace with a genuine testimonial from a corporate client, published only with their written consent.",
+    "author": "[Name, role]",
+    "context": "[Financial institution, Kirchberg]",
+    "placeholder": true
+  },
+  {
+    "id": "placeholder-3",
+    "quote": "[Placeholder] Replace with a genuine testimonial from a housekeeping client, published only with their written consent.",
+    "author": "[Client name or initials]",
+    "context": "[Family home, Strassen]",
+    "placeholder": true
+  }
+]
