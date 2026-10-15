@@ -24,7 +24,10 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
     <footer className="dark-surface bg-navy-950 pt-20 pb-28 text-mist sm:pb-12">
       <Container className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr_repeat(3,1fr)]">
         <div className="space-y-6">
-          <Brand name={company.name} label={tc("homeLinkLabel", { company: company.name })} />
+          <Brand
+            monogram={company.monogram}
+            label={tc("homeLinkLabel", { company: company.name })}
+          />
           <p className="max-w-xs">{t("coverage")}</p>
           <address className="space-y-1 not-italic">
             <p>{company.address.street}</p>

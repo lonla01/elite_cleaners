@@ -6,7 +6,8 @@ An inventory of everything the company must supply or validate. It is completed 
 
 Defaults are in `src/config/company.ts`. From milestone 6, edit them in **/admin/settings**.
 
-- [ ] Company name, legal name (S.à r.l. / S.A.), tagline
+- [x] Company name: KLELITECLEANERS Luxembourg (monogram "KL" in the header and footer)
+- [ ] Legal name (S.à r.l. / S.A.), tagline
 - [ ] Registered address (street, L-postcode, city)
 - [ ] Phone (+352), WhatsApp number, contact email, lead notification email
 - [ ] RCS number, business permit (autorisation d'établissement) number, VAT number (LU…)

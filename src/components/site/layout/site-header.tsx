@@ -32,7 +32,7 @@ export async function SiteHeader({ locale }: { locale: Locale }) {
   return (
     <header className="sticky top-0 z-40 h-(--header-height) border-b border-ink/10 bg-ivory/95 backdrop-blur supports-[backdrop-filter]:bg-ivory/85">
       <Container className="flex h-full items-center justify-between gap-6">
-        <Brand name={company.name} label={t("homeLinkLabel", { company: company.name })} />
+        <Brand monogram={company.monogram} label={t("homeLinkLabel", { company: company.name })} />
         <div className="flex items-center gap-2 lg:gap-6">
           <MegaMenu categories={nav} />
           <LanguageSwitcher locales={locales} slugMaps={slugMaps} className="hidden lg:block" />
