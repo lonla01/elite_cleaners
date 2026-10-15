@@ -10,7 +10,7 @@ export const companyDefaults = {
   name: "KLELITECLEANERS Luxembourg",
   /** Initials shown as the header and footer logo until a real logo is supplied. */
   monogram: "KL",
-  legalName: "[COMPANY LEGAL NAME] S.à r.l.",
+  legalName: "KLELITECLEANERS Luxembourg S.à r.l.",
   tagline: "[TAGLINE]",
   address: {
     street: "[STREET AND NUMBER]",
