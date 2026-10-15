@@ -118,7 +118,11 @@ export async function SiteFooter({ locale }: { locale: Locale }) {
 
       <Container className="mt-16 flex flex-col gap-2 border-t border-ivory/10 pt-8 text-sm sm:flex-row sm:justify-between">
         <p>
-          {t("copyright", { year: String(await CurrentYearText()), legalName: company.legalName })}
+          {t("copyright", {
+            year: String(await CurrentYearText()),
+            // "S.à r.l." already ends with a full stop; the sentence supplies it.
+            legalName: company.legalName.replace(/\.$/, ""),
+          })}
         </p>
         <p>{t("registration", { rcs: company.rcsNumber, vat: company.vatNumber })}</p>
       </Container>
