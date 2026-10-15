@@ -6,7 +6,7 @@
     "description": "Maisons et appartements entretenus avec constance et discrétion, du passage hebdomadaire au nettoyage de fin de bail.",
     "image": {
       "key": "category-residential",
-      "alt": "Un salon lumineux et parfaitement rangé, baigné de lumière naturelle"
+      "alt": "Un salon lumineux aux voilages légers et au mobilier blanc"
     }
   },
   {
@@ -16,7 +16,7 @@
     "description": "Du personnel dédié à la bonne marche des résidences privées et des appartements meublés.",
     "image": {
       "key": "category-housekeeping",
-      "alt": "Du linge fraîchement repassé, plié sur un lit"
+      "alt": "Du linge blanc fraîchement plié et un petit bouquet sur un lit fait"
     }
   },
   {
@@ -26,7 +26,7 @@
     "description": "Bureaux, institutions financières, lieux publics et cabinets, nettoyés selon des standards documentés.",
     "image": {
       "key": "category-corporate",
-      "alt": "Un open space calme et impeccable après les heures de bureau"
+      "alt": "Un open space bien rangé, des plantes le long des bureaux"
     }
   }
 ]

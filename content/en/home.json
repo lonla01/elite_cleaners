@@ -13,7 +13,7 @@
         "cta": { "label": "Explore residential cleaning", "href": "/services" },
         "image": {
           "key": "hero-residential",
-          "alt": "An elegant living room in soft morning light, freshly cleaned"
+          "alt": "A bright, elegant living room with a classic rug and tall windows"
         }
       },
       {
@@ -24,7 +24,7 @@
         "cta": { "label": "Explore corporate cleaning", "href": "/services" },
         "image": {
           "key": "hero-corporate",
-          "alt": "A refined corporate lobby in Kirchberg after hours"
+          "alt": "A calm office lobby with wood-panelled columns and floor-to-ceiling glass"
         }
       },
       {
@@ -35,7 +35,7 @@
         "cta": { "label": "Explore housekeeping", "href": "/services" },
         "image": {
           "key": "hero-housekeeping",
-          "alt": "Neatly pressed shirts hanging in a dressing room"
+          "alt": "A softly lit walk-in wardrobe with neatly folded clothes behind glass doors"
         }
       },
       {
@@ -46,7 +46,7 @@
         "cta": { "label": "Explore post-renovation cleaning", "href": "/services" },
         "image": {
           "key": "hero-post-renovation",
-          "alt": "A newly renovated kitchen with gleaming surfaces"
+          "alt": "A newly finished white kitchen with a marble floor and gleaming surfaces"
         }
       }
     ]

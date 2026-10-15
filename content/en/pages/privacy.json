@@ -7,6 +7,10 @@
   "updated": "2026-10-12",
   "reviewed": false,
   "intro": "This policy explains what personal data {legalName} collects through this website and in the course of its services, why, for how long, and the rights you have under the General Data Protection Regulation (GDPR) and Luxembourg law.",
+  "image": {
+    "key": "legal-hero",
+    "alt": "Clean white architectural lines in a minimal interior"
+  },
   "sections": [
     {
       "id": "controller",

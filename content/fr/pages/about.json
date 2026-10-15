@@ -9,7 +9,7 @@
     "intro": "Depuis [XX] ans, nous entretenons des résidences privées, des bureaux et des institutions dans tout le Luxembourg, discrètement et avec la même exigence à chaque passage.",
     "image": {
       "key": "about-hero",
-      "alt": "Un membre de notre équipe polissant soigneusement une surface vitrée"
+      "alt": "Une main gantée polissant un miroir avec une éponge"
     }
   },
   "story": {
@@ -70,7 +70,7 @@
     ],
     "image": {
       "key": "about-standards",
-      "alt": "Une superviseure passant en revue une liste de contrôle avec un membre de l’équipe"
+      "alt": "Une gouvernante en uniforme lissant soigneusement un lit"
     }
   },
   "cta": {

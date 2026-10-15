@@ -7,6 +7,10 @@
   "updated": "2026-10-12",
   "reviewed": false,
   "intro": "Information about the publisher of this website, as required by Luxembourg law on electronic commerce.",
+  "image": {
+    "key": "legal-hero",
+    "alt": "Clean white architectural lines in a minimal interior"
+  },
   "sections": [
     {
       "id": "publisher",

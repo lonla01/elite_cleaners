@@ -16,14 +16,12 @@ import {
   ButtonLink,
   Checklist,
   Container,
-  ContentImage,
   CtaBand,
-  Eyebrow,
   FaqList,
   FeatureGrid,
   Heading,
   JsonLd,
-  Lead,
+  PageHero,
   Section,
   SectionHeader,
   ServiceCardList,
@@ -94,38 +92,22 @@ export default async function ServicePage({ params }: PageProps<"/[locale]/servi
   return (
     <main id="main">
       <JsonLd data={structuredData} />
-      <Breadcrumbs
-        locale={locale}
-        items={[{ label: tn("services"), href: "/services" }, { label: service.title }]}
-      />
-
-      {/* Hero */}
-      <section className="pt-10 sm:pt-16">
-        <Container className="grid gap-8 lg:grid-cols-12 lg:items-end">
-          <div className="space-y-6 lg:col-span-7">
-            {category && <Eyebrow>{category.title}</Eyebrow>}
-            <Heading as="h1" size="display">
-              {service.title}
-            </Heading>
-          </div>
-          <div className="space-y-6 lg:col-span-5">
-            <Lead>{service.hero.intro}</Lead>
-            <ButtonLink href={quoteHref} variant="accent" size="lg">
-              {t("quoteFor")}
-            </ButtonLink>
-          </div>
-        </Container>
-        <Container className="mt-12 sm:mt-16">
-          <div className="relative aspect-[16/9] overflow-hidden rounded-sm sm:aspect-[2/1]">
-            <ContentImage
-              image={service.hero.image}
-              fill
-              preload
-              sizes="(min-width: 76rem) 76rem, 100vw"
-            />
-          </div>
-        </Container>
-      </section>
+      <PageHero
+        eyebrow={category?.title}
+        title={service.title}
+        intro={service.hero.intro}
+        image={service.hero.image}
+        top={
+          <Breadcrumbs
+            locale={locale}
+            items={[{ label: tn("services"), href: "/services" }, { label: service.title }]}
+          />
+        }
+      >
+        <ButtonLink href={quoteHref} variant="light" size="lg">
+          {t("quoteFor")}
+        </ButtonLink>
+      </PageHero>
 
       {/* What's included */}
       <Section>

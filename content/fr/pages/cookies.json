@@ -7,6 +7,10 @@
   "updated": "2026-10-12",
   "reviewed": false,
   "intro": "Nous gardons ce site aussi léger que possible. Aucun cookie ni script de suivi facultatif n’est utilisé tant que vous n’avez pas fait votre choix, et vous pouvez changer d’avis à tout moment.",
+  "image": {
+    "key": "legal-hero",
+    "alt": "Des lignes architecturales blanches et nettes dans un intérieur épuré"
+  },
   "sections": [
     {
       "id": "definition",

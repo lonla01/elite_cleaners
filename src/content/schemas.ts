@@ -234,6 +234,8 @@ export type Commune = z.infer<typeof communeSchema>;
 export const areasPageSchema = z.object({
   meta: metaSchema,
   hero: sectionIntroSchema.extend({ image: imageRefSchema }),
+  /** Hero photo shared by every commune page. */
+  communeImage: imageRefSchema,
   map: sectionIntroSchema.extend({ label: z.string() }),
   /** Display names of the cantons, in this locale. */
   cantons: z.record(z.enum(cantonIds), z.string()),
@@ -254,6 +256,7 @@ export const legalPageSchema = z.object({
   /** false until a lawyer has reviewed the text; the page then shows a notice. */
   reviewed: z.boolean(),
   intro: z.string(),
+  image: imageRefSchema,
   sections: z
     .array(
       z.object({
@@ -273,7 +276,7 @@ export type LegalPage = z.infer<typeof legalPageSchema>;
 
 export const contactPageSchema = z.object({
   meta: metaSchema,
-  hero: sectionIntroSchema,
+  hero: sectionIntroSchema.extend({ image: imageRefSchema }),
   form: sectionIntroSchema,
   /** Opening hours as displayed (the machine-readable value is in the settings). */
   hours: z.string(),

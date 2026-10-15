@@ -6,7 +6,11 @@
   "hero": {
     "eyebrow": "Contact",
     "title": "Parlez-nous de votre logement ou de vos locaux",
-    "intro": "Chaque devis est sur mesure. Donnez-nous quelques détails : nous vous répondons sous un jour ouvrable pour faire le point sur vos besoins et, si utile, convenir d’une visite."
+    "intro": "Chaque devis est sur mesure. Donnez-nous quelques détails : nous vous répondons sous un jour ouvrable pour faire le point sur vos besoins et, si utile, convenir d’une visite.",
+    "image": {
+      "key": "contact-hero",
+      "alt": "Une chaise longue en cuir dans une pièce claire et paisible, avec une plante"
+    }
   },
   "form": {
     "title": "Demander un devis",

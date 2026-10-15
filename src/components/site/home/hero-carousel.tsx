@@ -40,7 +40,7 @@ export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
       aria-label={t("label")}
       className="dark-surface relative isolate overflow-hidden bg-navy-900"
     >
-      <div className="relative min-h-[36rem] sm:min-h-[40rem] lg:min-h-[44rem]">
+      <div className="relative min-h-[36rem] sm:min-h-[40rem] lg:min-h-[max(44rem,calc(100svh-var(--header-height)))]">
         {slides.map((slide, i) => (
           <div
             key={slide.id}
@@ -57,7 +57,11 @@ export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
             {slide.image}
             <div
               aria-hidden
-              className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/55 to-navy-950/20"
+              className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/60 to-navy-950/30 md:from-navy-950/85 md:via-navy-950/35 md:to-navy-950/5"
+            />
+            <div
+              aria-hidden
+              className="absolute inset-0 hidden bg-gradient-to-r from-navy-950/75 via-navy-950/30 to-transparent md:block"
             />
             <div className="relative mx-auto flex h-full max-w-(--container-site) items-end px-(--spacing-gutter) pt-24 pb-36 sm:pb-40">
               <div className="max-w-2xl space-y-6">{slide.content}</div>

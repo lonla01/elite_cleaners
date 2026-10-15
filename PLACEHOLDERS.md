@@ -17,6 +17,8 @@ Defaults are in `src/config/company.ts`. From milestone 6, edit them in **/admin
 ## Brand
 
 - [ ] Final colours and typefaces. The current palette in `src/styles/tokens.css` is a proposal.
+      Typefaces are Heebo (headings, navigation, buttons) and IBM Plex Sans (body), both from
+      Google Fonts under the SIL Open Font License.
 
 ## Infrastructure
 
@@ -33,42 +35,52 @@ Defaults are in `src/config/company.ts`. From milestone 6, edit them in **/admin
 
 ## Photos
 
-The files in `public/images/` are generated placeholders (navy or stone gradients labelled
-"PLACEHOLDER · key"). Replace each one with a licensed photograph of the same name and similar
-aspect ratio, or update `src/content/images.ts`. Update the alt text in the content file that
-references the key. After replacing a file, do not re-run `generate-placeholders --force`.
+- [ ] Replace the stock photos with the company's own photography where possible.
 
-| Key / file                                  | Size      | Used on                                           | Suggested subject                                                            |
-| ------------------------------------------- | --------- | ------------------------------------------------- | ---------------------------------------------------------------------------- |
-| `hero-residential.webp`                     | 2400×1400 | Home hero, slide 1                                | Elegant living room in soft daylight                                         |
-| `hero-corporate.webp`                       | 2400×1400 | Home hero, slide 2                                | Refined corporate lobby or office after hours                                |
-| `hero-housekeeping.webp`                    | 2400×1400 | Home hero, slide 3                                | Pressed shirts or linen in a dressing room                                   |
-| `hero-post-renovation.webp`                 | 2400×1400 | Home hero, slide 4                                | Newly renovated kitchen, gleaming surfaces                                   |
-| `category-residential.webp`                 | 1200×900  | Home service cards                                | Tidy, bright residential interior                                            |
-| `category-housekeeping.webp`                | 1200×900  | Home service cards                                | Folded linen on a made bed                                                   |
-| `category-corporate.webp`                   | 1200×900  | Home service cards                                | Quiet open-plan office                                                       |
-| `about-hero.webp`                           | 2400×1200 | About                                             | Team member polishing glass, hands only or consented                         |
-| `about-standards.webp`                      | 1200×1500 | About, "Our people"                               | Supervisor and cleaner with a checklist                                      |
-| `how-it-works-hero.webp`                    | 2400×1200 | How it works                                      | Consultation in a private residence                                          |
-| `service-regular-home-cleaning.webp`        | 2400×1200 | Service: Regular home cleaning                    | A calm, freshly cleaned living room with plumped cushions and clear surfaces |
-| `service-deep-cleaning.webp`                | 2400×1200 | Service: Deep cleaning                            | A gleaming kitchen with spotless worktops and polished stainless steel       |
-| `service-end-of-tenancy-cleaning.webp`      | 2400×1200 | Service: End-of-tenancy cleaning                  | An empty, bright apartment with clean floors ready for handover              |
-| `service-post-renovation-cleaning.webp`     | 2400×1200 | Service: Post-renovation cleaning                 | A newly renovated kitchen with protective film being removed from a cabinet  |
-| `service-window-cleaning.webp`              | 2400×1200 | Service: Window & glass cleaning                  | Sunlight through spotless floor-to-ceiling windows                           |
-| `service-carpet-upholstery-care.webp`       | 2400×1200 | Service: Carpet & upholstery care                 | Close-up of a soft wool rug being cleaned with care                          |
-| `service-private-housekeeping.webp`         | 2400×1200 | Service: Private housekeeping & ironing           | Neatly pressed shirts hanging in a well-ordered dressing room                |
-| `service-serviced-apartment-turnover.webp`  | 2400×1200 | Service: Serviced apartment & short-let turnover  | A serviced apartment bedroom with crisp white linen and folded towels        |
-| `service-office-cleaning.webp`              | 2400×1200 | Service: Office cleaning                          | A modern open-plan office, clean and orderly in the early morning            |
-| `service-financial-institutions.webp`       | 2400×1200 | Service: Financial institutions & secure premises | A quiet, polished bank reception area after closing                          |
-| `service-transport-public-facilities.webp`  | 2400×1200 | Service: Transport & public facilities            | A bright, clean waiting area in a public transport station                   |
-| `service-medical-practices.webp`            | 2400×1200 | Service: Medical & dental practices               | A spotless dental treatment room with clean, clear surfaces                  |
-| `service-luxury-retail-hospitality.webp`    | 2400×1200 | Service: Luxury retail & hospitality              | An elegant boutique interior with polished floors and glass display cases    |
-| `service-commercial-post-construction.webp` | 2400×1200 | Service: Commercial post-construction cleaning    | A newly fitted office floor with clean, empty desks ready for handover       |
-| `service-disinfection-sanitisation.webp`    | 2400×1200 | Service: Disinfection & sanitisation              | A team member wiping down a door handle with a disinfectant cloth            |
-| `services-hero.webp`                        | 2400×1200 | Services overview                                 | Professional equipment, neatly arranged                                      |
-| `areas-hero.webp`                           | 2400×1200 | Areas we serve                                    | Luxembourg City skyline or a residential street                              |
-| `careers-hero.webp`                         | 2400×1200 | Careers                                           | Team briefing, faces only with consent                                       |
-| `testimonials-hero.webp`                    | 2400×1200 | Testimonials                                      | Calm, finished interior                                                      |
+The files in `public/images/` are stock photos from [Pexels](https://www.pexels.com/), used under
+the [Pexels licence](https://www.pexels.com/license/): free for commercial use, no attribution
+required. They show no real staff, clients or premises of the company. Pexels does not allow
+reselling the photos unaltered or implying that people shown endorse the company.
+
+To replace a photo, keep the file name and aspect ratio, or update `src/content/images.ts`, then
+update the alt text in the content files (`en` and `fr`) that reference the key. Full-bleed heroes
+are 2560×1600 and are cropped with `object-cover`; keep the subject near the centre and leave calm
+space on the left for the text. Do not re-run `generate-placeholders --force`.
+
+| Key / file                                  | Size      | Used on                               | Source                                                    |
+| ------------------------------------------- | --------- | ------------------------------------- | --------------------------------------------------------- |
+| `hero-residential.webp`                     | 2560×1600 | Home hero, slide 1                    | [Pexels 7534561](https://www.pexels.com/photo/7534561/)   |
+| `hero-corporate.webp`                       | 2560×1600 | Home hero, slide 2                    | [Pexels 32674962](https://www.pexels.com/photo/32674962/) |
+| `hero-housekeeping.webp`                    | 2560×1600 | Home hero, slide 3                    | [Pexels 35189675](https://www.pexels.com/photo/35189675/) |
+| `hero-post-renovation.webp`                 | 2560×1600 | Home hero, slide 4                    | [Pexels 6587896](https://www.pexels.com/photo/6587896/)   |
+| `category-residential.webp`                 | 1200×900  | Home service cards                    | [Pexels 29012619](https://www.pexels.com/photo/29012619/) |
+| `category-housekeeping.webp`                | 1200×900  | Home service cards                    | [Pexels 15195270](https://www.pexels.com/photo/15195270/) |
+| `category-corporate.webp`                   | 1200×900  | Home service cards                    | [Pexels 36631701](https://www.pexels.com/photo/36631701/) |
+| `about-hero.webp`                           | 2560×1600 | About                                 | [Pexels 4239146](https://www.pexels.com/photo/4239146/)   |
+| `about-standards.webp`                      | 1200×1500 | About, "Our people"                   | [Pexels 6466489](https://www.pexels.com/photo/6466489/)   |
+| `how-it-works-hero.webp`                    | 2560×1600 | How it works                          | [Pexels 7045703](https://www.pexels.com/photo/7045703/)   |
+| `service-regular-home-cleaning.webp`        | 2560×1600 | Service: Regular home cleaning        | [Pexels 5998120](https://www.pexels.com/photo/5998120/)   |
+| `service-deep-cleaning.webp`                | 2560×1600 | Service: Deep cleaning                | [Pexels 36777559](https://www.pexels.com/photo/36777559/) |
+| `service-end-of-tenancy-cleaning.webp`      | 2560×1600 | Service: End of tenancy cleaning      | [Pexels 8146156](https://www.pexels.com/photo/8146156/)   |
+| `service-post-renovation-cleaning.webp`     | 2560×1600 | Service: Post renovation cleaning     | [Pexels 20348123](https://www.pexels.com/photo/20348123/) |
+| `service-window-cleaning.webp`              | 2560×1600 | Service: Window cleaning              | [Pexels 31435403](https://www.pexels.com/photo/31435403/) |
+| `service-carpet-upholstery-care.webp`       | 2560×1600 | Service: Carpet upholstery care       | [Pexels 6980718](https://www.pexels.com/photo/6980718/)   |
+| `service-private-housekeeping.webp`         | 2560×1600 | Service: Private housekeeping         | [Pexels 10558192](https://www.pexels.com/photo/10558192/) |
+| `service-serviced-apartment-turnover.webp`  | 2560×1600 | Service: Serviced apartment turnover  | [Pexels 36916378](https://www.pexels.com/photo/36916378/) |
+| `service-office-cleaning.webp`              | 2560×1600 | Service: Office cleaning              | [Pexels 7750129](https://www.pexels.com/photo/7750129/)   |
+| `service-financial-institutions.webp`       | 2560×1600 | Service: Financial institutions       | [Pexels 14613453](https://www.pexels.com/photo/14613453/) |
+| `service-transport-public-facilities.webp`  | 2560×1600 | Service: Transport public facilities  | [Pexels 20712722](https://www.pexels.com/photo/20712722/) |
+| `service-medical-practices.webp`            | 2560×1600 | Service: Medical practices            | [Pexels 6812453](https://www.pexels.com/photo/6812453/)   |
+| `service-luxury-retail-hospitality.webp`    | 2560×1600 | Service: Luxury retail hospitality    | [Pexels 33257665](https://www.pexels.com/photo/33257665/) |
+| `service-commercial-post-construction.webp` | 2560×1600 | Service: Commercial post construction | [Pexels 5511098](https://www.pexels.com/photo/5511098/)   |
+| `service-disinfection-sanitisation.webp`    | 2560×1600 | Service: Disinfection sanitisation    | [Pexels 4099471](https://www.pexels.com/photo/4099471/)   |
+| `services-hero.webp`                        | 2560×1600 | Services overview                     | [Pexels 10557898](https://www.pexels.com/photo/10557898/) |
+| `areas-hero.webp`                           | 2560×1600 | Areas we serve                        | [Pexels 32224979](https://www.pexels.com/photo/32224979/) |
+| `careers-hero.webp`                         | 2560×1600 | Careers                               | [Pexels 6197108](https://www.pexels.com/photo/6197108/)   |
+| `testimonials-hero.webp`                    | 2560×1600 | Testimonials                          | [Pexels 6615908](https://www.pexels.com/photo/6615908/)   |
+| `contact-hero.webp`                         | 2560×1600 | Contact                               | [Pexels 12277631](https://www.pexels.com/photo/12277631/) |
+| `commune-hero.webp`                         | 2560×1600 | Every commune page                    | [Pexels 19909061](https://www.pexels.com/photo/19909061/) |
+| `legal-hero.webp`                           | 2560×1600 | Privacy, cookies, legal notice        | [Pexels 6615805](https://www.pexels.com/photo/6615805/)   |
 
 Photos of real staff or clients need their written consent (GDPR / image rights).
 

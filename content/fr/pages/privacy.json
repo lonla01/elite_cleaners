@@ -7,6 +7,10 @@
   "updated": "2026-10-12",
   "reviewed": false,
   "intro": "Cette politique explique quelles données personnelles {legalName} collecte via ce site et dans le cadre de ses services, pourquoi, pendant combien de temps, et quels sont vos droits au titre du règlement général sur la protection des données (RGPD) et du droit luxembourgeois.",
+  "image": {
+    "key": "legal-hero",
+    "alt": "Des lignes architecturales blanches et nettes dans un intérieur épuré"
+  },
   "sections": [
     {
       "id": "responsable",

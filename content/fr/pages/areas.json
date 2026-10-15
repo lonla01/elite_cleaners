@@ -9,8 +9,12 @@
     "intro": "Nous intervenons dans les douze cantons du Luxembourg. Où que vous soyez, vous bénéficiez du même personnel vérifié, de la même liste écrite et du même interlocuteur.",
     "image": {
       "key": "areas-hero",
-      "alt": "Une rue résidentielle au Luxembourg dans la douce lumière du matin"
+      "alt": "Luxembourg-ville et le Grund au crépuscule, éclairés le long de la vallée de l’Alzette"
     }
+  },
+  "communeImage": {
+    "key": "commune-hero",
+    "alt": "Le pont Adolphe à Luxembourg-ville, entouré d’arbres d’automne"
   },
   "map": {
     "eyebrow": "Couverture",

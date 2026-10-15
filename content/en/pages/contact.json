@@ -6,7 +6,11 @@
   "hero": {
     "eyebrow": "Contact",
     "title": "Tell us about your home or premises",
-    "intro": "Every quote is tailored. Share a few details and we will reply within one working day to discuss your needs and arrange a visit if useful."
+    "intro": "Every quote is tailored. Share a few details and we will reply within one working day to discuss your needs and arrange a visit if useful.",
+    "image": {
+      "key": "contact-hero",
+      "alt": "A leather lounge chair in a bright, quiet room with a single plant"
+    }
   },
   "form": {
     "title": "Request a quote",

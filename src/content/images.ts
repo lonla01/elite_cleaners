@@ -1,94 +1,47 @@
 /**
  * Image registry. Files live in /public/images. Alt text is translatable, so it lives in the
- * content files rather than here. Every entry is a PLACEHOLDER listed in PLACEHOLDERS.md;
- * replace the file (same name and aspect ratio) or update the entry.
+ * content files rather than here. Every entry is a PLACEHOLDER listed in PLACEHOLDERS.md
+ * (licensed stock photos for now); replace the file (same name and aspect ratio) or update the
+ * entry.
+ *
+ * Full-bleed heroes are 2560×1600 and are cropped with `object-cover`, so keep the subject
+ * near the centre and leave calm space on the left, where the text sits.
  */
+const hero = (key: string) => ({ src: `/images/${key}.webp`, width: 2560, height: 1600 });
+
 export const images = {
-  "hero-residential": { src: "/images/hero-residential.webp", width: 2400, height: 1400 },
-  "hero-corporate": { src: "/images/hero-corporate.webp", width: 2400, height: 1400 },
-  "hero-housekeeping": { src: "/images/hero-housekeeping.webp", width: 2400, height: 1400 },
-  "hero-post-renovation": { src: "/images/hero-post-renovation.webp", width: 2400, height: 1400 },
+  "hero-residential": hero("hero-residential"),
+  "hero-corporate": hero("hero-corporate"),
+  "hero-housekeeping": hero("hero-housekeeping"),
+  "hero-post-renovation": hero("hero-post-renovation"),
   "category-residential": { src: "/images/category-residential.webp", width: 1200, height: 900 },
   "category-housekeeping": { src: "/images/category-housekeeping.webp", width: 1200, height: 900 },
   "category-corporate": { src: "/images/category-corporate.webp", width: 1200, height: 900 },
-  "about-hero": { src: "/images/about-hero.webp", width: 2400, height: 1200 },
+  "about-hero": hero("about-hero"),
   "about-standards": { src: "/images/about-standards.webp", width: 1200, height: 1500 },
-  "how-it-works-hero": { src: "/images/how-it-works-hero.webp", width: 2400, height: 1200 },
-  "service-regular-home-cleaning": {
-    src: "/images/service-regular-home-cleaning.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-deep-cleaning": { src: "/images/service-deep-cleaning.webp", width: 2400, height: 1200 },
-  "service-end-of-tenancy-cleaning": {
-    src: "/images/service-end-of-tenancy-cleaning.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-post-renovation-cleaning": {
-    src: "/images/service-post-renovation-cleaning.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-window-cleaning": {
-    src: "/images/service-window-cleaning.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-carpet-upholstery-care": {
-    src: "/images/service-carpet-upholstery-care.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-private-housekeeping": {
-    src: "/images/service-private-housekeeping.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-serviced-apartment-turnover": {
-    src: "/images/service-serviced-apartment-turnover.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-office-cleaning": {
-    src: "/images/service-office-cleaning.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-financial-institutions": {
-    src: "/images/service-financial-institutions.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-transport-public-facilities": {
-    src: "/images/service-transport-public-facilities.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-medical-practices": {
-    src: "/images/service-medical-practices.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-luxury-retail-hospitality": {
-    src: "/images/service-luxury-retail-hospitality.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-commercial-post-construction": {
-    src: "/images/service-commercial-post-construction.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "service-disinfection-sanitisation": {
-    src: "/images/service-disinfection-sanitisation.webp",
-    width: 2400,
-    height: 1200,
-  },
-  "services-hero": { src: "/images/services-hero.webp", width: 2400, height: 1200 },
-  "areas-hero": { src: "/images/areas-hero.webp", width: 2400, height: 1200 },
-  "careers-hero": { src: "/images/careers-hero.webp", width: 2400, height: 1200 },
-  "testimonials-hero": { src: "/images/testimonials-hero.webp", width: 2400, height: 1200 },
+  "how-it-works-hero": hero("how-it-works-hero"),
+  "service-regular-home-cleaning": hero("service-regular-home-cleaning"),
+  "service-deep-cleaning": hero("service-deep-cleaning"),
+  "service-end-of-tenancy-cleaning": hero("service-end-of-tenancy-cleaning"),
+  "service-post-renovation-cleaning": hero("service-post-renovation-cleaning"),
+  "service-window-cleaning": hero("service-window-cleaning"),
+  "service-carpet-upholstery-care": hero("service-carpet-upholstery-care"),
+  "service-private-housekeeping": hero("service-private-housekeeping"),
+  "service-serviced-apartment-turnover": hero("service-serviced-apartment-turnover"),
+  "service-office-cleaning": hero("service-office-cleaning"),
+  "service-financial-institutions": hero("service-financial-institutions"),
+  "service-transport-public-facilities": hero("service-transport-public-facilities"),
+  "service-medical-practices": hero("service-medical-practices"),
+  "service-luxury-retail-hospitality": hero("service-luxury-retail-hospitality"),
+  "service-commercial-post-construction": hero("service-commercial-post-construction"),
+  "service-disinfection-sanitisation": hero("service-disinfection-sanitisation"),
+  "services-hero": hero("services-hero"),
+  "areas-hero": hero("areas-hero"),
+  "commune-hero": hero("commune-hero"),
+  "careers-hero": hero("careers-hero"),
+  "testimonials-hero": hero("testimonials-hero"),
+  "contact-hero": hero("contact-hero"),
+  "legal-hero": hero("legal-hero"),
 } as const;
 
 export type ImageKey = keyof typeof images;

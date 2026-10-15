@@ -16,11 +16,10 @@ import {
   Breadcrumbs,
   Container,
   CtaBand,
-  Eyebrow,
   FaqList,
   Heading,
   JsonLd,
-  Lead,
+  PageHero,
   Section,
   SectionHeader,
   ServiceCardList,
@@ -92,28 +91,31 @@ export default async function CommunePage({ params }: PageProps<"/[locale]/areas
   return (
     <main id="main">
       <JsonLd data={structuredData} />
-      <Breadcrumbs
-        locale={locale}
-        items={[{ label: tn("areas"), href: "/areas" }, { label: commune.name }]}
+      <PageHero
+        eyebrow={
+          parent
+            ? t("quarterOf", { parent: parent.name })
+            : t("canton", { name: page.cantons[commune.canton] })
+        }
+        title={commune.name}
+        intro={commune.intro}
+        image={page.communeImage}
+        top={
+          <Breadcrumbs
+            locale={locale}
+            items={[{ label: tn("areas"), href: "/areas" }, { label: commune.name }]}
+          />
+        }
       />
 
-      <Section className="pt-10 sm:pt-16">
+      <Section>
         <Container className="grid gap-14 lg:grid-cols-12 lg:items-center">
-          <div className="space-y-8 lg:col-span-7">
-            <Eyebrow>
-              {parent
-                ? t("quarterOf", { parent: parent.name })
-                : t("canton", { name: page.cantons[commune.canton] })}
-            </Eyebrow>
-            <Heading as="h1" size="display">
-              {commune.name}
-            </Heading>
-            <Lead>{commune.intro}</Lead>
-            <div className="space-y-5">
-              {commune.paragraphs.map((p) => (
-                <Text key={p}>{p}</Text>
-              ))}
-            </div>
+          <div className="space-y-5 lg:col-span-7">
+            {commune.paragraphs.map((p) => (
+              <Text key={p} className="text-lead">
+                {p}
+              </Text>
+            ))}
           </div>
           <div className="flex justify-center lg:col-span-4 lg:col-start-9">
             <CantonMap

@@ -9,8 +9,12 @@
     "intro": "We work in all twelve cantons of Luxembourg. Wherever you are, you get the same vetted staff, the same written checklist and the same point of contact.",
     "image": {
       "key": "areas-hero",
-      "alt": "A residential street in Luxembourg in soft morning light"
+      "alt": "Luxembourg City and the Grund at dusk, lit along the Alzette valley"
     }
+  },
+  "communeImage": {
+    "key": "commune-hero",
+    "alt": "The Adolphe Bridge in Luxembourg City, framed by autumn trees"
   },
   "map": {
     "eyebrow": "Coverage",

@@ -16,7 +16,7 @@
         },
         "image": {
           "key": "hero-residential",
-          "alt": "Un salon élégant baigné de lumière matinale, fraîchement nettoyé"
+          "alt": "Un salon lumineux et élégant, avec un tapis classique et de hautes fenêtres"
         }
       },
       {
@@ -30,7 +30,7 @@
         },
         "image": {
           "key": "hero-corporate",
-          "alt": "Un hall d’entreprise raffiné au Kirchberg, en soirée"
+          "alt": "Un hall de bureaux calme, colonnes habillées de bois et baies vitrées"
         }
       },
       {
@@ -44,7 +44,7 @@
         },
         "image": {
           "key": "hero-housekeeping",
-          "alt": "Des chemises soigneusement repassées dans un dressing"
+          "alt": "Un dressing doucement éclairé, vêtements pliés derrière des portes vitrées"
         }
       },
       {
@@ -58,7 +58,7 @@
         },
         "image": {
           "key": "hero-post-renovation",
-          "alt": "Une cuisine fraîchement rénovée aux surfaces étincelantes"
+          "alt": "Une cuisine blanche tout juste terminée, sol en marbre et surfaces étincelantes"
         }
       }
     ]

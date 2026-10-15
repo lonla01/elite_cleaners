@@ -6,7 +6,8 @@ import { companyTokens, fillTokens } from "@/content/tokens";
 import { formatDate } from "@/i18n/format";
 import { getCompany } from "@/server/company";
 import { Container } from "../container";
-import { Eyebrow, Heading, Lead } from "../typography";
+import { PageHero } from "../page-hero";
+import { Heading } from "../typography";
 
 /** Shared layout for the privacy policy, cookie policy and legal notice. */
 export async function LegalDocument({ page, locale }: { page: LegalPage; locale: Locale }) {
@@ -18,21 +19,23 @@ export async function LegalDocument({ page, locale }: { page: LegalPage; locale:
   const fill = (text: string) => fillTokens(text, tokens);
 
   return (
-    <main id="main" className="py-16 sm:py-24">
-      <Container width="prose" className="space-y-12">
-        <header className="space-y-6">
-          <Eyebrow>{t("updated", { date: formatDate(page.updated) })}</Eyebrow>
-          <Heading as="h1">{page.title}</Heading>
-          <Lead>{fill(page.intro)}</Lead>
-          {!page.reviewed && (
-            <p
-              role="note"
-              className="border-l-2 border-brass-500 bg-stone px-4 py-3 text-sm text-body"
-            >
-              {t("pendingReview")}
-            </p>
-          )}
-        </header>
+    <main id="main">
+      <PageHero
+        size="compact"
+        eyebrow={t("updated", { date: formatDate(page.updated) })}
+        title={page.title}
+        intro={fill(page.intro)}
+        image={page.image}
+      />
+      <Container width="prose" className="space-y-12 py-16 sm:py-24">
+        {!page.reviewed && (
+          <p
+            role="note"
+            className="border-l-2 border-brass-500 bg-stone px-4 py-3 text-sm text-body"
+          >
+            {t("pendingReview")}
+          </p>
+        )}
 
         <nav aria-labelledby="toc-title" className="border-y border-ink/15 py-6">
           <h2 id="toc-title" className="text-eyebrow tracking-[0.18em] text-brass-700 uppercase">

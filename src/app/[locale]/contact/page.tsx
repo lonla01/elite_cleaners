@@ -6,10 +6,9 @@ import { getContactPage, listCommunes, listServiceCategories, listServices } fro
 import { buildMetadata } from "@/i18n/metadata";
 import {
   Container,
-  Eyebrow,
   Heading,
   JsonLd,
-  Lead,
+  PageHero,
   Section,
   SectionHeader,
   Text,
@@ -58,17 +57,7 @@ export default async function ContactPage({ params }: PageProps<"/[locale]/conta
           await breadcrumbList(locale, [{ label: tn("contact"), href: "/contact" }]),
         ]}
       />
-      <section className="pt-16 sm:pt-24">
-        <Container>
-          <div className="max-w-(--container-prose) space-y-6">
-            {page.hero.eyebrow && <Eyebrow>{page.hero.eyebrow}</Eyebrow>}
-            <Heading as="h1" size="display">
-              {page.hero.title}
-            </Heading>
-            {page.hero.intro && <Lead>{page.hero.intro}</Lead>}
-          </div>
-        </Container>
-      </section>
+      <PageHero {...page.hero} />
 
       <Section>
         <Container className="grid gap-16 lg:grid-cols-12">

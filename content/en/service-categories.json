@@ -6,7 +6,7 @@
     "description": "Houses and apartments cared for with consistency and discretion, from weekly visits to move-out cleans.",
     "image": {
       "key": "category-residential",
-      "alt": "A bright, impeccably tidy living room with natural light"
+      "alt": "A bright living room with sheer curtains and soft white furniture"
     }
   },
   {
@@ -14,7 +14,10 @@
     "title": "Housekeeping",
     "navTitle": "Housekeeping",
     "description": "Dedicated staff for the day-to-day running of private homes and serviced apartments.",
-    "image": { "key": "category-housekeeping", "alt": "Freshly pressed linen folded on a bed" }
+    "image": {
+      "key": "category-housekeeping",
+      "alt": "Freshly folded white linen with a small bouquet on a made bed"
+    }
   },
   {
     "id": "corporate",
@@ -23,7 +26,7 @@
     "description": "Offices, financial institutions, public facilities and practices, cleaned to documented standards.",
     "image": {
       "key": "category-corporate",
-      "alt": "A quiet, spotless open-plan office after hours"
+      "alt": "A tidy open-plan office with plants along the desks"
     }
   }
 ]

@@ -8,6 +8,14 @@ const force = process.argv.includes("--force");
 const registry = readFileSync("src/content/images.ts", "utf8");
 const entries = [
   ...registry.matchAll(/"([a-z-]+)": \{ src: "([^"]+)", width: (\d+), height: (\d+) \}/g),
+  // Full-bleed heroes use the `hero("key")` helper (2560×1600).
+  ...[...registry.matchAll(/"([a-z-]+)": hero\("([a-z-]+)"\)/g)].map(([m, key, file]) => [
+    m,
+    key,
+    `/images/${file}.webp`,
+    "2560",
+    "1600",
+  ]),
 ];
 
 const tones = [

@@ -7,6 +7,10 @@
   "updated": "2026-10-12",
   "reviewed": false,
   "intro": "Informations relatives à l’éditeur de ce site, conformément au droit luxembourgeois sur le commerce électronique.",
+  "image": {
+    "key": "legal-hero",
+    "alt": "Des lignes architecturales blanches et nettes dans un intérieur épuré"
+  },
   "sections": [
     {
       "id": "editeur",
