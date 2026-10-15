@@ -45,7 +45,9 @@ reselling the photos unaltered or implying that people shown endorse the company
 To replace a photo, keep the file name and aspect ratio, or update `src/content/images.ts`, then
 update the alt text in the content files (`en` and `fr`) that reference the key. Full-bleed heroes
 are 2560×1600 and are cropped with `object-cover`; keep the subject near the centre and leave calm
-space on the left for the text. Do not re-run `generate-placeholders --force`.
+space on the left for the text. After replacing files, bump `imageVersion` in
+`src/content/images.ts` so browsers and caches fetch the new ones. Do not re-run
+`generate-placeholders --force`.
 
 | Key / file                                  | Size      | Used on                               | Source                                                    |
 | ------------------------------------------- | --------- | ------------------------------------- | --------------------------------------------------------- |

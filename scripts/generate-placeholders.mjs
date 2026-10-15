@@ -6,9 +6,11 @@ import sharp from "sharp";
 
 const force = process.argv.includes("--force");
 const registry = readFileSync("src/content/images.ts", "utf8");
+// Entries use the `img("file", width, height)` and `hero("file")` (2560×1600) helpers.
 const entries = [
-  ...registry.matchAll(/"([a-z-]+)": \{ src: "([^"]+)", width: (\d+), height: (\d+) \}/g),
-  // Full-bleed heroes use the `hero("key")` helper (2560×1600).
+  ...[...registry.matchAll(/"([a-z-]+)": img\("([a-z-]+)", (\d+), (\d+)\)/g)].map(
+    ([m, key, file, w, h]) => [m, key, `/images/${file}.webp`, w, h],
+  ),
   ...[...registry.matchAll(/"([a-z-]+)": hero\("([a-z-]+)"\)/g)].map(([m, key, file]) => [
     m,
     key,

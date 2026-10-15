@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
+import { imageVersion } from "./src/content/images";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
@@ -56,6 +57,8 @@ const nextConfig: NextConfig = {
   },
   images: {
     formats: ["image/avif", "image/webp"],
+    // Registry images carry a version so caches pick up replaced files (src/content/images.ts).
+    localPatterns: [{ pathname: "/images/**", search: imageVersion }],
   },
   turbopack: {
     rules: {

@@ -7,18 +7,31 @@
  * Full-bleed heroes are 2560×1600 and are cropped with `object-cover`, so keep the subject
  * near the centre and leave calm space on the left, where the text sits.
  */
-const hero = (key: string) => ({ src: `/images/${key}.webp`, width: 2560, height: 1600 });
+
+/**
+ * Appended to every image URL. Optimised images are cached by URL (browsers and CDNs keep them
+ * for hours), so bump this whenever files in /public/images are replaced under the same name.
+ * `next.config.ts` allows exactly this query string through `images.localPatterns`.
+ */
+export const imageVersion = "?v=2";
+
+const img = (file: string, width: number, height: number) => ({
+  src: `/images/${file}.webp${imageVersion}`,
+  width,
+  height,
+});
+const hero = (file: string) => img(file, 2560, 1600);
 
 export const images = {
   "hero-residential": hero("hero-residential"),
   "hero-corporate": hero("hero-corporate"),
   "hero-housekeeping": hero("hero-housekeeping"),
   "hero-post-renovation": hero("hero-post-renovation"),
-  "category-residential": { src: "/images/category-residential.webp", width: 1200, height: 900 },
-  "category-housekeeping": { src: "/images/category-housekeeping.webp", width: 1200, height: 900 },
-  "category-corporate": { src: "/images/category-corporate.webp", width: 1200, height: 900 },
+  "category-residential": img("category-residential", 1200, 900),
+  "category-housekeeping": img("category-housekeeping", 1200, 900),
+  "category-corporate": img("category-corporate", 1200, 900),
   "about-hero": hero("about-hero"),
-  "about-standards": { src: "/images/about-standards.webp", width: 1200, height: 1500 },
+  "about-standards": img("about-standards", 1200, 1500),
   "how-it-works-hero": hero("how-it-works-hero"),
   "service-regular-home-cleaning": hero("service-regular-home-cleaning"),
   "service-deep-cleaning": hero("service-deep-cleaning"),
