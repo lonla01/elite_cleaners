@@ -35,14 +35,16 @@ export function LanguageSwitcher({
   const pathname = usePathname();
   const params = useParams<{ slug?: string; commune?: string }>();
 
+  // Dynamic routes are detected from their params: behind the Proxy rewrite, `usePathname`
+  // returns the concrete internal path (`/areas/luxembourg-city`), not the route template.
   const hrefFor = (target: Locale): Href => {
-    if (pathname === "/services/[slug]" && params.slug) {
+    if (params.slug) {
       const slug = translateSlug(slugMaps.services, params.slug, current, target);
-      return { pathname, params: { slug } };
+      return { pathname: "/services/[slug]", params: { slug } };
     }
-    if (pathname === "/areas/[commune]" && params.commune) {
+    if (params.commune) {
       const commune = translateSlug(slugMaps.communes, params.commune, current, target);
-      return { pathname, params: { commune } };
+      return { pathname: "/areas/[commune]", params: { commune } };
     }
     return pathname as Href;
   };

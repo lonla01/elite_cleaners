@@ -36,7 +36,10 @@ test.describe("French", () => {
   test("the language switcher keeps the current page", async ({ page, isMobile }) => {
     await page.goto("/en/areas-we-serve/luxembourg-city");
     if (isMobile) await page.getByRole("button", { name: "Open menu" }).click();
-    await page.getByRole("link", { name: "Français" }).first().click();
+    const french = page.getByRole("link", { name: "Français" }).first();
+    // The link itself must carry the translated path and slug (no redirect chain).
+    await expect(french).toHaveAttribute("href", "/fr/zones-desservies/luxembourg-ville");
+    await french.click();
     await expect(page).toHaveURL(/\/fr\/zones-desservies\/luxembourg-ville$/);
     await expect(page.getByRole("heading", { level: 1, name: "Luxembourg-Ville" })).toBeVisible();
 
