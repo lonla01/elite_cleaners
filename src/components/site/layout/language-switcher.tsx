@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { localeDefinitions, type Locale } from "@/config/locales";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
+import { LocaleFlag } from "./flags";
 
 type SlugMap = Record<string, Partial<Record<Locale, string>>>;
 type Href = ComponentProps<typeof Link>["href"];
@@ -62,13 +63,19 @@ export function LanguageSwitcher({
                 lang={hreflang}
                 hrefLang={hreflang}
                 aria-label={label}
+                title={label}
                 aria-current={active ? "true" : undefined}
-                className={cn(
-                  "inline-flex min-h-11 min-w-11 items-center justify-center text-xs font-medium tracking-[0.12em] uppercase transition-colors",
-                  active ? "text-ink underline underline-offset-4" : "text-muted hover:text-ink",
-                )}
+                className="group inline-flex min-h-11 min-w-11 items-center justify-center"
               >
-                {locale}
+                <LocaleFlag
+                  locale={locale}
+                  className={cn(
+                    "transition-[opacity,box-shadow]",
+                    active
+                      ? "shadow-[0_0_0_2px_var(--color-brass-500)]"
+                      : "opacity-60 group-hover:opacity-100",
+                  )}
+                />
               </Link>
             </li>
           );
