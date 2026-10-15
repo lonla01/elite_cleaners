@@ -7,7 +7,7 @@ test.describe("services", () => {
     for (const id of ["residential", "housekeeping", "corporate"]) {
       await expect(page.locator(`section#${id}`)).toBeVisible();
     }
-    await expect(page.locator('main a[href^="/en/services/"]')).toHaveCount(15);
+    await expect(page.locator('main a[href^="/en/services/"]')).toHaveCount(14);
   });
 
   test("service page uses the shared template with FAQPage data", async ({ page }) => {

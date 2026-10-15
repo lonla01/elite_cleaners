@@ -67,7 +67,6 @@ space on the left for the text. After replacing files, bump `imageVersion` in
 | `service-post-renovation-cleaning.webp`     | 2560×1600 | Service: Post renovation cleaning     | [Pexels 20348123](https://www.pexels.com/photo/20348123/) |
 | `service-window-cleaning.webp`              | 2560×1600 | Service: Window cleaning              | [Pexels 31435403](https://www.pexels.com/photo/31435403/) |
 | `service-carpet-upholstery-care.webp`       | 2560×1600 | Service: Carpet upholstery care       | [Pexels 6980718](https://www.pexels.com/photo/6980718/)   |
-| `service-private-housekeeping.webp`         | 2560×1600 | Service: Private housekeeping         | [Pexels 10558192](https://www.pexels.com/photo/10558192/) |
 | `service-serviced-apartment-turnover.webp`  | 2560×1600 | Service: Serviced apartment turnover  | [Pexels 36916378](https://www.pexels.com/photo/36916378/) |
 | `service-office-cleaning.webp`              | 2560×1600 | Service: Office cleaning              | [Pexels 7750129](https://www.pexels.com/photo/7750129/)   |
 | `service-financial-institutions.webp`       | 2560×1600 | Service: Financial institutions       | [Pexels 14613453](https://www.pexels.com/photo/14613453/) |

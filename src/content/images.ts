@@ -39,7 +39,6 @@ export const images = {
   "service-post-renovation-cleaning": hero("service-post-renovation-cleaning"),
   "service-window-cleaning": hero("service-window-cleaning"),
   "service-carpet-upholstery-care": hero("service-carpet-upholstery-care"),
-  "service-private-housekeeping": hero("service-private-housekeeping"),
   "service-serviced-apartment-turnover": hero("service-serviced-apartment-turnover"),
   "service-office-cleaning": hero("service-office-cleaning"),
   "service-financial-institutions": hero("service-financial-institutions"),
