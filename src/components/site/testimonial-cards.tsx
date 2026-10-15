@@ -23,7 +23,7 @@ export async function TestimonialCards({
                 {t("placeholder")}
               </span>
             )}
-            <blockquote className="font-serif text-xl leading-snug text-ink">
+            <blockquote className="font-heading text-xl leading-snug text-ink">
               <p>“{item.quote}”</p>
             </blockquote>
             <figcaption className="text-sm">

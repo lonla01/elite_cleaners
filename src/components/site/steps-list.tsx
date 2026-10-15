@@ -25,7 +25,7 @@ export async function StepsList({
           key={step.title}
           className="space-y-4 border-t border-ink/15 pt-6 in-[.dark-surface]:border-ivory/20"
         >
-          <p className="font-serif text-4xl text-brass-700 in-[.dark-surface]:text-brass-300">
+          <p className="font-heading text-4xl text-brass-700 in-[.dark-surface]:text-brass-300">
             <span className="sr-only">{t("processStep", { number: i + 1 })}</span>
             <span aria-hidden>{String(i + 1).padStart(2, "0")}</span>
           </p>

@@ -1,17 +1,20 @@
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Heebo, IBM_Plex_Sans } from "next/font/google";
 
-export const serif = Cormorant_Garamond({
+/** Headings, navigation, buttons and lead text. */
+export const heading = Heebo({
   subsets: ["latin", "latin-ext"],
-  weight: ["500", "600"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-heebo",
+});
+
+/** Body text. */
+export const sans = IBM_Plex_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
   display: "swap",
-  variable: "--font-cormorant",
+  variable: "--font-plex",
 });
 
-export const sans = Inter({
-  subsets: ["latin", "latin-ext"],
-  display: "swap",
-  variable: "--font-inter",
-});
-
-export const fontVariables = `${serif.variable} ${sans.variable}`;
+export const fontVariables = `${heading.variable} ${sans.variable}`;

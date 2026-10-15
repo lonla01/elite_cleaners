@@ -18,10 +18,10 @@
   h3,
   h4 {
     color: var(--color-ink);
-    font-family: var(--font-serif);
-    font-weight: 500;
-    line-height: 1.15;
-    letter-spacing: -0.01em;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
     /* French and German words can be long. Never let a heading overflow. */
     overflow-wrap: break-word;
     hyphens: auto;

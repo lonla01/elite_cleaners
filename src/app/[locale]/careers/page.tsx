@@ -52,7 +52,7 @@ export default async function CareersPage({ params }: PageProps<"/[locale]/caree
           <dl className="grid gap-8 sm:grid-cols-2 lg:col-span-8">
             {page.roles.items.map((role) => (
               <div key={role.title} className="space-y-2 border-t border-ink/15 pt-4">
-                <dt className="font-serif text-xl text-ink">{role.title}</dt>
+                <dt className="font-heading text-xl text-ink">{role.title}</dt>
                 <dd className="text-body">{role.body}</dd>
               </div>
             ))}

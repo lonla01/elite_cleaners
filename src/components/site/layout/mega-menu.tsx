@@ -9,7 +9,7 @@ import { buttonVariants } from "../button";
 import { primaryLinks, type NavCategory } from "./nav-data";
 
 const linkClass =
-  "inline-flex min-h-11 items-center gap-1 px-3 text-sm tracking-[0.04em] text-ink transition-colors hover:text-brass-700 data-[active]:text-brass-700 aria-[current=page]:text-brass-700";
+  "inline-flex min-h-11 items-center gap-1 px-3 font-heading text-[0.9375rem] font-medium text-ink transition-colors hover:text-brass-700 data-[active]:text-brass-700 aria-[current=page]:text-brass-700";
 
 export function MegaMenu({ categories }: { categories: NavCategory[] }) {
   const t = useTranslations("Nav");
@@ -35,7 +35,7 @@ export function MegaMenu({ categories }: { categories: NavCategory[] }) {
                   <NavigationMenu.Link asChild>
                     <Link
                       href={{ pathname: "/services", hash: category.id }}
-                      className="font-serif text-xl text-ink hover:text-brass-700"
+                      className="font-heading text-xl text-ink hover:text-brass-700"
                     >
                       {category.navTitle}
                     </Link>
@@ -57,7 +57,7 @@ export function MegaMenu({ categories }: { categories: NavCategory[] }) {
                 </div>
               ))}
               <div className="space-y-4 bg-stone p-6">
-                <p className="font-serif text-xl text-ink">{t("megaPromoTitle")}</p>
+                <p className="font-heading text-xl text-ink">{t("megaPromoTitle")}</p>
                 <p className="text-sm text-body">{t("megaPromoBody")}</p>
                 <NavigationMenu.Link asChild>
                   <Link

@@ -143,7 +143,7 @@ export default async function ContactPage({ params }: PageProps<"/[locale]/conta
               <ol className="space-y-6">
                 {page.next.steps.map((step, i) => (
                   <li key={step.title} className="flex gap-4">
-                    <span aria-hidden className="font-serif text-2xl text-brass-700">
+                    <span aria-hidden className="font-heading text-2xl text-brass-700">
                       {i + 1}
                     </span>
                     <span className="space-y-1">

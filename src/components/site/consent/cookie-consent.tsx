@@ -49,7 +49,7 @@ export function CookieConsent() {
         id="consent-title"
         ref={headingRef}
         tabIndex={-1}
-        className="font-serif text-2xl text-ink outline-none"
+        className="font-heading text-2xl text-ink outline-none"
       >
         {t("title")}
       </h2>

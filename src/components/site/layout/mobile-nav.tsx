@@ -35,7 +35,7 @@ export function MobileNav({
           className="fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col overflow-y-auto bg-ivory shadow-(--shadow-soft)"
         >
           <div className="flex items-center justify-between border-b border-ink/10 px-6 py-4">
-            <Dialog.Title className="font-serif text-2xl text-ink">{t("menuTitle")}</Dialog.Title>
+            <Dialog.Title className="font-heading text-2xl text-ink">{t("menuTitle")}</Dialog.Title>
             <Dialog.Close
               className="inline-flex size-11 items-center justify-center text-ink"
               aria-label={t("closeMenu")}
@@ -47,7 +47,7 @@ export function MobileNav({
             <ul className="divide-y divide-ink/10">
               <li>
                 <details className="group py-2">
-                  <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between font-serif text-xl text-ink [&::-webkit-details-marker]:hidden">
+                  <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between font-heading text-xl text-ink [&::-webkit-details-marker]:hidden">
                     {t("services")}
                     <span
                       aria-hidden
@@ -95,7 +95,7 @@ export function MobileNav({
                   <Link
                     href={item.href}
                     onClick={close}
-                    className="flex min-h-14 items-center font-serif text-xl text-ink"
+                    className="flex min-h-14 items-center font-heading text-xl text-ink"
                   >
                     {t(item.key)}
                   </Link>

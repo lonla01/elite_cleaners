@@ -72,7 +72,7 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
             <dl className="grid gap-8 sm:grid-cols-2">
               {page.standards.items.map((item) => (
                 <div key={item.title} className="space-y-2 border-t border-ink/15 pt-4">
-                  <dt className="font-serif text-xl text-ink">{item.title}</dt>
+                  <dt className="font-heading text-xl text-ink">{item.title}</dt>
                   <dd className="text-body">{item.body}</dd>
                 </div>
               ))}

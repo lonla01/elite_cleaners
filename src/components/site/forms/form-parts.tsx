@@ -62,7 +62,7 @@ export function SuccessPanel({ title, children }: { title: string; children: Rea
       role="status"
       className="space-y-4 border-t-2 border-brass-500 bg-white p-8 shadow-(--shadow-soft) outline-none"
     >
-      <p className="font-serif text-3xl text-ink">{title}</p>
+      <p className="font-heading text-3xl text-ink">{title}</p>
       <div className="space-y-3 text-body">{children}</div>
     </div>
   );

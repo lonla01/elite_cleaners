@@ -19,7 +19,7 @@ export function Heading({ as: Tag = "h2", size, className, ...props }: HeadingPr
   return (
     <Tag
       className={cn(
-        "font-serif font-medium text-ink in-[.dark-surface]:text-ivory",
+        "font-heading font-semibold text-ink in-[.dark-surface]:text-ivory",
         headingSizes[visual],
         className,
       )}

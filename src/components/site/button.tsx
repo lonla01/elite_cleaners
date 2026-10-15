@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 
 export const buttonVariants = cva(
   [
-    "inline-flex items-center justify-center gap-2 rounded-sm text-center font-medium",
+    "inline-flex items-center justify-center gap-2 rounded-sm text-center font-heading font-semibold",
     "transition-colors duration-200 ease-(--ease-out-soft)",
     "disabled:pointer-events-none disabled:opacity-50",
     // Labels may wrap in longer languages, so there is no fixed width and no nowrap.
