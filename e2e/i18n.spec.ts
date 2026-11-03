@@ -15,7 +15,7 @@ test.describe("French", () => {
   test("pages are in French with translated URLs", async ({ page }) => {
     await page.goto("/fr");
     await expect(page.locator("html")).toHaveAttribute("lang", "fr");
-    await expect(page.getByRole("heading", { level: 1 })).toContainText("Votre intérieur");
+    await expect(page.getByRole("heading", { level: 1 })).toContainText("Le souci du détail");
     await page.goto("/fr/a-propos");
     await expect(page.getByRole("heading", { level: 1 })).toContainText(
       "Un soin sur lequel compter",
