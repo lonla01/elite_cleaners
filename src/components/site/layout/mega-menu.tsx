@@ -99,7 +99,10 @@ export function HeaderQuoteButton({ label }: { label: string }) {
   return (
     <Link
       href="/contact"
-      className={cn(buttonVariants({ variant: "primary", size: "sm" }), "hidden sm:inline-flex")}
+      className={cn(
+        buttonVariants({ variant: "primary", size: "sm" }),
+        "hidden hover:bg-success sm:inline-flex",
+      )}
     >
       {label}
     </Link>
