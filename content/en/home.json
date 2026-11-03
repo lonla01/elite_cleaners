@@ -10,7 +10,7 @@
         "eyebrow": "Residential",
         "title": "Achieving cleanliness through an obsession with detail",
         "body": "The consistency of a personalised service, the trust of a single point of contact and attention to detail on every visit. All with the utmost discretion.",
-        "cta": { "label": "Explore residential cleaning", "href": "/services" },
+        "cta": { "label": "Discover our services", "href": "/services" },
         "image": {
           "key": "hero-residential",
           "alt": "A bright, elegant living room with a classic rug and tall windows"
