@@ -5,6 +5,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { cn } from "@/lib/cn";
 import { buttonVariants } from "../button";
 import { primaryLinks, type NavCategory } from "./nav-data";
 
@@ -108,7 +109,7 @@ export function MobileNav({
             <Link
               href="/contact"
               onClick={close}
-              className={buttonVariants({ size: "lg", className: "w-full" })}
+              className={cn(buttonVariants({ size: "lg" }), "w-full hover:bg-success")}
             >
               {tc("requestQuote")}
             </Link>
