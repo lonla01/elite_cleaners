@@ -36,7 +36,10 @@ export function ContactShortcuts({ tel, whatsapp, phoneDisplay }: Props) {
           <MessageCircle aria-hidden className="size-5" strokeWidth={1.5} />
         </a>
         {!onContact && (
-          <Link href="/contact" className={buttonVariants({ variant: "primary" })}>
+          <Link
+            href="/contact"
+            className={cn(buttonVariants({ variant: "primary" }), "hover:bg-success")}
+          >
             {t("requestQuote")}
           </Link>
         )}
@@ -59,7 +62,10 @@ export function ContactShortcuts({ tel, whatsapp, phoneDisplay }: Props) {
         {!onContact && (
           <Link
             href="/contact"
-            className={cn(buttonVariants({ variant: "accent" }), "shadow-(--shadow-soft)")}
+            className={cn(
+              buttonVariants({ variant: "accent" }),
+              "shadow-(--shadow-soft) hover:bg-success",
+            )}
           >
             {t("requestQuote")}
           </Link>
