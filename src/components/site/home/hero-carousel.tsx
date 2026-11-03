@@ -38,9 +38,10 @@ export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
     <section
       aria-roledescription="carousel"
       aria-label={t("label")}
-      className="dark-surface relative isolate overflow-hidden bg-navy-900"
+      // Pulled up under the homepage's translucent header (see HeaderShell).
+      className="dark-surface relative isolate -mt-(--header-height) overflow-hidden bg-navy-900"
     >
-      <div className="relative min-h-[36rem] sm:min-h-[40rem] lg:min-h-[max(44rem,calc(100svh-var(--header-height)))]">
+      <div className="relative min-h-[36rem] sm:min-h-[40rem] lg:min-h-[max(44rem,100svh)]">
         {slides.map((slide, i) => (
           <div
             key={slide.id}

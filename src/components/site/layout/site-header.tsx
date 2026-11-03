@@ -5,6 +5,7 @@ import { getSlugMaps, listServiceCategories, listServices } from "@/content";
 import { getCompany } from "@/server/company";
 import { Container } from "../container";
 import { Brand } from "./brand";
+import { HeaderShell } from "./header-shell";
 import { HeaderQuoteButton, MegaMenu } from "./mega-menu";
 import { MobileNav } from "./mobile-nav";
 import { LanguageSwitcher } from "./language-switcher";
@@ -30,7 +31,7 @@ export async function SiteHeader({ locale }: { locale: Locale }) {
   }));
 
   return (
-    <header className="sticky top-0 z-40 h-(--header-height) border-b border-ink/10 bg-ivory/95 backdrop-blur supports-[backdrop-filter]:bg-ivory/85">
+    <HeaderShell>
       <Container className="flex h-full items-center justify-between gap-6">
         <Brand monogram={company.monogram} label={t("homeLinkLabel", { company: company.name })} />
         <div className="flex items-center gap-2 lg:gap-6">
@@ -43,6 +44,6 @@ export async function SiteHeader({ locale }: { locale: Locale }) {
           />
         </div>
       </Container>
-    </header>
+    </HeaderShell>
   );
 }
